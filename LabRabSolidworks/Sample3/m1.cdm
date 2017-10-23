@@ -1,0 +1,12 @@
+# -*- coding: cp1251 -*-
+#|m1
+
+import Kompas6API5 as KAPI
+from win32com.client import Dispatch
+import LDefin2D
+import LDefin3D
+
+iKompasObject = Dispatch('KOMPAS.Application.5')
+iKompasObject = KAPI.KompasObject(iKompasObject)
+
+iDocument2D = iKompasObject.ActiveDocument2D()

@@ -1,0 +1,24 @@
+ md.SaveAs2 (path+'״עטפע.SLDPRT', 0, False, true);
+  ab := sw.INewAssembly;
+  if ab = nil then
+  begin
+    Result := 16;
+    exit;
+  end;
+  (ab as modeldoc2).SaveAs2 (path+'ּףפעא.SLDASM', 0, False, true);
+  Component1 := ab.AddComponent4(path+'ּףפעא.SLDPRT','', 0.01, 0, 0);
+  Component2 := ab.AddComponent4(path+'״עטפע.SLDPRt','', 0.01, 0, 0);
+  Component3 := ab.AddComponent4(path+'״עטפע.SLDPRT','', 0.01, 0, 0);
+  (ab as modeldoc2).EditRebuild3;
+  AssemblySelect(Component2, xy1, xz1, yz1);
+  Selection((ab as ModelDoc2), xy, xz, yz);
+  xz.Select(false);
+  xz1.Select(true);
+  ab.AddMate2(5, 0, true, Lcentrshtift*1.6, Lcentrshtift*1.6, Lcentrshtift*1.6, Lcentrshtift*1.6, 0, 0.0, 0.0, 0.0,ExitCode);
+  AssemblySelect(Component3, xy1, xz1, yz1);
+  Selection((ab as ModelDoc2), xy, xz, yz);
+  xz.Select(false);
+  xz1.Select(true);
+  ab.AddMate2(5, 0, False, Lcentrshtift-L/6.5, Lcentrshtift-L/6.5, Lcentrshtift-L/6.5, 0.000, 0.000, 0.000, 0.0, 1,ExitCode);
+  (Ab as ModelDoc2).EditRebuild3;
+  (ab as modeldoc2).SaveAs2 (path+'ּףפעא.SLDASM', 0, False, true);
