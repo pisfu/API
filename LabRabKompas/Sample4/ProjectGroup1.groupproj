@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{104A2F7D-D9F1-4925-94DF-DEF021B69FD1}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Project2.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\Компас1\ProjectCompas.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Project2">
+			<MSBuild Projects="Project2.dproj"/>
+		</Target>
+		<Target Name="Project2:Clean">
+			<MSBuild Targets="Clean" Projects="Project2.dproj"/>
+		</Target>
+		<Target Name="Project2:Make">
+			<MSBuild Targets="Make" Projects="Project2.dproj"/>
+		</Target>
+		<Target Name="ProjectCompas">
+			<MSBuild Projects="..\Компас1\ProjectCompas.dproj"/>
+		</Target>
+		<Target Name="ProjectCompas:Clean">
+			<MSBuild Targets="Clean" Projects="..\Компас1\ProjectCompas.dproj"/>
+		</Target>
+		<Target Name="ProjectCompas:Make">
+			<MSBuild Targets="Make" Projects="..\Компас1\ProjectCompas.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Project2;ProjectCompas"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Project2:Clean;ProjectCompas:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Project2:Make;ProjectCompas:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>
