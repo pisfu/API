@@ -1,4 +1,4 @@
-unit Kompas6API5_TLB;
+unit KsTLB;
 
 // ************************************************************************ //
 // WARNING                                                                    
@@ -11,17 +11,20 @@ unit Kompas6API5_TLB;
 // manual modifications will be lost.                                         
 // ************************************************************************ //
 
-// $Rev: 16059 $
-// File generated on 30.09.2013 10:53:27 from Type Library described below.
+// $Rev: 52393 $
+// File generated on 23.06.2017 10:29:47 from Type Library described below.
 
 // ************************************************************************  //
-// Type Lib: C:\Program Files (x86)\Common Files\ASCON Shared\KSInvisible\Bin\\kAPI5.TLB (1)
+// Type Lib: kAPI5.TLB (1)
 // LIBID: {0422828C-F174-495E-AC5D-D31014DBBE87}
 // LCID: 0
-// Helpfile: 
-// HelpString: 
-// DepndLst: 
-//   (1) v2.0 stdole, (C:\Windows\SysWOW64\stdole2.tlb)
+// Helpfile:
+// HelpString:
+// DepndLst:
+//   (1) v2.0 stdole, (stdole2.tlb)
+// Parent TypeLibrary:
+//   (0) v1.0 KompasAPI7, (kAPI7.TLB)
+// SYS_KIND: SYS_WIN32
 // Errors:
 //   Hint: Parameter 'type' of KompasObject.GetDynamicArray changed to 'type_'
 //   Hint: Parameter 'file' of KompasObject.ksOpenHelpFile changed to 'file_'
@@ -37,32 +40,24 @@ unit Kompas6API5_TLB;
 //   Hint: Parameter 'type' of ksDocument2D.ksGetTableItemsCount changed to 'type_'
 //   Hint: Parameter 'type' of ksDocument2D.ksZoomPrevNextOrAll changed to 'type_'
 //   Hint: Parameter 'type' of ksDocument2D.ksChangeObjectsOrder changed to 'type_'
+//   Hint: Parameter 'type' of ksDocument2D.ksGetObjectNameByType changed to 'type_'
+//   Hint: Parameter 'type' of ksDocument2D.ksGetObjectsNameByType changed to 'type_'
 //   Hint: Parameter 'type' of ksDocument3D.GetPart changed to 'type_'
 //   Hint: Parameter 'type' of ksDocument3D.ZoomPrevNextOrAll changed to 'type_'
-//   Hint: Symbol 'type' renamed to 'type_'
 //   Hint: Symbol 'type' renamed to 'type_'
 //   Hint: Parameter 'type' of ksPart.GetPart changed to 'type_'
 //   Hint: Parameter 'type' of ksPart.PutStorage changed to 'type_'
 //   Hint: Parameter 'type' of ksPlacement.GetAxis changed to 'type_'
 //   Hint: Parameter 'type' of ksPlacement.SetAxis changed to 'type_'
-//   Hint: Symbol 'type' renamed to 'type_'
-//   Hint: Symbol 'type' renamed to 'type_'
+//   Hint: Parameter 'type' of ksPlacement.GetVector changed to 'type_'
+//   Hint: Parameter 'type' of ksPlacement.SetVector changed to 'type_'
 //   Hint: Parameter 'array' of ksMathematic2D.ksTanLinePointCurve changed to 'array_'
-//   Hint: Symbol 'type' renamed to 'type_'
 //   Hint: Parameter 'type' of ksFragmentLibrary.ksChoiceFragmentFromLib changed to 'type_'
 //   Hint: Parameter 'type' of ksFragmentLibrary.ksFragmentLibraryOperation changed to 'type_'
-//   Hint: Symbol 'type' renamed to 'type_'
-//   Hint: Symbol 'type' renamed to 'type_'
 //   Hint: Parameter 'type' of ksSheetOptions.GetSheetParam changed to 'type_'
 //   Hint: Parameter 'type' of ksCurveStyleParam.GetPPattern changed to 'type_'
-//   Hint: Symbol 'type' renamed to 'type_'
-//   Hint: Symbol 'type' renamed to 'type_'
-//   Hint: Symbol 'type' renamed to 'type_'
-//   Hint: Symbol 'type' renamed to 'type_'
-//   Hint: Symbol 'type' renamed to 'type_'
 //   Hint: Parameter 'type' of ksDataBaseObject.ksRChar changed to 'type_'
 //   Hint: Parameter 'type' of ksDataBaseObject.ksRCharW changed to 'type_'
-//   Hint: Symbol 'type' renamed to 'type_'
 //   Hint: Parameter 'type' of ksAttributeObject.ksViewEditAttr changed to 'type_'
 //   Hint: Parameter 'type' of ksAttributeObject.ksViewEditAttrType changed to 'type_'
 //   Hint: Parameter 'type' of ksModelLibrary.ModelLibraryOperation changed to 'type_'
@@ -70,29 +65,33 @@ unit Kompas6API5_TLB;
 //   Hint: Parameter 'object' of ksPolyLineVertexParam.SetBuildingObject changed to 'object_'
 //   Hint: Parameter 'type' of ksBaseExtrusionDefinition.GetSideParam changed to 'type_'
 //   Hint: Parameter 'type' of ksBaseExtrusionDefinition.SetSideParam changed to 'type_'
-//   Hint: Parameter 'type' of ksBossExtrusionDefinition.SetSideParam changed to 'type_'
 //   Hint: Parameter 'type' of ksBossExtrusionDefinition.GetSideParam changed to 'type_'
-//   Hint: Parameter 'type' of ksCutExtrusionDefinition.SetSideParam changed to 'type_'
+//   Hint: Parameter 'type' of ksBossExtrusionDefinition.SetSideParam changed to 'type_'
 //   Hint: Parameter 'type' of ksCutExtrusionDefinition.GetSideParam changed to 'type_'
+//   Hint: Parameter 'type' of ksCutExtrusionDefinition.SetSideParam changed to 'type_'
 //   Hint: Parameter 'type' of ksExtrusionSurfaceDefinition.GetSideParam changed to 'type_'
 //   Hint: Parameter 'type' of ksExtrusionSurfaceDefinition.SetSideParam changed to 'type_'
 //   Hint: Parameter 'begin' of ksEdgeDefinition.EdgeCollection changed to 'begin_'
 //   Hint: Member 'array' of 'ksChamferDefinition' changed to 'array_'
 //   Hint: Member 'array' of 'ksFilletDefinition' changed to 'array_'
+//   Hint: Parameter 'set' of ksAdditionFormatParam.SetObjectsOptions changed to 'set_'
 //   Hint: Member 'unit' of 'ksMeasurer' changed to 'unit_'
-//   Hint: Symbol 'type' renamed to 'type_'
-//   Hint: Symbol 'type' renamed to 'type_'
 //   Hint: Parameter 'array' of ksCoordinate3dCollection.GetSafeArray changed to 'array_'
 // ************************************************************************ //
-{$TYPEDADDRESS OFF} // Unit must be compiled without type-checked pointers. 
-{$WARN SYMBOL_PLATFORM OFF}
-{$WRITEABLECONST ON}
-{$VARPROPSETTER ON}
-{$ALIGN 4}
+{$TYPEDADDRESS OFF} // Unit must be compiled without type-checked pointers.
+{$IFDEF CONDITIONALEXPRESSIONS}
+{$IF CompilerVersion >= 14 }
+  {$WARN SYMBOL_PLATFORM OFF}
+  {$WRITEABLECONST ON}
+  {$VARPROPSETTER ON}
+  {$ALIGN 4}
+{$IFEND}
+{$ENDIF}
+
 interface
 
-uses Windows, ActiveX, Classes, Graphics, OleServer, StdVCL, Variants;
-  
+uses Windows, Classes, StdVCL, Graphics, OleServer, ActiveX;
+
 
 // *********************************************************************//
 // GUIDS declared in the TypeLibrary. Following prefixes are used:        
@@ -669,6 +668,8 @@ const
   DIID_ksChooseParts: TGUID = '{08B7A093-D829-44A9-A238-2BFF31770112}';
   CLASS_ChooseParts: TGUID = '{9FD4E52C-5B9B-4D07-B788-8D188EF940FD}';
   DIID_ksBodyParts: TGUID = '{1E3E9348-DB9B-4967-A62A-B412DF95146A}';
+  DIID_ksEmbodiment3D: TGUID = '{4F6A3404-8F06-4363-AF66-4CDCC4E09462}';
+  DIID_ksSnapInfo: TGUID = '{FEC5FF26-3F47-49B2-ABAE-5563A4D7AD94}';
 type
 
 // *********************************************************************//
@@ -957,6 +958,8 @@ type
   ksChangeLeaderParam = dispinterface;
   ksChooseParts = dispinterface;
   ksBodyParts = dispinterface;
+  ksEmbodiment3D = dispinterface;
+  ksSnapInfo = dispinterface;
 
 // *********************************************************************//
 // Declaration of CoClasses defined in Type Library                       
@@ -969,7 +972,7 @@ type
   Object3DNotify = IUnknown;
   SpcDocumentNotify = IUnknown;
   SpcObjectNotify = IUnknown;
-  Application = KompasObject;
+  ksApp = KompasObject;
   KompasInvisible5 = KompasObject;
   Object2DNotifyResult = ksObject2DNotifyResult;
   FeatureCollection = ksFeatureCollection;
@@ -1247,10 +1250,8 @@ type
 // *********************************************************************//
   PDouble1 = ^Double; {*}
   PInteger1 = ^Integer; {*}
-  PSmallint1 = ^Smallint; {*}
-  POleVariant1 = ^OleVariant; {*}
   PWordBool1 = ^WordBool; {*}
-  PSingle1 = ^Single; {*}
+  PSmallint1 = ^Smallint; {*}
 
 
 // *********************************************************************//
@@ -1260,36 +1261,37 @@ type
 // *********************************************************************//
   KompasObject = dispinterface
     ['{E36BC97C-39D6-4402-9C25-C7008A217E02}']
-    function ActiveDocument2D: IDispatch; dispid 5;
+    property Visible: WordBool dispid 1;
+    property lookStyle: Integer dispid 99;
     function Document3D: IDispatch; dispid 2;
     function ActiveDocument3D: IDispatch; dispid 3;
-    function GetMathematic2D: IDispatch; dispid 8;
-    function ksResultNULL: Integer; dispid 16;
+    function Document2D: IDispatch; dispid 4;
+    function ActiveDocument2D: IDispatch; dispid 5;
     function DataBaseObject: IDispatch; dispid 6;
     function GetIterator: IDispatch; dispid 7;
-    function ksMessage(const s: WideString): WordBool; dispid 12;
+    function GetMathematic2D: IDispatch; dispid 8;
     function GetParamStruct(structType: Smallint): IDispatch; dispid 9;
     function SpcDocument: IDispatch; dispid 10;
-    function ksReturnResult: Integer; dispid 15;
-    function Document2D: IDispatch; dispid 4;
+    function SpcActiveDocument: IDispatch; dispid 11;
+    function ksMessage(const s: WideString): WordBool; dispid 12;
     function ksError(const s: WideString): WordBool; dispid 13;
     function ksEnableTaskAccess(enabl: Integer): WordBool; dispid 14;
-    function ksDrawBitmap(HWindow: Integer; sldID: Integer): Integer; dispid 26;
-    function ksStrResult: WideString; dispid 20;
+    function ksReturnResult: Integer; dispid 15;
+    function ksResultNULL: Integer; dispid 16;
     function ksIsEnableTaskAccess: Integer; dispid 17;
     function ksMessageBoxResult: WordBool; dispid 18;
-    function ksPumpWaitingMessages: WordBool; dispid 23;
-    function ksExecuteLibraryCommand(const fileName: WideString; command: Integer): Integer; dispid 60;
+    function ksDrawSlide(HWindow: Integer; sldID: Integer): Integer; dispid 19;
+    function ksStrResult: WideString; dispid 20;
     function ksGetHWindow: Integer; dispid 21;
     function ksGetWorkWindowColor: Integer; dispid 22;
-    function ksYesNo(const s: WideString): Integer; dispid 27;
+    function ksPumpWaitingMessages: WordBool; dispid 23;
     function ksSetCriticalProcess: Integer; dispid 24;
     function ksChoiceFile(const ext: WideString; const filter: WideString; preview: WordBool): WideString; dispid 25;
-    function ksSlideBackground(color: Integer): WordBool; dispid 30;
-    function ksDrawSlide(HWindow: Integer; sldID: Integer): Integer; dispid 19;
+    function ksDrawBitmap(HWindow: Integer; sldID: Integer): Integer; dispid 26;
+    function ksYesNo(const s: WideString): Integer; dispid 27;
     function ksDrawSlideFromFile(HWindow: Integer; const fileName: WideString): Integer; dispid 28;
     function ksWriteSlide(const fileName: WideString; iD: Integer; x: Double; y: Double): Integer; dispid 29;
-    function SpcActiveDocument: IDispatch; dispid 11;
+    function ksSlideBackground(color: Integer): WordBool; dispid 30;
     function ksReadDouble(const mess: WideString; defValue: Double; min: Double; max: Double; 
                           var value: Double): Integer; dispid 31;
     function ksReadInt(const mess: WideString; defValue: Integer; min: Integer; max: Integer; 
@@ -1316,8 +1318,8 @@ type
                                            const sourcePath: WideString): WideString; dispid 48;
     function ksGetFullPathFromRelativePath(const mainFilePath: WideString; 
                                            const relativePath: WideString): WideString; dispid 49;
-    function ksGetSystemVersion(var iMajor: Integer; var iMinor: Integer; var iRelease: Integer; 
-                                var iBuild: Integer): Integer; dispid 50;
+    function ksGetSystemVersion(out iMajor: Integer; out iMinor: Integer; out iRelease: Integer; 
+                                out iBuild: Integer): Integer; dispid 50;
     function ksGetSystemProfileString(const lpSection: WideString; const lpKey: WideString): WideString; dispid 51;
     function ksOpenHelpFile(const file_: WideString; command: Integer; iD: Integer): WordBool; dispid 52;
     function ksSetSysOptions(optionsType: Integer; const param: IDispatch): Integer; dispid 53;
@@ -1325,44 +1327,44 @@ type
     function ksPrintPreviewWindow(const docsArr: IDispatch; inquiry: Integer): Integer; dispid 55;
     function ksGetLibraryStylesArray(const libraryName: WideString; libraryType: Smallint): IDispatch; dispid 56;
     function ksViewGetDensity(HWindow: Integer): Double; dispid 57;
-    function ksCalculate(const s: WideString; var rez: Double): Integer; dispid 58;
+    function ksCalculate(const s: WideString; out rez: Double): Integer; dispid 58;
     function ksCalculateReset: Integer; dispid 59;
-    function ksGetExternaldispinterface: IDispatch; dispid 102;
+    function ksExecuteLibraryCommand(const fileName: WideString; command: Integer): Integer; dispid 60;
     function ksGetQualityNames(const names: IDispatch; dimValue: Double; high: Double; low: Double; 
                                system: Smallint; withLimitation: Smallint): Integer; dispid 61;
-    function ksGetQualityDefects(const name: WideString; dimValue: Double; var high: Double; 
-                                 var low: Double; inMM: Smallint): Integer; dispid 62;
+    function ksGetQualityDefects(const name: WideString; dimValue: Double; out high: Double; 
+                                 out low: Double; inMM: Smallint): Integer; dispid 62;
     function ksGetQualityContensParam(const name: WideString; const param: IDispatch; inMM: Smallint): Integer; dispid 63;
     function ksGet3dDocumentFromRef(doc: Integer): IDispatch; dispid 64;
     function GetModelLibrary: IDispatch; dispid 65;
     function GetFragmentLibrary: IDispatch; dispid 66;
     function ksIsLibraryEnabled(const libName: WideString): Integer; dispid 67;
-    function ksDrawSlideEx(HWindow: Integer; sldID: Integer; hInst: Integer): Integer; dispid 72;
-    function ksModuleSpecification(attach: WordBool): Integer; dispid 69;
-    function ksMaterialDlg(HWindow: Integer; var res: Integer; var plt: Double; 
-                           var kod_size_1: Double; var kod_size_2: Double; var kod_size_3: Double; 
-                           var kod_size_4: Double; const kod_tip: WideString): WideString; dispid 70;
-    function ksConvertLangWindow(hWnd: Integer): WordBool; dispid 75;
     function ksIsModuleSpecificationActive: Integer; dispid 68;
-    function ksViewGetDensityAndMaterial(var density: Double; HWindow: Integer): WideString; dispid 73;
+    function ksModuleSpecification(attach: WordBool): Integer; dispid 69;
+    function ksMaterialDlg(HWindow: Integer; out res: Integer; out plt: Double; 
+                           out kod_size_1: Double; out kod_size_2: Double; out kod_size_3: Double; 
+                           out kod_size_4: Double; const kod_tip: WideString): WideString; dispid 70;
+    function ksExecDialPredefinedText(HWindow: Integer; out res: Integer): WideString; dispid 71;
+    function ksDrawSlideEx(HWindow: Integer; sldID: Integer; hInst: Integer): Integer; dispid 72;
+    function ksViewGetDensityAndMaterial(out density: Double; HWindow: Integer): WideString; dispid 73;
     function ksConvertLangStr(const src: WideString): WideString; dispid 74;
-    function ActivateControllerAPI: WordBool; dispid 86;
+    function ksConvertLangWindow(hWnd: Integer): WordBool; dispid 75;
     function ksConvertLangMenu(hMenu: Integer): Integer; dispid 76;
-    function ksEditTextLine(HWindow: Integer; var res: Integer; const str: WideString): WideString; dispid 77;
+    function ksEditTextLine(HWindow: Integer; out res: Integer; const str: WideString): WideString; dispid 77;
     function ksGetDocOptions(optionsType: Integer; const param: IDispatch): Integer; dispid 78;
     function ksAttachKompasLibrary(const libName: WideString): Integer; dispid 79;
     function ksDetachKompasLibrary(libId: Integer): Integer; dispid 80;
     function ksExecuteKompasLibraryCommand(libId: Integer; command: Integer): Integer; dispid 81;
     procedure Quit; dispid 82;
-    function DocumentTxt: IDispatch; dispid 87;
-    function ksDrawKompasDocument(HWindow: Integer; const docFileName: WideString): Integer; dispid 84;
-    function ksSetFlagDisableLockApp(setDisableLockApp: WordBool): WordBool; dispid 85;
-    function ksSetDocOptions(optionsType: Integer; const param: IDispatch): Integer; dispid 90;
     function ksPrintKompasDocument(const fileName: WideString; const toFile: WideString; 
                                    scale: Double): Integer; dispid 83;
+    function ksDrawKompasDocument(HWindow: Integer; const docFileName: WideString): Integer; dispid 84;
+    function ksSetFlagDisableLockApp(setDisableLockApp: WordBool): WordBool; dispid 85;
+    function ActivateControllerAPI: WordBool; dispid 86;
+    function DocumentTxt: IDispatch; dispid 87;
     function ActiveDocumentTxt: IDispatch; dispid 88;
     function ksGetLibraryTreeStruct(const libName: WideString; const p: IDispatch): WordBool; dispid 89;
-    function ksExecDialPredefinedText(HWindow: Integer; var res: Integer): WideString; dispid 71;
+    function ksSetDocOptions(optionsType: Integer; const param: IDispatch): Integer; dispid 90;
     function ksGetDocumentType(doc: Integer): Integer; dispid 91;
     function ksDrawKompasDocumentByReference(HWindow: Integer; pDoc: Integer): Integer; dispid 92;
     function ksExecDialPredefinedTextEx(HWindow: Integer): IDispatch; dispid 93;
@@ -1370,15 +1372,15 @@ type
     function ksGetDocumentByReference(docRef: Integer): IDispatch; dispid 95;
     function ksConvertLangStrEx(hInstance: Integer; strID: Integer): WideString; dispid 96;
     function ksConvertLangWindowEx(hWnd: Integer; hInstance: Integer; const dlgID: WideString): WordBool; dispid 97;
-    function ksGetApplication7: IDispatch; dispid 103;
+    function LoadDSK: WordBool; dispid 98;
     function GetObjectsFilter3D: IDispatch; dispid 100;
     function ksExecuteKompasLibraryCommandEx(libId: Integer; command: Integer; 
                                              const external: IDispatch): Integer; dispid 101;
-    function ksIsModule3DActive: Integer; dispid 106;
-    function LoadDSK: WordBool; dispid 98;
+    function ksGetExternaldispinterface: IDispatch; dispid 102;
+    function ksGetApplication7: IDispatch; dispid 103;
     function ksDrawBitmapEx(HWindow: Integer; bmpID: Integer; hInst: Integer): Integer; dispid 104;
     function ksGetSystemControlStartResult: Integer; dispid 105;
-    function ksSetDebugMessagesMode(debugMode: WordBool): WordBool; dispid 117;
+    function ksIsModule3DActive: Integer; dispid 106;
     function ksModule3D(attach: WordBool): Integer; dispid 107;
     function TransferInterface(const obj: IUnknown; apiNewType: Integer; objNewType: Integer): IUnknown; dispid 108;
     function ksExecuteKompasCommand(commandID: Integer; post: WordBool): WordBool; dispid 109;
@@ -1386,16 +1388,31 @@ type
     function ksIsKompasCommandCheck(commandID: Integer): Integer; dispid 111;
     function TransferReference(obj: Integer; docRef: Integer): IUnknown; dispid 112;
     function ksDrawKompasText(HWindow: Integer; const text: WideString): Integer; dispid 113;
-    function ksClearFileCache: WordBool; dispid 118;
-    function ksExecDialSpecialSymbol(HWindow: Integer): SYSINT; dispid 115;
-    function ksExecDialSymbol(HWindow: Integer; var symb: Integer; const font: WideString): WideString; dispid 116;
-    function ksIsModule2DActive: WordBool; dispid 121;
     function ksPrintKompasDocumentEx(const fileName: WideString; const toFile: WideString; 
                                      scale: Double; FKompasPrinter: WordBool): Integer; dispid 114;
+    function ksExecDialSpecialSymbol(HWindow: Integer): SYSINT; dispid 115;
+    function ksExecDialSymbol(HWindow: Integer; out symb: Integer; const font: WideString): WideString; dispid 116;
+    function ksSetDebugMessagesMode(debugMode: WordBool): WordBool; dispid 117;
+    function ksClearFileCache: WordBool; dispid 118;
     function ksLockFileCache(lock: WordBool): WordBool; dispid 119;
     function ksIsHomeVersion: WordBool; dispid 120;
-    property lookStyle: Integer dispid 99;
-    property Visible: WordBool dispid 1;
+    function ksIsModule2DActive: WordBool; dispid 121;
+    function ksExecDialPointStyleSelect(HWindow: Integer; style: Integer): Integer; dispid 122;
+    function ksExecDialLineStyleSelect(HWindow: Integer; const caption: WideString; style: Integer): Integer; dispid 123;
+    function ksExecQualityDialog(HWindow: Integer; const curQual: WideString; var dimValue: Double; 
+                                 inMM: Integer; const param: IDispatch): WordBool; dispid 124;
+    function ksLockPumpMessages(lock: WordBool): WordBool; dispid 125;
+    function ksIsStudyVersion: WordBool; dispid 126;
+    function ksIsSpdsVersion: WordBool; dispid 127;
+    function ksKompasVariant: Integer; dispid 128;
+    function ksDrawBitmapEx2(HWindow: Integer; bmpID: Integer; hInst: OleVariant): Integer; dispid 129;
+    function ksDrawSlideEx2(HWindow: Integer; sldID: Integer; hInst: OleVariant): Integer; dispid 130;
+    function ksConvertLangStrEx2(hInstance: OleVariant; strID: Integer): WideString; dispid 131;
+    function ksConvertLangWindowEx2(hWnd: Integer; hInstance: OleVariant; const dlgID: WideString): WordBool; dispid 132;
+    function ksSelectD3Model(onlyDetail: WordBool; showAddNum: WordBool): WideString; dispid 133;
+    function ksGetSelectedEmbodimentMarking: WideString; dispid 134;
+    function ksGetSelectedEmbodimentAdditionalNumber: WideString; dispid 135;
+    function ksEnableKompasInvisible(const key: WideString; const signature: WideString): WordBool; dispid 136;
   end;
 
 // *********************************************************************//
@@ -1405,6 +1422,8 @@ type
 // *********************************************************************//
   ksDocument2D = dispinterface
     ['{AF4E160D-5C89-4F21-B0F2-D53397BDAF78}']
+    property reference: Integer dispid 1;
+    property orthoMode: WordBool dispid 212;
     function ksLineSeg(x1: Double; y1: Double; x2: Double; y2: Double; style: Integer): Integer; dispid 2;
     function ksRectangle(const par: IDispatch; centre: Smallint): Integer; dispid 3;
     function ksCircle(xc: Double; yc: Double; rad: Double; style: Integer): Integer; dispid 4;
@@ -1437,46 +1456,45 @@ type
     function ksIsCursorOrPlacementDocument: Integer; dispid 27;
     function ksIsActiveProcessRunnig: Integer; dispid 28;
     function ksPhantomShowHide(const show: WideString): Integer; dispid 29;
-    function ksGetCursorPosition(var x: Double; var y: Double; type_: Integer): Integer; dispid 30;
+    function ksGetCursorPosition(out x: Double; out y: Double; type_: Integer): Integer; dispid 30;
     function ksKeepReference(r: Integer): Integer; dispid 31;
-    function ksIsPointInsideContour(p: Integer; x: Double; y: Double; precision: Double): Integer; dispid 51;
+    function ksGetMacroParamSize(ref: Integer): Integer; dispid 32;
     function ksEditMacroMode: Integer; dispid 33;
     function ksDeleteObj(ref: Integer): Integer; dispid 34;
-    function ksFindObj(x: Double; y: Double; limit: Double): Integer; dispid 39;
-    function ksGetMacroParamSize(ref: Integer): Integer; dispid 32;
+    function ksMoveObj(ref: Integer; x: Double; y: Double): Integer; dispid 35;
+    function ksRotateObj(ref: Integer; x: Double; y: Double; angle: Double): Integer; dispid 36;
     function ksTransformObj(ref: Integer): Integer; dispid 37;
     function ksLightObj(ref: Integer; light: Smallint): Integer; dispid 38;
-    function ksMoveObj(ref: Integer; x: Double; y: Double): Integer; dispid 35;
-    function ksAnnLineSeg(x1: Double; y1: Double; x2: Double; y2: Double; term1: Smallint; 
-                          term2: Smallint; style: Integer): Integer; dispid 44;
+    function ksFindObj(x: Double; y: Double; limit: Double): Integer; dispid 39;
+    function ksSymmetryObj(ref: Integer; x1: Double; y1: Double; x2: Double; y2: Double; 
+                           const copy: WideString): Integer; dispid 40;
     function ksCopyObj(ref: Integer; xOld: Double; yOld: Double; xNew: Double; yNew: Double; 
                        scale: Double; angle: Double): Integer; dispid 41;
     function ksCreateViewObject(type_: Integer): Integer; dispid 42;
-    function ksInitFilePreviewFunc(const funcName: WideString; hInst: Integer; 
-                                   const dispatchOCX: IDispatch): Integer; dispid 123;
-    function ksSymmetryObj(ref: Integer; x1: Double; y1: Double; x2: Double; y2: Double; 
-                           const copy: WideString): Integer; dispid 40;
+    function ksEditViewObject(ref: Integer): Integer; dispid 43;
+    function ksAnnLineSeg(x1: Double; y1: Double; x2: Double; y2: Double; term1: Smallint; 
+                          term2: Smallint; style: Integer): Integer; dispid 44;
     function ksPointArraw(x: Double; y: Double; ang: Double; term: Smallint): Integer; dispid 45;
     function ksAnnArcByPoint(xc: Double; yc: Double; rad: Double; x1: Double; y1: Double; 
                              x2: Double; y2: Double; direction: Smallint; term1: Smallint; 
                              term2: Smallint; style: Integer): Integer; dispid 46;
-    function ksEditViewObject(ref: Integer): Integer; dispid 43;
+    function ksEllipse(const par: IDispatch): Integer; dispid 47;
     function ksEllipseArc(const par: IDispatch): Integer; dispid 48;
     function ksParEllipseArc(const par: IDispatch): Integer; dispid 49;
-    function ksOpenMacro(macro: Integer): Integer; dispid 54;
-    function ksEllipse(const par: IDispatch): Integer; dispid 47;
+    function ksEquidistant(const par: IDispatch): Integer; dispid 50;
+    function ksIsPointInsideContour(p: Integer; x: Double; y: Double; precision: Double): Integer; dispid 51;
     function ksConvertTextToCurve(text: Integer): Integer; dispid 52;
     function ksStoreTmpGroup(g: Integer): Integer; dispid 53;
-    function ksEquidistant(const par: IDispatch): Integer; dispid 50;
-    function ksNurbsPoint(const par: IDispatch): Integer; dispid 59;
+    function ksOpenMacro(macro: Integer): Integer; dispid 54;
+    function ksAddObjectToMacro(macro: Integer; obj: Integer): Integer; dispid 55;
     function ksHatch(style: Integer; angle: Double; step: Double; width: Double; x0: Double; 
                      y0: Double): Integer; dispid 56;
     function ksColouring(color: Integer): Integer; dispid 57;
-    function ksRotateObj(ref: Integer; x: Double; y: Double; angle: Double): Integer; dispid 36;
-    function ksAddObjectToMacro(macro: Integer; obj: Integer): Integer; dispid 55;
+    function ksDuplicateBoundaries(p: Integer): Integer; dispid 58;
+    function ksNurbsPoint(const par: IDispatch): Integer; dispid 59;
     function ksNurbsKnot(knot: Double): Integer; dispid 60;
     function ksNurbs(degree: Smallint; close: WordBool; style: Integer): Integer; dispid 61;
-    function ksDuplicateBoundaries(p: Integer): Integer; dispid 58;
+    function ksRegularPolygon(const par: IDispatch; centre: Smallint): Integer; dispid 62;
     function ksClearGroup(g: Integer; deleteTmp: WordBool): Integer; dispid 63;
     function ksExcludeObjGroup(g: Integer; p: Integer): Integer; dispid 64;
     function ksAddObjGroup(g: Integer; p: Integer): Integer; dispid 65;
@@ -1504,43 +1522,43 @@ type
     function ksDeleteStyleFromDocument(type_: Smallint; const param: IDispatch; copy: Smallint): Integer; dispid 86;
     function ksExistObj(ref: Integer): Integer; dispid 87;
     function ksGetObjGabaritRect(p: Integer; const par: IDispatch): Integer; dispid 88;
-    function ksSheetToView(x: Double; y: Double; var outX: Double; var outY: Double): Integer; dispid 89;
-    function ksViewToSheet(x: Double; y: Double; var outX: Double; var outY: Double): Integer; dispid 90;
+    function ksSheetToView(x: Double; y: Double; out outX: Double; out outY: Double): Integer; dispid 89;
+    function ksViewToSheet(x: Double; y: Double; out outX: Double; out outY: Double): Integer; dispid 90;
     function ksPolyline(style: Integer): Integer; dispid 91;
     function ksPolylineByParam(const par: IDispatch): Integer; dispid 92;
-    function ksLengthFromMtr(var len: Double): Integer; dispid 112;
+    function ksGetReferenceDocumentPart(t: Smallint): Integer; dispid 93;
     function ksGetViewReference(number: Integer): Integer; dispid 94;
     function ksGetViewNumber(p: Integer): Integer; dispid 95;
-    function ksGetViewObjCount(p: Integer): Integer; dispid 100;
-    function ksGetReferenceDocumentPart(t: Smallint): Integer; dispid 93;
+    function ksOpenView(number: Integer): Integer; dispid 96;
+    function ksNewViewNumber: Integer; dispid 97;
     function ksCreateSheetView(const par: IDispatch; var number: Integer): Integer; dispid 98;
     function ksDecomposeObj(p: Integer; level: Smallint; arrow: Double; type_: Smallint): Integer; dispid 99;
-    function ksOpenView(number: Integer): Integer; dispid 96;
-    function ksRough(const roughPar: IDispatch): Integer; dispid 105;
+    function ksGetViewObjCount(p: Integer): Integer; dispid 100;
+    function ksLinBreakDimension(const linPar: IDispatch): Integer; dispid 101;
     function ksAngBreakDimension(const angPar: IDispatch): Integer; dispid 102;
     function ksIsCurveClosed(p: Integer): Integer; dispid 103;
-    function ksRegularPolygon(const par: IDispatch; centre: Smallint): Integer; dispid 62;
-    function ksLinBreakDimension(const linPar: IDispatch): Integer; dispid 101;
-    function ksGetGroupName(gr: Integer; var group: Integer; size: Integer): WideString; dispid 106;
-    function ksMtr(x: Double; y: Double; angle: Double; scaleX: Double; scaleY: Double): Integer; dispid 107;
     function ksBase(const par: IDispatch): Integer; dispid 104;
-    function ksPointIntoMtr(x: Double; y: Double; var xn: Double; var yn: Double): Integer; dispid 109;
-    function ksPointFromMtr(x: Double; y: Double; var xn: Double; var yn: Double): Integer; dispid 110;
-    function ksBrandLeader(const brandLeaderParam: IDispatch): Integer; dispid 115;
+    function ksRough(const roughPar: IDispatch): Integer; dispid 105;
+    function ksGetGroupName(gr: Integer; out group: Integer; size: Integer): WideString; dispid 106;
+    function ksMtr(x: Double; y: Double; angle: Double; scaleX: Double; scaleY: Double): Integer; dispid 107;
     function ksDeleteMtr: Integer; dispid 108;
+    function ksPointIntoMtr(x: Double; y: Double; out xn: Double; out yn: Double): Integer; dispid 109;
+    function ksPointFromMtr(x: Double; y: Double; out xn: Double; out yn: Double): Integer; dispid 110;
+    function ksLengthIntoMtr(var len: Double): Integer; dispid 111;
+    function ksLengthFromMtr(var len: Double): Integer; dispid 112;
     function ksLeader(const leaderPar: IDispatch): Integer; dispid 113;
     function ksPositionLeader(const posLeaderParam: IDispatch): Integer; dispid 114;
-    function ksLengthIntoMtr(var len: Double): Integer; dispid 111;
-    function ksChangeObjectInLibRequest(const info: IDispatch; const phantom: IDispatch): Integer; dispid 120;
+    function ksBrandLeader(const brandLeaderParam: IDispatch): Integer; dispid 115;
+    function ksMarkerLeader(const markerLeaderParam: IDispatch): Integer; dispid 116;
     function ksCursor(const info: IDispatch; var x: Double; var y: Double; const phantom: IDispatch): Integer; dispid 117;
     function ksPlacement(const info: IDispatch; var x: Double; var y: Double; var angle: Double; 
                          const phantom: IDispatch): Integer; dispid 118;
-    function ksNewViewNumber: Integer; dispid 97;
-    function ksMarkerLeader(const markerLeaderParam: IDispatch): Integer; dispid 116;
+    function ksCommandWindow(const info: IDispatch): Integer; dispid 119;
+    function ksChangeObjectInLibRequest(const info: IDispatch; const phantom: IDispatch): Integer; dispid 120;
     function ksReleaseReference(p: Integer): Integer; dispid 121;
     function GetFragment: IDispatch; dispid 122;
-    function ksCommandWindow(const info: IDispatch): Integer; dispid 119;
-    function GetObject2DNotify(objType: Integer): Object2DNotify; dispid 205;
+    function ksInitFilePreviewFunc(const funcName: WideString; hInst: Integer; 
+                                   const dispatchOCX: IDispatch): Integer; dispid 123;
     function ksTable: Integer; dispid 124;
     function ksRebuildTableVirtualGrid: Integer; dispid 125;
     function ksGetTableItemsCount(type_: Integer): Integer; dispid 126;
@@ -1576,7 +1594,7 @@ type
     function ksReadTableFromFile(const tblFileName: WideString): Integer; dispid 154;
     function ksDrawKompasDocument(HWindow: Integer; const docFileName: WideString): Integer; dispid 155;
     function ksViewGetObjectArea: Integer; dispid 156;
-    function ksGetMacroPlacement(macro: Integer; var x: Double; var y: Double; var angl: Double): Integer; dispid 157;
+    function ksGetMacroPlacement(macro: Integer; out x: Double; out y: Double; var angl: Double): Integer; dispid 157;
     function ksSetMacroPlacement(macro: Integer; x: Double; y: Double; angl: Double; 
                                  relativ: Integer): Integer; dispid 158;
     function ksDrawKompasGroup(HWindow: Integer; gr: Integer): Integer; dispid 159;
@@ -1586,7 +1604,7 @@ type
     function ksSetObjConstraint(obj: Integer; const par: IDispatch): Integer; dispid 163;
     function ksGetObjConstraints(obj: Integer): IDispatch; dispid 164;
     function ksDestroyObjConstraint(obj: Integer; const par: IDispatch): Integer; dispid 165;
-    function ksGetZona(x: Double; y: Double; var result_: Integer): WideString; dispid 166;
+    function ksGetZona(x: Double; y: Double; out result_: Integer): WideString; dispid 166;
     function ksClearRegion(grClear: Integer; grRegion: Integer; inside: WordBool): Integer; dispid 167;
     function ksNurbsForConicCurve(const xArr: IDispatch; const yArr: IDispatch; style: Smallint): Integer; dispid 168;
     function GetStamp: IDispatch; dispid 169;
@@ -1595,7 +1613,7 @@ type
     function ksZoom(x1: Double; y1: Double; x2: Double; y2: Double): Integer; dispid 172;
     function ksZoomScale(x: Double; y: Double; scale: Double): Integer; dispid 173;
     function ksZoomPrevNextOrAll(type_: Smallint): Integer; dispid 174;
-    function ksGetZoomScale(var x: Double; var y: Double; var scale: Double): Integer; dispid 175;
+    function ksGetZoomScale(out x: Double; out y: Double; out scale: Double): Integer; dispid 175;
     function ksSpecificationOnSheet(onSheet: Smallint): Integer; dispid 176;
     function GetSpecification: IDispatch; dispid 177;
     function ksReDrawDocPart(const rect: IDispatch; view: Integer): Integer; dispid 178;
@@ -1605,78 +1623,83 @@ type
     function ksSetTextLineAlign(align: Smallint): Integer; dispid 182;
     function ksDestroyObjects(gr: Integer): Integer; dispid 183;
     function ksEnableUndo(enabl: WordBool): WordBool; dispid 184;
+    function ksAddPowerForm(x: Double; y: Double): Integer; dispid 185;
+    function ksCreatePowerArc: Integer; dispid 186;
     function ksTrimNurbs(pObj: Integer; tMin: Double; tMax: Double): Integer; dispid 187;
     function ksGetDimensionVariableName(dimObj: Integer): WideString; dispid 188;
-    function ksSetDocOptions(optionsType: Integer; const param: IDispatch): Integer; dispid 193;
-    function ksCreatePowerArc: Integer; dispid 186;
-    function RasterFormatParam: IDispatch; dispid 191;
-    function ksGetLeaderShelfLength(leader: Integer; var x: Double; var y: Double): Double; dispid 192;
     function ksTrimmCurve(curve: Integer; x1: Double; y1: Double; x2: Double; y2: Double; 
                           x3: Double; y3: Double; deleteOldCurve: Smallint): Integer; dispid 189;
-    function ksCreateSheetProjectionView(const par: IDispatch; var number: Integer; view: Integer): Integer; dispid 198;
+    function SaveAsToRasterFormat(const fileName: WideString; const rasterPar: IDispatch): WordBool; dispid 190;
+    function RasterFormatParam: IDispatch; dispid 191;
+    function ksGetLeaderShelfLength(leader: Integer; out x: Double; out y: Double): Double; dispid 192;
+    function ksSetDocOptions(optionsType: Integer; const param: IDispatch): Integer; dispid 193;
+    function ksAxisLine(const param: IDispatch): Integer; dispid 194;
     function SaveAsToUncompressedRasterFormat(const fileName: WideString; const rasterPar: IDispatch): WordBool; dispid 195;
     function ksCreateSheetArbitraryView(const par: IDispatch; var number: Integer): Integer; dispid 196;
-    function ksPlacementEx(const info: IDispatch; var x: Double; var y: Double; var angle: Double; 
-                           const phantom: IDispatch; const processParam: IDispatch): Integer; dispid 217;
-    function ksAxisLine(const param: IDispatch): Integer; dispid 194;
-    function ksCreateSheetArrowView(const par: IDispatch; var number: Integer; obj: Integer): Integer; dispid 199;
-    function ksCreateSheetSectionView(const par: IDispatch; var number: Integer; obj: Integer): Integer; dispid 200;
     function ksCreateSheetStandartViews(const par: IDispatch; bitVector: Integer; dx: Double; 
                                         dy: Double): WordBool; dispid 197;
+    function ksCreateSheetProjectionView(const par: IDispatch; var number: Integer; view: Integer): Integer; dispid 198;
+    function ksCreateSheetArrowView(const par: IDispatch; var number: Integer; obj: Integer): Integer; dispid 199;
+    function ksCreateSheetSectionView(const par: IDispatch; var number: Integer; obj: Integer): Integer; dispid 200;
+    function ksCreateSheetRemoteView(const par: IDispatch; var number: Integer; obj: Integer): Integer; dispid 201;
     function ksRebuildDocument: WordBool; dispid 202;
     function ksRemoteElement(const par: IDispatch): Integer; dispid 203;
-    function GetDocument2DNotify: Document2DNotify; dispid 208;
-    function ksCreateSheetRemoteView(const par: IDispatch; var number: Integer; obj: Integer): Integer; dispid 201;
+    function ksCopyObjEx(const param: IDispatch): Integer; dispid 204;
+    function GetObject2DNotify(objType: Integer): Object2DNotify; dispid 205;
     function GetSelectionMngNotify: SelectionMngNotify; dispid 206;
     function GetObject2DNotifyResult: ksObject2DNotifyResult; dispid 207;
-    function ksCopyObjEx(const param: IDispatch): Integer; dispid 204;
-    function ksSetMacroWaitDblClickEdit(ref: Integer; waitDblClick: Integer): Integer; dispid 214;
+    function GetDocument2DNotify: Document2DNotify; dispid 208;
+    function ksSetMaterialParam(const material: IDispatch; density: Double): Integer; dispid 209;
     function ksChangeObjectsOrder(group: Integer; obj: Integer; type_: SYSINT): Integer; dispid 210;
     function ksIsSlaveSpcOpened: Integer; dispid 211;
-    function SaveAsToRasterFormat(const fileName: WideString; const rasterPar: IDispatch): WordBool; dispid 190;
-    function ksSetMaterialParam(const material: IDispatch; density: Double): Integer; dispid 209;
+    function ksGetMacroWaitDblClickEdit(ref: Integer): Integer; dispid 213;
+    function ksSetMacroWaitDblClickEdit(ref: Integer; waitDblClick: Integer): Integer; dispid 214;
     function ksParametrizeObjects(obj: Integer; const par: IDispatch): Integer; dispid 215;
     function ksCursorEx(const info: IDispatch; var x: Double; var y: Double; 
                         const phantom: IDispatch; const processParam: IDispatch): Integer; dispid 216;
-    function ksGetMacroWaitDblClickEdit(ref: Integer): Integer; dispid 213;
-    function ksAnnPolyline(style: Integer; term1: Smallint; term2: Smallint): Integer; dispid 237;
+    function ksPlacementEx(const info: IDispatch; var x: Double; var y: Double; var angle: Double; 
+                           const phantom: IDispatch; const processParam: IDispatch): Integer; dispid 217;
+    function ksCalcRasterScale(const fileName: WideString; w: Double; h: Double): Double; dispid 218;
     function ksTextEx(const txtParam: IDispatch; align: Integer): Integer; dispid 219;
     function ksColouringEx(color: Integer; group: Integer): Integer; dispid 220;
-    function GetStampEx(SheetNumb: Integer): IDispatch; dispid 225;
-    function ksCalcRasterScale(const fileName: WideString; w: Double; h: Double): Double; dispid 218;
-    function ksPoint3DToAssociationView(view: Integer; x3D: Double; y3D: Double; z3D: Double; 
-                                        var x2D: Double; var y2D: Double): WordBool; dispid 223;
-    function ksGetReferenceDocumentPartEx(t: Smallint; SheetNumb: Integer): Integer; dispid 224;
     function ksSaveDocumentEx(const fileName: WideString; SaveMode: Integer): WordBool; dispid 221;
-    function ksGetShelfPoint(p: Integer; index: Integer; var x: Double; var y: Double; 
-                             paramType: Integer): WordBool; dispid 230;
+    function ksAssociationViewMatrix3D(ViewRef: Integer): OleVariant; dispid 222;
+    function ksPoint3DToAssociationView(view: Integer; x3D: Double; y3D: Double; z3D: Double; 
+                                        out x2D: Double; out y2D: Double): WordBool; dispid 223;
+    function ksGetReferenceDocumentPartEx(t: Smallint; SheetNumb: Integer): Integer; dispid 224;
+    function GetStampEx(SheetNumb: Integer): IDispatch; dispid 225;
+    function ksGetDocumentPagesCount: Integer; dispid 226;
     function ksSaveToDXF(const DXFFileName: WideString): WordBool; dispid 227;
     function ksInitFilePreviewFuncW(const funcName: WideString; hInst: Integer; 
                                     const dispatchOCX: IDispatch): Integer; dispid 228;
-    function ksAddPowerForm(x: Double; y: Double): Integer; dispid 185;
-    function ksGetDocumentPagesCount: Integer; dispid 226;
+    function ksChangeLeader(const leaderParam: IDispatch): Integer; dispid 229;
+    function ksGetShelfPoint(p: Integer; index: Integer; out x: Double; out y: Double; 
+                             paramType: Integer): WordBool; dispid 230;
     function ksMakeEncloseContoursEx(gr: Integer; x: Double; y: Double; forHatch: WordBool): Integer; dispid 231;
     function ksAnnPolylineEx(const par: IDispatch; term1: Smallint; term2: Smallint): Integer; dispid 232;
-    function ksChangeLeader(const leaderParam: IDispatch): Integer; dispid 229;
+    function ksAnnEllipseArc(const par: IDispatch; term1: Smallint; term2: Smallint): Integer; dispid 233;
     function ksAnnParEllipseArc(const par: IDispatch; term1: Smallint; term2: Smallint): Integer; dispid 234;
     function ksAnnCircle(xc: Double; yc: Double; rad: Double; style: Integer): Integer; dispid 235;
-    function ksGetAnnObjTerminators(annObj: Integer; var term1: Smallint; var term2: Smallint): WordBool; dispid 240;
-    function ksAnnEllipseArc(const par: IDispatch; term1: Smallint; term2: Smallint): Integer; dispid 233;
+    function ksAnnEllipse(const par: IDispatch): Integer; dispid 236;
+    function ksAnnPolyline(style: Integer; term1: Smallint; term2: Smallint): Integer; dispid 237;
     function ksAnnTextEx(const txtParam: IDispatch; align: Integer): Integer; dispid 238;
     function ksAnnPoint(x: Double; y: Double; style: Integer): Integer; dispid 239;
-    function ksAnnEllipse(const par: IDispatch): Integer; dispid 236;
-    function ksUndoContainer(Add: WordBool): WordBool; dispid 245;
-    function ksSetObjectStyle(obj: Integer; style: Integer): WordBool; dispid 242;
-    function ksGetMacroPlacementEx(macro: Integer; var x: Double; var y: Double; var angl: Double; 
-                                   sheetParam: Integer; var mirrorSymmetry: Integer): Integer; dispid 243;
-    function ksAssociationViewMatrix3D(ViewRef: Integer): OleVariant; dispid 222;
+    function ksGetAnnObjTerminators(annObj: Integer; out term1: Smallint; out term2: Smallint): WordBool; dispid 240;
     function ksGetObjectStyle(obj: Integer): Integer; dispid 241;
-    function ksGetEditMacroVisibleRegime(p: Integer): WordBool; dispid 246;
-    function ksCopyGroupToDocument(gr: Integer; from: Integer): Integer; dispid 247;
+    function ksSetObjectStyle(obj: Integer; style: Integer): WordBool; dispid 242;
+    function ksGetMacroPlacementEx(macro: Integer; out x: Double; out y: Double; out angl: Double; 
+                                   sheetParam: Integer; out mirrorSymmetry: Integer): Integer; dispid 243;
     function ksSetMacroPlacementEx(macro: Integer; x: Double; y: Double; angl: Double; 
                                    relativ: Integer; mirrorSymmetry: Integer): Integer; dispid 244;
-    property orthoMode: WordBool dispid 212;
-    property reference: Integer dispid 1;
+    function ksUndoContainer(Add: WordBool): WordBool; dispid 245;
+    function ksGetEditMacroVisibleRegime(p: Integer): WordBool; dispid 246;
+    function ksCopyGroupToDocument(gr: Integer; from: Integer): Integer; dispid 247;
+    function ksGetSnapInfo: IDispatch; dispid 248;
+    function ksReDrawDocPartEx(const rect: IDispatch; view: Integer; paramType: Integer): Integer; dispid 249;
+    function ksShowHideTmpObj(ref: Integer; show: Integer): Integer; dispid 250;
+    function ksSetLightObjType(ref: Integer; light: Integer): Integer; dispid 251;
+    function ksGetObjectNameByType(type_: Integer): WideString; dispid 252;
+    function ksGetObjectsNameByType(type_: Integer): WideString; dispid 253;
   end;
 
 // *********************************************************************//
@@ -1707,6 +1730,8 @@ type
     function UpdateObject(objRef: Integer): WordBool; dispid 19;
     function BeginDestroyObject(objRef: Integer): WordBool; dispid 20;
     function DestroyObject(objRef: Integer): WordBool; dispid 21;
+    function BeginPropertyChanged(objRef: Integer): WordBool; dispid 22;
+    function PropertyChanged(objRef: Integer): WordBool; dispid 23;
   end;
 
 // *********************************************************************//
@@ -1730,10 +1755,10 @@ type
     ['{1FE1EB28-CD28-4700-8E46-25CCFE9C0EC8}']
     function GetNotifyType: Integer; dispid 1;
     function IsCopy: WordBool; dispid 2;
-    function GetSheetPoint(from: WordBool; var x: Double; var y: Double): WordBool; dispid 3;
+    function GetSheetPoint(from: WordBool; out x: Double; out y: Double): WordBool; dispid 3;
     function GetCopyObject: Integer; dispid 4;
     function GetAngle: Double; dispid 5;
-    function GetScale(var sx: Double; var sy: Double): WordBool; dispid 6;
+    function GetScale(out sx: Double; out sy: Double): WordBool; dispid 6;
     function GetProcessType: Integer; dispid 7;
     function IsUndoMode: WordBool; dispid 8;
     function IsRedoMode: WordBool; dispid 9;
@@ -1763,101 +1788,108 @@ type
 // *********************************************************************//
   ksDocument3D = dispinterface
     ['{111CEFE1-A0A7-11D6-95CE-00C0262D30E3}']
-    function FeatureCollection(key1: Integer; key2: Integer; key3: Integer; key4: Integer; 
-                               numb: Double; objType: SYSINT): ksFeatureCollection; dispid 59;
-    function AttributeCollection(key1: Integer; key2: Integer; key3: Integer; key4: Integer; 
-                                 numb: Double; const pObj: IDispatch): ksAttribute3DCollection; dispid 58;
-    function SetPartFromFileEx(const fileName: WideString; const part: IDispatch; 
-                               externalFile: WordBool; redraw: WordBool): WordBool; dispid 60;
+    property fileName: WideString dispid 1;
+    property comment: WideString dispid 2;
+    property author: WideString dispid 3;
+    property reference: Integer dispid 39;
+    property perspective: WordBool dispid 40;
+    property drawMode: SYSINT dispid 41;
+    property hideAllPlanes: WordBool dispid 50;
+    property hideAllAxis: WordBool dispid 51;
+    property hideAllSketches: WordBool dispid 52;
+    property hideAllPlaces: WordBool dispid 53;
+    property hideAllSurfaces: WordBool dispid 54;
+    property hideAllThreads: WordBool dispid 55;
+    property shadedWireframe: WordBool dispid 63;
+    property dismantleMode: WordBool dispid 68;
+    property treeNeedRebuild: WordBool dispid 70;
+    property enableRollBackFeaturesInCollections: WordBool dispid 75;
+    property hideAllCurves: WordBool dispid 77;
+    property hideAllControlPoints: WordBool dispid 78;
+    property hideAllDimensions: WordBool dispid 79;
+    property hideAllDesignations: WordBool dispid 80;
+    property hideAllAuxiliaryGeom: WordBool dispid 81;
+    property hideInComponentsMode: WordBool dispid 82;
+    property windowNeedRebuild: WordBool dispid 84;
+    property hideLayoutGeometry: WordBool dispid 85;
+    property invisibleMode: WordBool readonly dispid 4;
+    function Create(invisible: WordBool; typeDoc: WordBool): WordBool; dispid 5;
+    function IsDetail: WordBool; dispid 6;
+    function GetPart(type_: Integer): IDispatch; dispid 7;
+    function MateConstraintCollection: IDispatch; dispid 8;
+    function UpdateDocumentParam: WordBool; dispid 9;
     function IsEditMode: WordBool; dispid 10;
     function ChangeObjectInLibRequest: WordBool; dispid 11;
     function StopLibRequest: WordBool; dispid 12;
-    function UpdateDocumentParam: WordBool; dispid 9;
-    function DefaultPlacement: ksPlacement; dispid 62;
-    function GetDocument3DNotify: Document3DNotify; dispid 57;
-    function AddImportedSurfaces(const fileName: WideString; together: WordBool): IDispatch; dispid 56;
-    function ksIsSlaveSpcOpened: Integer; dispid 64;
-    function SaveAsToUncompressedRasterFormat(const fileName: WideString; const rasterPar: IDispatch): WordBool; dispid 49;
-    function ComponentPositioner: ksComponentPositioner; dispid 61;
-    function ksSetObjParam(referObj: Integer; const param: IDispatch; parType: Integer): Integer; dispid 48;
-    function ksGetObjParam(ref: Integer; const param: IDispatch; parType: Integer): Integer; dispid 47;
-    function Open(const fileName: WideString; invisible: WordBool): WordBool; dispid 18;
-    function close: WordBool; dispid 21;
-    function UserGetCursor(const prompt: WideString; var x: Double; var y: Double; var z: Double): WordBool; dispid 22;
+    function GetSpecification: IDispatch; dispid 13;
+    function GetRequestInfo(const part: IDispatch): IDispatch; dispid 14;
     function UserGetPlacementAndEntity(entityCount: Integer): WordBool; dispid 15;
     function SetActive: WordBool; dispid 16;
     function IsActive: WordBool; dispid 17;
-    function GetRequestInfo(const part: IDispatch): IDispatch; dispid 14;
+    function Open(const fileName: WideString; invisible: WordBool): WordBool; dispid 18;
     function Save: WordBool; dispid 19;
-    property invisibleMode: WordBool readonly dispid 4;
-    function Create(invisible: WordBool; typeDoc: WordBool): WordBool; dispid 5;
-    function MateConstraintCollection: IDispatch; dispid 8;
-    function GetPart(type_: Integer): IDispatch; dispid 7;
     function SaveAs(const fileName: WideString): WordBool; dispid 20;
-    function GetSpecification: IDispatch; dispid 13;
-    function IsDetail: WordBool; dispid 6;
-    function SetRollBackFeature(const obj: IDispatch): WordBool; dispid 73;
-    function ZoomPrevNextOrAll(type_: Smallint): WordBool; dispid 33;
-    function DeleteObject(const obj: IDispatch): WordBool; dispid 43;
-    function GetViewProjectionCollection: IDispatch; dispid 42;
-    function RemoveMateConstraint(constraintType: Integer; const obj1: IDispatch; 
-                                  const obj2: IDispatch): WordBool; dispid 26;
+    function close: WordBool; dispid 21;
+    function UserGetCursor(const prompt: WideString; out x: Double; out y: Double; out z: Double): WordBool; dispid 22;
     function SetPartFromFile(const fileName: WideString; const part: IDispatch; 
                              externalFile: WordBool): WordBool; dispid 23;
+    function EntityCollection(objType: Smallint; checkEntity: WordBool): IDispatch; dispid 24;
     function UserSelectEntity(const filterObject: IDispatch; const methodName: WideString; 
                               const prompt: WideString; hInst: Integer; const val: IDispatch): IDispatch; dispid 25;
+    function RemoveMateConstraint(constraintType: Integer; const obj1: IDispatch; 
+                                  const obj2: IDispatch): WordBool; dispid 26;
     function AddMateConstraint(constraintType: Integer; const obj1: IDispatch; 
                                const obj2: IDispatch; direction: Smallint; fixed: Smallint; 
                                val: Double): WordBool; dispid 27;
-    function GetSelectionMng: IDispatch; dispid 44;
-    function RasterFormatParam: IDispatch; dispid 36;
-    function AdditionFormatParam: IDispatch; dispid 38;
-    function SaveAsToAdditionFormat(const fileName: WideString; const additionPar: IDispatch): WordBool; dispid 37;
+    function ksDeleteObj(ref: Integer): Integer; dispid 28;
+    function PartCollection(refresh: WordBool): IDispatch; dispid 29;
+    function CreatePartFromFile(const fileName: WideString; const part: IDispatch; 
+                                const plane: IDispatch): WordBool; dispid 30;
+    function CreatePartInAssembly(const fileName: WideString; const plane: IDispatch): IDispatch; dispid 31;
+    function RebuildDocument: WordBool; dispid 32;
+    function ZoomPrevNextOrAll(type_: Smallint): WordBool; dispid 33;
     function GetMateConstraint: IDispatch; dispid 34;
-    function GetObjectType(const obj: IDispatch): Integer; dispid 46;
-    function GetChooseMng: IDispatch; dispid 45;
     function SaveAsToRasterFormat(const fileName: WideString; const rasterPar: IDispatch): WordBool; dispid 35;
-    function SaveAsEx(const fileName: WideString; SaveMode: Integer): WordBool; dispid 66;
+    function RasterFormatParam: IDispatch; dispid 36;
+    function SaveAsToAdditionFormat(const fileName: WideString; const additionPar: IDispatch): WordBool; dispid 37;
+    function AdditionFormatParam: IDispatch; dispid 38;
+    function GetViewProjectionCollection: IDispatch; dispid 42;
+    function DeleteObject(const obj: IDispatch): WordBool; dispid 43;
+    function GetSelectionMng: IDispatch; dispid 44;
+    function GetChooseMng: IDispatch; dispid 45;
+    function GetObjectType(const obj: IDispatch): Integer; dispid 46;
+    function ksGetObjParam(ref: Integer; const param: IDispatch; parType: Integer): Integer; dispid 47;
+    function ksSetObjParam(referObj: Integer; const param: IDispatch; parType: Integer): Integer; dispid 48;
+    function SaveAsToUncompressedRasterFormat(const fileName: WideString; const rasterPar: IDispatch): WordBool; dispid 49;
+    function AddImportedSurfaces(const fileName: WideString; together: WordBool): IDispatch; dispid 56;
+    function GetDocument3DNotify: Document3DNotify; dispid 57;
+    function AttributeCollection(key1: Integer; key2: Integer; key3: Integer; key4: Integer; 
+                                 numb: Double; const pObj: IDispatch): ksAttribute3DCollection; dispid 58;
+    function FeatureCollection(key1: Integer; key2: Integer; key3: Integer; key4: Integer; 
+                               numb: Double; objType: SYSINT): ksFeatureCollection; dispid 59;
+    function SetPartFromFileEx(const fileName: WideString; const part: IDispatch; 
+                               externalFile: WordBool; redraw: WordBool): WordBool; dispid 60;
+    function ComponentPositioner: ksComponentPositioner; dispid 61;
+    function DefaultPlacement: ksPlacement; dispid 62;
+    function ksIsSlaveSpcOpened: Integer; dispid 64;
     function GetEditMacroObject: IDispatch; dispid 65;
+    function SaveAsEx(const fileName: WideString; SaveMode: Integer): WordBool; dispid 66;
     function GetInterface(o3dType: Integer): IDispatch; dispid 67;
-    function ExcludeFeaturesAfter(const obj: IDispatch; exclude: WordBool): WordBool; dispid 76;
-    function PlaceFeatureAfter(const obj: IDispatch; const afterObj: IDispatch): WordBool; dispid 72;
-    function GetRollBackFeature: IDispatch; dispid 74;
-    function GetDocument3DNotifyResult: IDispatch; dispid 83;
+    function CopyPart(const sourcePart: IDispatch; const newPlacement: IDispatch): IDispatch; dispid 69;
     function UserSelectEntityEx(const filterObject: IDispatch; const methodName: WideString; 
                                 const prompt: WideString; hInst: Integer; const val: IDispatch; 
                                 const processParam: IUnknown): IDispatch; dispid 71;
-    function RebuildDocument: WordBool; dispid 32;
-    function CreatePartInAssembly(const fileName: WideString; const plane: IDispatch): IDispatch; dispid 31;
-    function EntityCollection(objType: Smallint; checkEntity: WordBool): IDispatch; dispid 24;
-    function CreatePartFromFile(const fileName: WideString; const part: IDispatch; 
-                                const plane: IDispatch): WordBool; dispid 30;
-    function CopyPart(const sourcePart: IDispatch; const newPlacement: IDispatch): IDispatch; dispid 69;
-    function PartCollection(refresh: WordBool): IDispatch; dispid 29;
-    function ksDeleteObj(ref: Integer): Integer; dispid 28;
-    property windowNeedRebuild: WordBool dispid 84;
-    property hideInComponentsMode: WordBool dispid 82;
-    property hideAllAuxiliaryGeom: WordBool dispid 81;
-    property hideAllDesignations: WordBool dispid 80;
-    property hideAllDimensions: WordBool dispid 79;
-    property hideAllControlPoints: WordBool dispid 78;
-    property hideAllCurves: WordBool dispid 77;
-    property enableRollBackFeaturesInCollections: WordBool dispid 75;
-    property treeNeedRebuild: WordBool dispid 70;
-    property dismantleMode: WordBool dispid 68;
-    property shadedWireframe: WordBool dispid 63;
-    property hideAllThreads: WordBool dispid 55;
-    property hideAllSurfaces: WordBool dispid 54;
-    property hideAllPlaces: WordBool dispid 53;
-    property hideAllSketches: WordBool dispid 52;
-    property hideAllAxis: WordBool dispid 51;
-    property hideAllPlanes: WordBool dispid 50;
-    property drawMode: SYSINT dispid 41;
-    property perspective: WordBool dispid 40;
-    property reference: Integer dispid 39;
-    property author: WideString dispid 3;
-    property comment: WideString dispid 2;
-    property fileName: WideString dispid 1;
+    function PlaceFeatureAfter(const obj: IDispatch; const afterObj: IDispatch): WordBool; dispid 72;
+    function SetRollBackFeature(const obj: IDispatch): WordBool; dispid 73;
+    function GetRollBackFeature: IDispatch; dispid 74;
+    function ExcludeFeaturesAfter(const obj: IDispatch; exclude: WordBool): WordBool; dispid 76;
+    function GetDocument3DNotifyResult: IDispatch; dispid 83;
+    function UserSelectEntityEx2(const filterObject: IDispatch; const methodName: WideString; 
+                                 const prompt: WideString; hInst: OleVariant; const val: IDispatch; 
+                                 const processParam: IUnknown): IDispatch; dispid 86;
+    function RunTakeCreateObjectProc(processType: Integer; const takeObject: IDispatch; 
+                                     needCreateTakeObj: WordBool; lostTakeObj: WordBool): WordBool; dispid 87;
+    function LoadFromAdditionFormat(const fileName: WideString; const additionPar: IDispatch): WordBool; dispid 88;
   end;
 
 // *********************************************************************//
@@ -1875,6 +1907,11 @@ type
     function ChoiceMarking(const marking: WideString): WordBool; dispid 6;
     function BeginSetPartFromFile: WordBool; dispid 7;
     function BeginCreatePartFromFile(typeDoc: WordBool; const plane: ksEntity): WordBool; dispid 8;
+    function CreateEmbodiment(const marking: WideString): WordBool; dispid 9;
+    function DeleteEmbodiment(const marking: WideString): WordBool; dispid 10;
+    function ChangeCurrentEmbodiment(const marking: WideString): WordBool; dispid 11;
+    function BeginChoiceProperty(const obj: IDispatch; propID: Double): WordBool; dispid 12;
+    function ChoiceProperty(const obj: IDispatch; propID: Double): WordBool; dispid 13;
   end;
 
 // *********************************************************************//
@@ -1884,27 +1921,28 @@ type
 // *********************************************************************//
   ksEntity = dispinterface
     ['{508A0CCA-9D74-11D6-95CE-00C0262D30E3}']
-    function GetDefinition: IDispatch; dispid 5;
-    function Create: WordBool; dispid 9;
-    function BodyCollection: IDispatch; dispid 15;
+    property hidden: WordBool dispid 1;
+    property name: WideString dispid 2;
+    property excluded: WordBool dispid 4;
+    property useColor: Integer dispid 18;
     property type_: Smallint readonly dispid 3;
+    function GetDefinition: IDispatch; dispid 5;
+    function GetParent: IDispatch; dispid 6;
     function IsCreated: WordBool; dispid 7;
     function IsIt(objType: Integer): WordBool; dispid 8;
-    function GetParent: IDispatch; dispid 6;
+    function Create: WordBool; dispid 9;
     function Update: WordBool; dispid 10;
+    function ColorParam: IDispatch; dispid 11;
+    function GetAdvancedColor(out color: Integer; out ambient: Double; out diffuse: Double; 
+                              out specularity: Double; out shininess: Double; 
+                              out transparency: Double; out emission: Double): WordBool; dispid 12;
     function SetAdvancedColor(color: Integer; ambient: Double; diffuse: Double; 
                               specularity: Double; shininess: Double; transparency: Double; 
                               emission: Double): WordBool; dispid 13;
-    function GetAdvancedColor(var color: Integer; var ambient: Double; var diffuse: Double; 
-                              var specularity: Double; var shininess: Double; 
-                              var transparency: Double; var emission: Double): WordBool; dispid 12;
-    function ColorParam: IDispatch; dispid 11;
     function GetFeature: IDispatch; dispid 14;
-    function GetBodyParts: IDispatch; dispid 17;
+    function BodyCollection: IDispatch; dispid 15;
     property MultiBodyParts: WordBool readonly dispid 16;
-    property excluded: WordBool dispid 4;
-    property name: WideString dispid 2;
-    property hidden: WordBool dispid 1;
+    function GetBodyParts: IDispatch; dispid 17;
   end;
 
 // *********************************************************************//
@@ -1972,14 +2010,15 @@ type
 // *********************************************************************//
   ksFeature = dispinterface
     ['{088BF9A8-37D3-4B15-A7CA-8C52FF1DBC41}']
-    property updateStamp: LongWord readonly dispid 2;
+    property excluded: WordBool dispid 9;
     property name: WideString readonly dispid 1;
-    function GetObject: IDispatch; dispid 8;
+    property updateStamp: LongWord readonly dispid 2;
     function IsModified(recursive: WordBool): WordBool; dispid 3;
-    function IsValid: WordBool; dispid 6;
-    function GetOwnerFeature: IDispatch; dispid 5;
     function SubFeatureCollection(through: WordBool; libObject: WordBool): IDispatch; dispid 4;
+    function GetOwnerFeature: IDispatch; dispid 5;
+    function IsValid: WordBool; dispid 6;
     property type_: Smallint readonly dispid 7;
+    function GetObject: IDispatch; dispid 8;
     function AttributeCollection(key1: Integer; key2: Integer; key3: Integer; key4: Integer; 
                                  numb: Double): ksAttribute3DCollection; dispid 10;
     function EntityCollection(objType: Smallint): ksEntityCollection; dispid 11;
@@ -1990,7 +2029,6 @@ type
     function IsRollBacked: WordBool; dispid 15;
     function VariableCollectionEx(sourse: WordBool): IDispatch; dispid 16;
     property objectError: Integer readonly dispid 17;
-    property excluded: WordBool dispid 9;
   end;
 
 // *********************************************************************//
@@ -2026,71 +2064,72 @@ type
 // *********************************************************************//
   ksPart = dispinterface
     ['{508A0CCD-9D74-11D6-95CE-00C0262D30E3}']
-    function UpdatePlacement: WordBool; dispid 14;
-    function RebuildModel: WordBool; dispid 15;
-    function Update: WordBool; dispid 12;
+    property name: WideString dispid 1;
+    property marking: WideString dispid 2;
+    property fixedComponent: WordBool dispid 3;
+    property standardComponent: WordBool dispid 4;
+    property fileName: WideString dispid 6;
+    property excluded: WordBool dispid 7;
+    property useColor: Integer dispid 38;
+    property needRebuild: WordBool dispid 43;
+    property hidden: WordBool dispid 46;
+    property DoubleClickEditOff: WordBool dispid 52;
+    property PropertyObjectEditable: WordBool dispid 59;
     property material: WideString readonly dispid 5;
     function SetPlacement(const placement: IDispatch): WordBool; dispid 8;
+    function GetPlacement: IDispatch; dispid 9;
+    function ColorParam: IDispatch; dispid 10;
     function VariableCollection: IDispatch; dispid 11;
-    function ClearAllObj: WordBool; dispid 50;
-    function SetObject(index: Integer; const obj: IDispatch): WordBool; dispid 47;
-    function RebuildModelEx(redraw: WordBool): WordBool; dispid 42;
+    function Update: WordBool; dispid 12;
     function GetUserParamSize: Integer; dispid 13;
-    function GetObject(index: Integer): IDispatch; dispid 48;
-    function GetCountObj: Integer; dispid 49;
+    function UpdatePlacement: WordBool; dispid 14;
+    function RebuildModel: WordBool; dispid 15;
+    function GetDefaultEntity(objType: Smallint): IDispatch; dispid 16;
+    function NewEntity(objType: Smallint): IDispatch; dispid 17;
     function EntityCollection(objType: Smallint): IDispatch; dispid 18;
-    function SetUserParam(const userPars: IDispatch): WordBool; dispid 21;
-    function EndEdit(Rebuild: WordBool): WordBool; dispid 24;
-    function GetAdvancedColor(var color: Integer; var ambient: Double; var diffuse: Double; 
-                              var specularity: Double; var shininess: Double; 
-                              var transparency: Double; var emission: Double): WordBool; dispid 19;
+    function GetAdvancedColor(out color: Integer; out ambient: Double; out diffuse: Double; 
+                              out specularity: Double; out shininess: Double; 
+                              out transparency: Double; out emission: Double): WordBool; dispid 19;
     function SetAdvancedColor(color: Integer; ambient: Double; diffuse: Double; 
                               specularity: Double; shininess: Double; transparency: Double; 
                               emission: Double): WordBool; dispid 20;
-    function NewEntity(objType: Smallint): IDispatch; dispid 17;
-    function GetDefaultEntity(objType: Smallint): IDispatch; dispid 16;
-    function GetPlacement: IDispatch; dispid 9;
-    function ColorParam: IDispatch; dispid 10;
-    function GetPart(type_: Smallint): IDispatch; dispid 25;
+    function SetUserParam(const userPars: IDispatch): WordBool; dispid 21;
     function IsDetail: WordBool; dispid 22;
     function BeginEdit: IDispatch; dispid 23;
+    function EndEdit(Rebuild: WordBool): WordBool; dispid 24;
+    function GetPart(type_: Smallint): IDispatch; dispid 25;
+    function GetMass: Double; dispid 26;
     function PutStorage(const fileName: WideString; type_: Integer; mirror: WordBool): WordBool; dispid 27;
     function SetMateConstraintObjects(const collection: IDispatch): WordBool; dispid 28;
-    function GetMainBody: IDispatch; dispid 37;
-    function SetMaterial(const material: WideString; density: Double): WordBool; dispid 32;
     function GetMateConstraintObjects: IDispatch; dispid 29;
-    function GetMass: Double; dispid 26;
+    function GetUserParam(const userPars: IDispatch): WordBool; dispid 30;
+    property density: Double readonly dispid 31;
+    function SetMaterial(const material: WideString; density: Double): WordBool; dispid 32;
     function BodyCollection: IDispatch; dispid 33;
     function GetFeature: IDispatch; dispid 34;
     function CalcMassInertiaProperties(bitVector: LongWord): IDispatch; dispid 35;
+    function GetMeasurer: IDispatch; dispid 36;
+    function GetMainBody: IDispatch; dispid 37;
     function GetObject3DNotify(objType: Integer; const obj: IDispatch): Object3DNotify; dispid 39;
     function GetObject3DNotifyResult: ksObject3DNotifyResult; dispid 40;
-    function GetMeasurer: IDispatch; dispid 36;
-    function GetObjectByName(const name: WideString; objType: Smallint; testFullName: WordBool; 
-                             testIgnoreCase: WordBool): IDispatch; dispid 57;
-    function GetGabarit(full: WordBool; customizable: WordBool; var x1: Double; var y1: Double; 
-                        var z1: Double; var x2: Double; var y2: Double; var z2: Double): WordBool; dispid 58;
-    property MultiBodyParts: WordBool readonly dispid 55;
+    function UpdatePlacementEx(redraw: WordBool): WordBool; dispid 41;
+    function RebuildModelEx(redraw: WordBool): WordBool; dispid 42;
     function CurveIntersection(const curve: IDispatch; const parts: IDispatch; 
                                const fases: IDispatch; const points: IDispatch): WordBool; dispid 44;
     function TransformPoint(var x: Double; var y: Double; var z: Double; const part1: IDispatch): WordBool; dispid 45;
-    function SetSourceVariables(Rebuild: WordBool): WordBool; dispid 56;
-    function UpdatePlacementEx(redraw: WordBool): WordBool; dispid 41;
-    function GetUserParam(const userPars: IDispatch): WordBool; dispid 30;
-    property density: Double readonly dispid 31;
+    function SetObject(index: Integer; const obj: IDispatch): WordBool; dispid 47;
+    function GetObject(index: Integer): IDispatch; dispid 48;
+    function GetCountObj: Integer; dispid 49;
+    function ClearAllObj: WordBool; dispid 50;
     function CreateOrEditObject(objType: Smallint; const editObj: IDispatch): IDispatch; dispid 51;
     function TransformPoints(var points: OleVariant; const part1: IDispatch): WordBool; dispid 53;
     function GetSummMatrix(const part1: IDispatch): OleVariant; dispid 54;
-    property DoubleClickEditOff: WordBool dispid 52;
-    property hidden: WordBool dispid 46;
-    property needRebuild: WordBool dispid 43;
-    property useColor: Integer dispid 38;
-    property excluded: WordBool dispid 7;
-    property fileName: WideString dispid 6;
-    property standardComponent: WordBool dispid 4;
-    property fixedComponent: WordBool dispid 3;
-    property marking: WideString dispid 2;
-    property name: WideString dispid 1;
+    property MultiBodyParts: WordBool readonly dispid 55;
+    function SetSourceVariables(Rebuild: WordBool): WordBool; dispid 56;
+    function GetObjectByName(const name: WideString; objType: Smallint; testFullName: WordBool; 
+                             testIgnoreCase: WordBool): IDispatch; dispid 57;
+    function GetGabarit(full: WordBool; customizable: WordBool; out x1: Double; out y1: Double; 
+                        out z1: Double; out x2: Double; out y2: Double; out z2: Double): WordBool; dispid 58;
   end;
 
 // *********************************************************************//
@@ -2125,6 +2164,8 @@ type
     function GetFeatureCollection: ksFeatureCollection; dispid 2;
     function GetPlacement: ksPlacement; dispid 3;
     function GetProcessType: Integer; dispid 4;
+    function IsUndoMode: WordBool; dispid 5;
+    function IsRedoMode: WordBool; dispid 6;
   end;
 
 // *********************************************************************//
@@ -2134,15 +2175,19 @@ type
 // *********************************************************************//
   ksPlacement = dispinterface
     ['{2DFACC64-C4A4-11D6-8734-00C0262CDD2C}']
-    function GetOrigin(var x: Double; var y: Double; var z: Double): WordBool; dispid 1;
+    function GetOrigin(out x: Double; out y: Double; out z: Double): WordBool; dispid 1;
     function SetOrigin(x: Double; y: Double; z: Double): WordBool; dispid 2;
-    function GetAxis(var x: Double; var y: Double; var z: Double; type_: Integer): WordBool; dispid 3;
+    function GetAxis(out x: Double; out y: Double; out z: Double; type_: Integer): WordBool; dispid 3;
     function SetAxis(x: Double; y: Double; z: Double; type_: Integer): WordBool; dispid 4;
     function SetPlacement(const placement: IDispatch): WordBool; dispid 5;
     function SetAxes(Xx: Double; Xy: Double; Xz: Double; Yx: Double; Yy: Double; Yz: Double): WordBool; dispid 6;
-    function PointProjection(XIn: Double; YIn: Double; ZIn: Double; var XOut: Double; 
-                             var YOut: Double): WordBool; dispid 7;
-    function PointOn(XIn: Double; YIn: Double; var XOut: Double; var YOut: Double; var ZOut: Double): WordBool; dispid 8;
+    function PointProjection(XIn: Double; YIn: Double; ZIn: Double; out XOut: Double; 
+                             out YOut: Double): WordBool; dispid 7;
+    function PointOn(XIn: Double; YIn: Double; out XOut: Double; out YOut: Double; out ZOut: Double): WordBool; dispid 8;
+    function GetVector(type_: Integer; out x: Double; out y: Double; out z: Double): WordBool; dispid 9;
+    function SetVector(type_: Integer; x: Double; y: Double; z: Double): WordBool; dispid 10;
+    function InitByMatrix3D(mtr: OleVariant): WordBool; dispid 11;
+    function GetMatrix3D(out Result: OleVariant): WordBool; dispid 12;
   end;
 
 // *********************************************************************//
@@ -2184,6 +2229,8 @@ type
     function KeyUp(var key: Integer; flags: Integer; systemKey: WordBool): WordBool; dispid 10;
     function KeyPress(var key: Integer; systemKey: WordBool): WordBool; dispid 11;
     function BeginReguestFiles(requestID: Integer; var files: OleVariant): WordBool; dispid 12;
+    function BeginChoiceMaterial(MaterialPropertyId: Integer): WordBool; dispid 13;
+    function ChoiceMaterial(MaterialPropertyId: Integer; const material: WideString; density: Double): WordBool; dispid 14;
   end;
 
 // *********************************************************************//
@@ -2217,6 +2264,7 @@ type
     function GetNotifyType: Integer; dispid 1;
     function GetNotifyObjectType: Integer; dispid 2;
     function GetNotifyObject: IDispatch; dispid 3;
+    function GetRequestFilesType: Integer; dispid 4;
   end;
 
 // *********************************************************************//
@@ -2226,11 +2274,11 @@ type
 // *********************************************************************//
   ksSpecRoughParam = dispinterface
     ['{364521A3-94B5-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 5;
     property style: Integer dispid 1;
     property sign: Smallint dispid 2;
-    property s: WideString dispid 4;
     property t: WordBool dispid 3;
+    property s: WideString dispid 4;
+    function Init: WordBool; dispid 5;
   end;
 
 // *********************************************************************//
@@ -2240,13 +2288,13 @@ type
 // *********************************************************************//
   ksEllipseParam = dispinterface
     ['{364521A6-94B5-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 7;
     property xc: Double dispid 1;
     property yc: Double dispid 2;
     property A: Double dispid 3;
+    property B: Double dispid 4;
     property angle: Double dispid 5;
     property style: Integer dispid 6;
-    property B: Double dispid 4;
+    function Init: WordBool; dispid 7;
   end;
 
 // *********************************************************************//
@@ -2256,16 +2304,16 @@ type
 // *********************************************************************//
   ksEllipseArcParam = dispinterface
     ['{364521A9-94B5-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 10;
-    property A: Double dispid 3;
     property xc: Double dispid 1;
+    property yc: Double dispid 2;
+    property A: Double dispid 3;
     property B: Double dispid 4;
     property angle: Double dispid 5;
-    property yc: Double dispid 2;
     property angleFirst: Double dispid 6;
     property angleSecond: Double dispid 7;
     property direction: Double dispid 8;
     property style: Integer dispid 9;
+    function Init: WordBool; dispid 10;
   end;
 
 // *********************************************************************//
@@ -2275,16 +2323,16 @@ type
 // *********************************************************************//
   ksEllipseArcParam1 = dispinterface
     ['{364521AC-94B5-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 10;
-    property A: Double dispid 3;
     property xc: Double dispid 1;
+    property yc: Double dispid 2;
+    property A: Double dispid 3;
     property B: Double dispid 4;
     property angle: Double dispid 5;
-    property yc: Double dispid 2;
     property parFirst: Double dispid 6;
     property parSecond: Double dispid 7;
     property direction: Double dispid 8;
     property style: Integer dispid 9;
+    function Init: WordBool; dispid 10;
   end;
 
 // *********************************************************************//
@@ -2294,14 +2342,14 @@ type
 // *********************************************************************//
   ksEquidistantParam = dispinterface
     ['{364521AF-94B5-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 8;
     property geoObj: Integer dispid 1;
-    property degState: WordBool dispid 4;
-    property cutMode: WordBool dispid 3;
     property side: Smallint dispid 2;
+    property cutMode: WordBool dispid 3;
+    property degState: WordBool dispid 4;
     property radRight: Double dispid 5;
     property radLeft: Double dispid 6;
     property style: Integer dispid 7;
+    function Init: WordBool; dispid 8;
   end;
 
 // *********************************************************************//
@@ -2311,15 +2359,15 @@ type
 // *********************************************************************//
   ksParagraphParam = dispinterface
     ['{364521B2-94B5-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 9;
     property style: Integer dispid 1;
     property x: Double dispid 2;
     property y: Double dispid 3;
     property ang: Double dispid 4;
-    property vFormat: Integer dispid 7;
-    property height: Double dispid 6;
     property width: Double dispid 5;
+    property height: Double dispid 6;
+    property vFormat: Integer dispid 7;
     property hFormat: Integer dispid 8;
+    function Init: WordBool; dispid 9;
   end;
 
 // *********************************************************************//
@@ -2329,12 +2377,12 @@ type
 // *********************************************************************//
   ksTextItemParam = dispinterface
     ['{364521B7-94B5-11D6-8732-00C0262CDD2C}']
-    function SetItemFont(const val: IDispatch): WordBool; dispid 6;
-    function GetItemFont: IDispatch; dispid 5;
-    function Init: WordBool; dispid 4;
-    property iSNumb: Integer dispid 3;
-    property s: WideString dispid 2;
     property type_: Integer dispid 1;
+    property s: WideString dispid 2;
+    property iSNumb: Integer dispid 3;
+    function Init: WordBool; dispid 4;
+    function GetItemFont: IDispatch; dispid 5;
+    function SetItemFont(const val: IDispatch): WordBool; dispid 6;
   end;
 
 // *********************************************************************//
@@ -2344,10 +2392,10 @@ type
 // *********************************************************************//
   ksTextLineParam = dispinterface
     ['{364521BA-94B5-11D6-8732-00C0262CDD2C}']
-    function GetTextItemArr: IDispatch; dispid 2;
-    function Init: WordBool; dispid 4;
-    function SetTextItemArr(const val: IDispatch): WordBool; dispid 3;
     property style: Integer dispid 1;
+    function GetTextItemArr: IDispatch; dispid 2;
+    function SetTextItemArr(const val: IDispatch): WordBool; dispid 3;
+    function Init: WordBool; dispid 4;
   end;
 
 // *********************************************************************//
@@ -2357,14 +2405,14 @@ type
 // *********************************************************************//
   ksTextItemFont = dispinterface
     ['{364521BD-94B5-11D6-8732-00C0262CDD2C}']
-    function SetBitVectorValue(val: Integer; state: WordBool): WordBool; dispid 8;
-    function GetBitVectorValue(val: Integer): WordBool; dispid 7;
-    function Init: WordBool; dispid 6;
-    property color: Integer dispid 4;
-    property ksu: Double dispid 3;
     property fontName: WideString dispid 1;
-    property bitVector: Integer dispid 5;
     property height: Double dispid 2;
+    property ksu: Double dispid 3;
+    property color: Integer dispid 4;
+    property bitVector: Integer dispid 5;
+    function Init: WordBool; dispid 6;
+    function GetBitVectorValue(val: Integer): WordBool; dispid 7;
+    function SetBitVectorValue(val: Integer; state: WordBool): WordBool; dispid 8;
   end;
 
 // *********************************************************************//
@@ -2374,11 +2422,11 @@ type
 // *********************************************************************//
   ksCornerParam = dispinterface
     ['{E79C2501-9584-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 5;
     property index: Integer dispid 1;
     property fillet: WordBool dispid 2;
-    property l2: Double dispid 4;
     property l1: Double dispid 3;
+    property l2: Double dispid 4;
+    function Init: WordBool; dispid 5;
   end;
 
 // *********************************************************************//
@@ -2388,8 +2436,8 @@ type
 // *********************************************************************//
   ksContourParam = dispinterface
     ['{E79C2504-9584-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 2;
     property style: Integer dispid 1;
+    function Init: WordBool; dispid 2;
   end;
 
 // *********************************************************************//
@@ -2399,10 +2447,10 @@ type
 // *********************************************************************//
   ksLayerParam = dispinterface
     ['{E79C2507-9584-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 4;
-    property color: Integer dispid 2;
     property state: Smallint dispid 1;
+    property color: Integer dispid 2;
     property name: WideString dispid 3;
+    function Init: WordBool; dispid 4;
   end;
 
 // *********************************************************************//
@@ -2412,10 +2460,10 @@ type
 // *********************************************************************//
   ksLineParam = dispinterface
     ['{E79C250A-9584-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 4;
-    property y: Double dispid 2;
     property x: Double dispid 1;
+    property y: Double dispid 2;
     property angle: Double dispid 3;
+    function Init: WordBool; dispid 4;
   end;
 
 // *********************************************************************//
@@ -2425,16 +2473,16 @@ type
 // *********************************************************************//
   ksRegularPolygonParam = dispinterface
     ['{E79C250D-9584-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 10;
-    function SetPCorner(const val: IDispatch): WordBool; dispid 9;
-    function GetPCorner: IDispatch; dispid 8;
-    property yc: Double dispid 3;
-    property radius: Double dispid 5;
-    property ang: Double dispid 4;
     property count: Integer dispid 1;
+    property xc: Double dispid 2;
+    property yc: Double dispid 3;
+    property ang: Double dispid 4;
+    property radius: Double dispid 5;
     property describe: WordBool dispid 6;
     property style: Integer dispid 7;
-    property xc: Double dispid 2;
+    function GetPCorner: IDispatch; dispid 8;
+    function SetPCorner(const val: IDispatch): WordBool; dispid 9;
+    function Init: WordBool; dispid 10;
   end;
 
 // *********************************************************************//
@@ -2444,15 +2492,15 @@ type
 // *********************************************************************//
   ksRectangleParam = dispinterface
     ['{E79C2510-9584-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 9;
-    function SetPCorner(const val: IDispatch): WordBool; dispid 8;
-    function GetPCorner: IDispatch; dispid 7;
     property x: Double dispid 1;
-    property height: Double dispid 4;
-    property ang: Double dispid 3;
-    property style: Integer dispid 6;
-    property width: Double dispid 5;
     property y: Double dispid 2;
+    property ang: Double dispid 3;
+    property height: Double dispid 4;
+    property width: Double dispid 5;
+    property style: Integer dispid 6;
+    function GetPCorner: IDispatch; dispid 7;
+    function SetPCorner(const val: IDispatch): WordBool; dispid 8;
+    function Init: WordBool; dispid 9;
   end;
 
 // *********************************************************************//
@@ -2462,16 +2510,16 @@ type
 // *********************************************************************//
   ksBaseParam = dispinterface
     ['{E79C2513-9584-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 10;
-    function SetPTextItem(const val: IDispatch): WordBool; dispid 9;
-    function GetPTextItem: IDispatch; dispid 8;
-    property y1: Double dispid 3;
-    property y2: Double dispid 5;
-    property x2: Double dispid 4;
     property style: Integer dispid 1;
+    property x1: Double dispid 2;
+    property y1: Double dispid 3;
+    property x2: Double dispid 4;
+    property y2: Double dispid 5;
     property type_: WordBool dispid 6;
     property str: WideString dispid 7;
-    property x1: Double dispid 2;
+    function GetPTextItem: IDispatch; dispid 8;
+    function SetPTextItem(const val: IDispatch): WordBool; dispid 9;
+    function Init: WordBool; dispid 10;
   end;
 
 // *********************************************************************//
@@ -2481,18 +2529,18 @@ type
 // *********************************************************************//
   ksLtVariant = dispinterface
     ['{E79C2516-9584-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 11;
-    property valType: Smallint readonly dispid 1;
     property strVal: WideString dispid 2;
     property shortVal: Smallint dispid 3;
-    property doubleVal: Double dispid 7;
+    property intVal: Integer dispid 4;
     property longVal: Integer dispid 5;
     property floatVal: Single dispid 6;
+    property doubleVal: Double dispid 7;
     property charVal: Smallint dispid 8;
     property uCharVal: Smallint dispid 9;
-    property wstrVal: WideString dispid 12;
-    property intVal: Integer dispid 4;
     property uIntVal: Integer dispid 10;
+    property wstrVal: WideString dispid 12;
+    property valType: Smallint readonly dispid 1;
+    function Init: WordBool; dispid 11;
   end;
 
 // *********************************************************************//
@@ -2502,13 +2550,13 @@ type
 // *********************************************************************//
   ksUserParam = dispinterface
     ['{E79C2519-9584-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 6;
-    function SetUserArray(const val: IDispatch): WordBool; dispid 5;
-    function GetUserArray: IDispatch; dispid 4;
+    property fileName: WideString dispid 1;
     property libName: WideString dispid 2;
     property number: Integer dispid 3;
     property UserParams: OleVariant dispid 7;
-    property fileName: WideString dispid 1;
+    function GetUserArray: IDispatch; dispid 4;
+    function SetUserArray(const val: IDispatch): WordBool; dispid 5;
+    function Init: WordBool; dispid 6;
   end;
 
 // *********************************************************************//
@@ -2518,9 +2566,9 @@ type
 // *********************************************************************//
   ksMathPointParam = dispinterface
     ['{3198E121-9585-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 3;
     property x: Double dispid 1;
     property y: Double dispid 2;
+    function Init: WordBool; dispid 3;
   end;
 
 // *********************************************************************//
@@ -2544,9 +2592,9 @@ type
 // *********************************************************************//
   ksCurvePattern = dispinterface
     ['{910EC544-958D-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 3;
     property visibleSeg: Double dispid 1;
     property invisibleSeg: Double dispid 2;
+    function Init: WordBool; dispid 3;
   end;
 
 // *********************************************************************//
@@ -2632,9 +2680,9 @@ type
     property jx0: Double readonly dispid 24;
     property jy0: Double readonly dispid 25;
     property jz0: Double readonly dispid 26;
-    function GetAxisX(var x: Double; var y: Double; var z: Double): WordBool; dispid 27;
-    function GetAxisY(var x: Double; var y: Double; var z: Double): WordBool; dispid 28;
-    function GetAxisZ(var x: Double; var y: Double; var z: Double): WordBool; dispid 29;
+    function GetAxisX(out x: Double; out y: Double; out z: Double): WordBool; dispid 27;
+    function GetAxisY(out x: Double; out y: Double; out z: Double): WordBool; dispid 28;
+    function GetAxisZ(out x: Double; out y: Double; out z: Double): WordBool; dispid 29;
   end;
 
 // *********************************************************************//
@@ -2688,9 +2736,9 @@ type
     function ksCouplingCircleCircle(xc1: Double; yc1: Double; radc1: Double; xc2: Double; 
                                     yc2: Double; radc2: Double; rad: Double; const param: IDispatch): WordBool; dispid 24;
     function ksSymmetry(x: Double; y: Double; x1: Double; y1: Double; x2: Double; y2: Double; 
-                        var xc: Double; var yc: Double): WordBool; dispid 25;
-    function ksRotate(x: Double; y: Double; xc: Double; yc: Double; ang: Double; var xr: Double; 
-                      var yr: Double): WordBool; dispid 26;
+                        out xc: Double; out yc: Double): WordBool; dispid 25;
+    function ksRotate(x: Double; y: Double; xc: Double; yc: Double; ang: Double; out xr: Double; 
+                      out yr: Double): WordBool; dispid 26;
     function ksDistancePntPnt(x1: Double; y1: Double; x2: Double; y2: Double): Double; dispid 27;
     function ksDistancePntLineSeg(x: Double; y: Double; x1: Double; y1: Double; x2: Double; 
                                   y2: Double): Double; dispid 28;
@@ -2701,11 +2749,11 @@ type
     function ksDistancePntLineForPoint(x: Double; y: Double; x1: Double; y1: Double; x2: Double; 
                                        y2: Double): Double; dispid 32;
     function ksPerpendicular(x: Double; y: Double; x1: Double; y1: Double; x2: Double; y2: Double; 
-                             var xp: Double; var yp: Double): WordBool; dispid 33;
+                             out xp: Double; out yp: Double): WordBool; dispid 33;
     function ksPointsOnCurve(curve: Integer; count: Integer): IDispatch; dispid 34;
     function ksGetCurvePerpendicular(curve: Integer; x: Double; y: Double): Double; dispid 35;
-    function ksGetCurvePointProjection(curve: Integer; x: Double; y: Double; var kx: Double; 
-                                       var ky: Double): Integer; dispid 36;
+    function ksGetCurvePointProjection(curve: Integer; x: Double; y: Double; out kx: Double; 
+                                       out ky: Double): Integer; dispid 36;
     function ksMovePointOnCurve(curve: Integer; var x: Double; var y: Double; len: Double; 
                                 dir: Integer): Integer; dispid 37;
     function ksCalcInertiaProperties(p: Integer; const prop: IDispatch; dimension: Smallint): Integer; dispid 38;
@@ -2714,13 +2762,20 @@ type
     function ksGetCurvePerimeter(curve: Integer; dimension: Smallint): Double; dispid 40;
     function ksPointsOnCurveByStep(curve: Integer; step: Double): IDispatch; dispid 41;
     function ksDistancePntPntOnCurve(curve: Integer; x1: Double; y1: Double; x2: Double; y2: Double): Double; dispid 42;
-    function ksGetCurvePointProjectionEx(curve: Integer; x: Double; y: Double; var kx: Double; 
-                                         var ky: Double; var t: Double): Integer; dispid 43;
-    function ksGetCurvePoint(curve: Integer; t: Double; var x: Double; var y: Double): Integer; dispid 44;
-    function ksGetCurveMinMaxParametr(curve: Integer; var tMin: Double; var tMax: Double): Integer; dispid 45;
+    function ksGetCurvePointProjectionEx(curve: Integer; x: Double; y: Double; out kx: Double; 
+                                         out ky: Double; out t: Double): Integer; dispid 43;
+    function ksGetCurvePoint(curve: Integer; t: Double; out x: Double; out y: Double): Integer; dispid 44;
+    function ksGetCurveMinMaxParametr(curve: Integer; out tMin: Double; out tMax: Double): Integer; dispid 45;
     function ksDistanceT1T2OnCurve(curve: Integer; t1: Double; t2: Double): Double; dispid 46;
     function ksTanCurvCurv(p1: Integer; p2: Integer; const pointArr1: IDispatch; 
                            const pointArr2: IDispatch): Integer; dispid 47;
+    function ksIntersectCurvCurvEx(p1: Integer; p2: Integer; const param: IDispatch; 
+                                   touchInclude: WordBool): Integer; dispid 48;
+    function ksTanLineAngCurve(p: Integer; ang: Double; const param: IDispatch): WordBool; dispid 49;
+    function ksLinePointTangentCurve(p: Integer; xc: Double; yc: Double; const param: IDispatch): WordBool; dispid 50;
+    function ksMovePointOnCurveEx(curve: Integer; var x: Double; var y: Double; var t: Double; 
+                                  len: Double; dir: Integer; ext: Integer): Integer; dispid 51;
+    function ksGetCurvePerpendicularByT(curve: Integer; t: Double): Double; dispid 52;
   end;
 
 // *********************************************************************//
@@ -2730,15 +2785,15 @@ type
 // *********************************************************************//
   ksDynamicArray = dispinterface
     ['{4D91CD9A-6E02-409D-9360-CF7FEF60D31C}']
+    property reference: Integer dispid 1;
     function ksDeleteArray: Integer; dispid 2;
-    function ksGetArrayType: Integer; dispid 5;
-    function ksGetArrayCount: Integer; dispid 4;
     function ksClearArray: Integer; dispid 3;
+    function ksGetArrayCount: Integer; dispid 4;
+    function ksGetArrayType: Integer; dispid 5;
     function ksExcludeArrayItem(index: Integer): Integer; dispid 6;
     function ksAddArrayItem(index: Integer; const item: IDispatch): Integer; dispid 7;
     function ksGetArrayItem(index: Integer; const item: IDispatch): Integer; dispid 8;
     function ksSetArrayItem(index: Integer; const item: IDispatch): Integer; dispid 9;
-    property reference: Integer dispid 1;
   end;
 
 // *********************************************************************//
@@ -2748,12 +2803,12 @@ type
 // *********************************************************************//
   ksRDimDrawingParam = dispinterface
     ['{2A4D4542-95B3-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 6;
+    property pt1: Smallint dispid 1;
     property pt2: Smallint dispid 2;
     property textPos: Integer dispid 3;
-    property pt1: Smallint dispid 1;
     property ang: Double dispid 4;
     property shelfDir: Integer dispid 5;
+    function Init: WordBool; dispid 6;
   end;
 
 // *********************************************************************//
@@ -2763,10 +2818,10 @@ type
 // *********************************************************************//
   ksRDimSourceParam = dispinterface
     ['{2A4D4545-95B3-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 4;
-    property yc: Double dispid 2;
     property xc: Double dispid 1;
+    property yc: Double dispid 2;
     property rad: Double dispid 3;
+    function Init: WordBool; dispid 4;
   end;
 
 // *********************************************************************//
@@ -2791,12 +2846,12 @@ type
 // *********************************************************************//
   ksLineSegParam = dispinterface
     ['{7F7D6F84-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 6;
+    property x1: Double dispid 1;
     property y1: Double dispid 2;
     property x2: Double dispid 3;
-    property x1: Double dispid 1;
     property y2: Double dispid 4;
     property style: Integer dispid 5;
+    function Init: WordBool; dispid 6;
   end;
 
 // *********************************************************************//
@@ -2806,11 +2861,11 @@ type
 // *********************************************************************//
   ksCircleParam = dispinterface
     ['{7F7D6F87-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 5;
     property xc: Double dispid 1;
     property yc: Double dispid 2;
-    property style: Integer dispid 4;
     property rad: Double dispid 3;
+    property style: Integer dispid 4;
+    function Init: WordBool; dispid 5;
   end;
 
 // *********************************************************************//
@@ -2820,14 +2875,14 @@ type
 // *********************************************************************//
   ksArcByAngleParam = dispinterface
     ['{7F7D6F8A-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 8;
     property xc: Double dispid 1;
-    property ang1: Double dispid 4;
-    property rad: Double dispid 3;
     property yc: Double dispid 2;
+    property rad: Double dispid 3;
+    property ang1: Double dispid 4;
     property ang2: Double dispid 5;
     property dir: Smallint dispid 6;
     property style: Integer dispid 7;
+    function Init: WordBool; dispid 8;
   end;
 
 // *********************************************************************//
@@ -2837,16 +2892,16 @@ type
 // *********************************************************************//
   ksArcByPointParam = dispinterface
     ['{7F7D6F8D-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 10;
-    property rad: Double dispid 3;
     property xc: Double dispid 1;
+    property yc: Double dispid 2;
+    property rad: Double dispid 3;
     property x1: Double dispid 4;
     property y1: Double dispid 5;
-    property yc: Double dispid 2;
     property x2: Double dispid 6;
     property y2: Double dispid 7;
     property dir: Smallint dispid 8;
     property style: Integer dispid 9;
+    function Init: WordBool; dispid 10;
   end;
 
 // *********************************************************************//
@@ -2856,10 +2911,10 @@ type
 // *********************************************************************//
   ksPointParam = dispinterface
     ['{7F7D6F90-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 4;
-    property y: Double dispid 2;
     property x: Double dispid 1;
+    property y: Double dispid 2;
     property style: Integer dispid 3;
+    function Init: WordBool; dispid 4;
   end;
 
 // *********************************************************************//
@@ -2869,16 +2924,16 @@ type
 // *********************************************************************//
   ksHatchParam = dispinterface
     ['{7F7D6F93-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 10;
-    property step: Double dispid 3;
     property x: Double dispid 1;
+    property y: Double dispid 2;
+    property step: Double dispid 3;
     property ang: Double dispid 4;
     property width: Double dispid 5;
-    property y: Double dispid 2;
     property boundaries: Integer dispid 6;
     property color: Integer dispid 7;
     property sheeting: Smallint dispid 8;
     property style: Integer dispid 9;
+    function Init: WordBool; dispid 10;
   end;
 
 // *********************************************************************//
@@ -2902,10 +2957,10 @@ type
 // *********************************************************************//
   ksNurbsPointParam = dispinterface
     ['{7F7D6F99-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 4;
-    property y: Double dispid 2;
     property x: Double dispid 1;
+    property y: Double dispid 2;
     property weight: Double dispid 3;
+    function Init: WordBool; dispid 4;
   end;
 
 // *********************************************************************//
@@ -2915,8 +2970,8 @@ type
 // *********************************************************************//
   ksDoubleValue = dispinterface
     ['{7F7D6F9C-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 2;
     property value: Double dispid 1;
+    function Init: WordBool; dispid 2;
   end;
 
 // *********************************************************************//
@@ -2926,15 +2981,15 @@ type
 // *********************************************************************//
   ksNurbsParam = dispinterface
     ['{7F7D6F9F-97DA-11D6-8732-00C0262CDD2C}']
-    function GetPKnot: IDispatch; dispid 8;
-    function Init: WordBool; dispid 5;
-    property periodic: WordBool readonly dispid 4;
-    function SetPPoint(const val: IDispatch): WordBool; dispid 7;
-    function GetPPoint: IDispatch; dispid 6;
-    function SetPKnot(const val: IDispatch): WordBool; dispid 9;
-    property style: Integer dispid 3;
-    property close: WordBool dispid 2;
     property degree: Smallint dispid 1;
+    property close: WordBool dispid 2;
+    property style: Integer dispid 3;
+    property periodic: WordBool readonly dispid 4;
+    function Init: WordBool; dispid 5;
+    function GetPPoint: IDispatch; dispid 6;
+    function SetPPoint(const val: IDispatch): WordBool; dispid 7;
+    function GetPKnot: IDispatch; dispid 8;
+    function SetPKnot(const val: IDispatch): WordBool; dispid 9;
   end;
 
 // *********************************************************************//
@@ -2944,18 +2999,18 @@ type
 // *********************************************************************//
   ksConicArcParam = dispinterface
     ['{7F7D6FA2-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 12;
     property A: Double dispid 1;
     property B: Double dispid 2;
-    property F: Double dispid 6;
+    property C: Double dispid 3;
     property D: Double dispid 4;
     property E: Double dispid 5;
-    property C: Double dispid 3;
+    property F: Double dispid 6;
     property x1: Double dispid 7;
     property y1: Double dispid 8;
     property x2: Double dispid 9;
     property y2: Double dispid 10;
     property style: Integer dispid 11;
+    function Init: WordBool; dispid 12;
   end;
 
 // *********************************************************************//
@@ -2965,20 +3020,20 @@ type
 // *********************************************************************//
   ksCentreParam = dispinterface
     ['{7F7D6FA5-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 14;
-    property angle: Double dispid 4;
     property baseCurve: Integer dispid 1;
     property x: Double dispid 2;
+    property y: Double dispid 3;
+    property angle: Double dispid 4;
     property type_: Smallint dispid 5;
     property standXpTail: WordBool dispid 6;
     property standXmTail: WordBool dispid 7;
-    property y: Double dispid 3;
     property standYpTail: WordBool dispid 8;
     property standYmTail: WordBool dispid 9;
     property lenXpTail: Double dispid 10;
     property lenXmTail: Double dispid 11;
     property lenYpTail: Double dispid 12;
     property lenYmTail: Double dispid 13;
+    function Init: WordBool; dispid 14;
   end;
 
 // *********************************************************************//
@@ -2988,11 +3043,11 @@ type
 // *********************************************************************//
   ksPlacementParam = dispinterface
     ['{7F7D6FA8-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 5;
     property xBase: Double dispid 1;
     property yBase: Double dispid 2;
-    property angle: Double dispid 4;
     property scale_: Double dispid 3;
+    property angle: Double dispid 4;
+    function Init: WordBool; dispid 5;
   end;
 
 // *********************************************************************//
@@ -3002,11 +3057,11 @@ type
 // *********************************************************************//
   ksRasterParam = dispinterface
     ['{7F7D6FAB-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 3;
-    function SetPlace(const val: IDispatch): WordBool; dispid 5;
-    function GetPlace: IDispatch; dispid 4;
-    property embeded: WordBool dispid 2;
     property fileName: WideString dispid 1;
+    property embeded: WordBool dispid 2;
+    function Init: WordBool; dispid 3;
+    function GetPlace: IDispatch; dispid 4;
+    function SetPlace(const val: IDispatch): WordBool; dispid 5;
   end;
 
 // *********************************************************************//
@@ -3016,11 +3071,11 @@ type
 // *********************************************************************//
   ksPolylineParam = dispinterface
     ['{7F7D6FAE-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 2;
-    function SetpMathPoint(const val: IDispatch): WordBool; dispid 4;
-    function GetpMathPoint: IDispatch; dispid 3;
-    property closed: WordBool dispid 5;
     property style: Integer dispid 1;
+    property closed: WordBool dispid 5;
+    function Init: WordBool; dispid 2;
+    function GetpMathPoint: IDispatch; dispid 3;
+    function SetpMathPoint(const val: IDispatch): WordBool; dispid 4;
   end;
 
 // *********************************************************************//
@@ -3030,13 +3085,13 @@ type
 // *********************************************************************//
   ksInsertFragmentParam = dispinterface
     ['{7F7D6FB1-97DA-11D6-8732-00C0262CDD2C}']
-    function SetPlace(const val: IDispatch): WordBool; dispid 7;
-    function GetPlace: IDispatch; dispid 6;
-    function Init: WordBool; dispid 5;
+    property fileName: WideString dispid 1;
     property comment: WideString dispid 2;
     property insertType: Smallint dispid 3;
     property multiLayer: WordBool dispid 4;
-    property fileName: WideString dispid 1;
+    function Init: WordBool; dispid 5;
+    function GetPlace: IDispatch; dispid 6;
+    function SetPlace(const val: IDispatch): WordBool; dispid 7;
   end;
 
 // *********************************************************************//
@@ -3046,14 +3101,14 @@ type
 // *********************************************************************//
   ksViewParam = dispinterface
     ['{7F7D6FB4-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 8;
     property x: Double dispid 1;
-    property scale_: Double dispid 4;
-    property angle: Double dispid 3;
     property y: Double dispid 2;
+    property angle: Double dispid 3;
+    property scale_: Double dispid 4;
     property color: Integer dispid 5;
     property state: Smallint dispid 6;
     property name: WideString dispid 7;
+    function Init: WordBool; dispid 8;
   end;
 
 // *********************************************************************//
@@ -3063,13 +3118,13 @@ type
 // *********************************************************************//
   ksLBreakDimSource = dispinterface
     ['{7F7D6FB7-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 7;
     property x1: Double dispid 1;
     property y1: Double dispid 2;
     property x2: Double dispid 3;
+    property y2: Double dispid 4;
     property x3: Double dispid 5;
     property y3: Double dispid 6;
-    property y2: Double dispid 4;
+    function Init: WordBool; dispid 7;
   end;
 
 // *********************************************************************//
@@ -3079,13 +3134,13 @@ type
 // *********************************************************************//
   ksBreakDimDrawing = dispinterface
     ['{7F7D6FBA-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 7;
     property pl: WordBool dispid 1;
     property pt: Smallint dispid 2;
     property textPos: Integer dispid 3;
+    property shelfDir: Integer dispid 4;
     property angle: Double dispid 5;
     property length: Integer dispid 6;
-    property shelfDir: Integer dispid 4;
+    function Init: WordBool; dispid 7;
   end;
 
 // *********************************************************************//
@@ -3125,14 +3180,14 @@ type
 // *********************************************************************//
   ksInsertFragmentParamEx = dispinterface
     ['{7F7D6FC3-97DA-11D6-8732-00C0262CDD2C}']
-    function SetPlace(const val: IDispatch): WordBool; dispid 8;
-    function GetPlace: IDispatch; dispid 7;
-    function Init: WordBool; dispid 6;
-    property multiLayer: WordBool dispid 4;
-    property insertType: Smallint dispid 3;
     property fileName: WideString dispid 1;
-    property scaleProjLinesSize: Smallint dispid 5;
     property comment: WideString dispid 2;
+    property insertType: Smallint dispid 3;
+    property multiLayer: WordBool dispid 4;
+    property scaleProjLinesSize: Smallint dispid 5;
+    function Init: WordBool; dispid 6;
+    function GetPlace: IDispatch; dispid 7;
+    function SetPlace(const val: IDispatch): WordBool; dispid 8;
   end;
 
 // *********************************************************************//
@@ -3142,11 +3197,11 @@ type
 // *********************************************************************//
   ksBezierParam = dispinterface
     ['{7F7D6FC6-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 3;
-    function SetMathPointArr(const val: IDispatch): WordBool; dispid 5;
-    function GetMathPointArr: IDispatch; dispid 4;
-    property closed: Smallint dispid 2;
     property style: Integer dispid 1;
+    property closed: Smallint dispid 2;
+    function Init: WordBool; dispid 3;
+    function GetMathPointArr: IDispatch; dispid 4;
+    function SetMathPointArr(const val: IDispatch): WordBool; dispid 5;
   end;
 
 // *********************************************************************//
@@ -3156,12 +3211,12 @@ type
 // *********************************************************************//
   ksBezierPointParam = dispinterface
     ['{7F7D6FC9-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 6;
+    property x: Double dispid 1;
     property y: Double dispid 2;
     property ang: Double dispid 3;
-    property x: Double dispid 1;
     property left: Double dispid 4;
     property right: Double dispid 5;
+    function Init: WordBool; dispid 6;
   end;
 
 // *********************************************************************//
@@ -3171,15 +3226,15 @@ type
 // *********************************************************************//
   ksDimTextParam = dispinterface
     ['{7F7D6FCC-97DA-11D6-8732-00C0262CDD2C}']
-    function GetTextArr: IDispatch; dispid 8;
-    function Init(stringFlag: WordBool): WordBool; dispid 5;
-    function SetTextArr(const val: IDispatch): WordBool; dispid 9;
-    function SetBitFlagValue(val: Integer; state: WordBool): WordBool; dispid 7;
-    function GetBitFlagValue(bitFlag: Integer): WordBool; dispid 6;
-    property bitFlag: Integer dispid 4;
-    property stringFlag: WordBool dispid 3;
-    property sign: Integer dispid 2;
     property style: Integer dispid 1;
+    property sign: Integer dispid 2;
+    property stringFlag: WordBool dispid 3;
+    property bitFlag: Integer dispid 4;
+    function Init(stringFlag: WordBool): WordBool; dispid 5;
+    function GetBitFlagValue(bitFlag: Integer): WordBool; dispid 6;
+    function SetBitFlagValue(val: Integer; state: WordBool): WordBool; dispid 7;
+    function GetTextArr: IDispatch; dispid 8;
+    function SetTextArr(const val: IDispatch): WordBool; dispid 9;
   end;
 
 // *********************************************************************//
@@ -3189,15 +3244,15 @@ type
 // *********************************************************************//
   ksLDimSourceParam = dispinterface
     ['{7F7D6FCF-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 9;
     property x1: Double dispid 1;
     property y1: Double dispid 2;
     property x2: Double dispid 3;
     property y2: Double dispid 4;
-    property ps: Smallint dispid 7;
-    property dy: Double dispid 6;
     property dx: Double dispid 5;
+    property dy: Double dispid 6;
+    property ps: Smallint dispid 7;
     property basePoint: Smallint dispid 8;
+    function Init: WordBool; dispid 9;
   end;
 
 // *********************************************************************//
@@ -3207,16 +3262,16 @@ type
 // *********************************************************************//
   ksDimDrawingParam = dispinterface
     ['{7F7D6FD2-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 10;
-    property pt1: Smallint dispid 3;
     property pl1: WordBool dispid 1;
+    property pl2: WordBool dispid 2;
+    property pt1: Smallint dispid 3;
     property pt2: Smallint dispid 4;
     property textPos: Integer dispid 5;
-    property pl2: WordBool dispid 2;
     property textBase: Smallint dispid 6;
     property shelfDir: Integer dispid 7;
     property ang: Double dispid 8;
     property lenght: Integer dispid 9;
+    function Init: WordBool; dispid 10;
   end;
 
 // *********************************************************************//
@@ -3241,17 +3296,17 @@ type
 // *********************************************************************//
   ksADimSourceParam = dispinterface
     ['{7F7D6FD8-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 11;
     property xc: Double dispid 1;
     property yc: Double dispid 2;
     property x1: Double dispid 3;
     property y1: Double dispid 4;
     property x2: Double dispid 5;
+    property y2: Double dispid 6;
     property ang1: Double dispid 7;
     property ang2: Double dispid 8;
-    property rad: Double dispid 10;
-    property y2: Double dispid 6;
     property dir: Integer dispid 9;
+    property rad: Double dispid 10;
+    function Init: WordBool; dispid 11;
   end;
 
 // *********************************************************************//
@@ -3261,15 +3316,15 @@ type
 // *********************************************************************//
   ksDimensionPartsParam = dispinterface
     ['{7F7D6FDB-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 9;
     property line1: Integer dispid 1;
     property line2: Integer dispid 2;
     property dimLine: Integer dispid 3;
     property dimLine1: Integer dispid 4;
-    property gr: Integer dispid 7;
-    property shelf: Integer dispid 6;
     property leg: Integer dispid 5;
+    property shelf: Integer dispid 6;
+    property gr: Integer dispid 7;
     property curveExt: Integer dispid 8;
+    function Init: WordBool; dispid 9;
   end;
 
 // *********************************************************************//
@@ -3294,10 +3349,10 @@ type
 // *********************************************************************//
   ksRBreakDrawingParam = dispinterface
     ['{7F7D6FE1-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 4;
-    property ang: Double dispid 2;
     property pt: Smallint dispid 1;
+    property ang: Double dispid 2;
     property pb: Integer dispid 3;
+    function Init: WordBool; dispid 4;
   end;
 
 // *********************************************************************//
@@ -3322,11 +3377,11 @@ type
 // *********************************************************************//
   ksQualityItemParam = dispinterface
     ['{7F7D6FE7-97DA-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 5;
     property minLimit: Smallint dispid 1;
     property maxLimit: Smallint dispid 2;
-    property low: Double dispid 4;
     property high: Double dispid 3;
+    property low: Double dispid 4;
+    function Init: WordBool; dispid 5;
   end;
 
 // *********************************************************************//
@@ -3336,12 +3391,12 @@ type
 // *********************************************************************//
   ksQualityContensParam = dispinterface
     ['{7F7D6FEA-97DA-11D6-8732-00C0262CDD2C}']
-    function SetpQualityItems(const val: IDispatch): WordBool; dispid 6;
-    function GetpQualityItems: IDispatch; dispid 5;
-    function Init: WordBool; dispid 4;
-    property name: WideString dispid 3;
-    property kindQuality: Smallint dispid 2;
     property systemQuality: Smallint dispid 1;
+    property kindQuality: Smallint dispid 2;
+    property name: WideString dispid 3;
+    function Init: WordBool; dispid 4;
+    function GetpQualityItems: IDispatch; dispid 5;
+    function SetpQualityItems(const val: IDispatch): WordBool; dispid 6;
   end;
 
 // *********************************************************************//
@@ -3351,16 +3406,16 @@ type
 // *********************************************************************//
   ksIterator = dispinterface
     ['{D06C9101-98CA-11D6-8732-00C0262CDD2C}']
+    property reference: Integer dispid 1;
     function ksCreateIterator(tipSeartch: Integer; parent: Integer): WordBool; dispid 2;
-    function ksMoveAttrIterator(const ch: WideString; var pObj: Integer): Integer; dispid 5;
+    function ksMoveIterator(const ksMoveIterator: WideString): Integer; dispid 3;
     function ksCreateAttrIterator(obj: Integer; key1: Integer; key2: Integer; key3: Integer; 
                                   key4: Integer; numb: Double): WordBool; dispid 4;
-    function ksMoveIterator(const ksMoveIterator: WideString): Integer; dispid 3;
+    function ksMoveAttrIterator(const ch: WideString; var pObj: Integer): Integer; dispid 5;
     function ksCreateSpcIterator(const nameLib: WideString; styleNumb: Integer; spcObjType: Integer): WordBool; dispid 6;
     function ksCreateQualityIterator(system: Smallint; withLimitation: Smallint): WordBool; dispid 7;
     function ksMoveQualityIterator(const param: IDispatch; inMM: Smallint; const ch: WideString): WordBool; dispid 8;
     function ksDeleteIterator: Integer; dispid 9;
-    property reference: Integer dispid 1;
   end;
 
 // *********************************************************************//
@@ -3393,7 +3448,7 @@ type
 // *********************************************************************//
   ksFragmentLibrary = dispinterface
     ['{D06C910A-98CA-11D6-8732-00C0262CDD2C}']
-    function ksChoiceFragmentFromLib(const frwLibFile: WideString; var type_: Integer): WideString; dispid 1;
+    function ksChoiceFragmentFromLib(const frwLibFile: WideString; out type_: Integer): WideString; dispid 1;
     function ksFragmentLibraryOperation(const libName: WideString; type_: Integer): Integer; dispid 2;
     function ksAddFragmentToLibrary(const libName: WideString; const frwName: WideString): Integer; dispid 3;
     function ksCheckFragmentLibrary(const libName: WideString; possibleMessage: WordBool): Integer; dispid 4;
@@ -3407,11 +3462,11 @@ type
 // *********************************************************************//
   ksTechnicalDemandParam = dispinterface
     ['{FBCC5B81-996C-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 3;
-    function SetPGab(const val: IDispatch): WordBool; dispid 5;
-    function GetPGab: IDispatch; dispid 4;
-    property strCount: Smallint dispid 2;
     property style: Integer dispid 1;
+    property strCount: Smallint dispid 2;
+    function Init: WordBool; dispid 3;
+    function GetPGab: IDispatch; dispid 4;
+    function SetPGab(const val: IDispatch): WordBool; dispid 5;
   end;
 
 // *********************************************************************//
@@ -3462,9 +3517,9 @@ type
 // *********************************************************************//
   ksSheetSize = dispinterface
     ['{FBCC5B8D-996C-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 3;
     property width: Double dispid 1;
     property height: Double dispid 2;
+    function Init: WordBool; dispid 3;
   end;
 
 // *********************************************************************//
@@ -3474,10 +3529,10 @@ type
 // *********************************************************************//
   ksStandartSheet = dispinterface
     ['{FBCC5B90-996C-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 4;
-    property multiply: Smallint dispid 2;
     property format: Smallint dispid 1;
+    property multiply: Smallint dispid 2;
     property direct: WordBool dispid 3;
+    function Init: WordBool; dispid 4;
   end;
 
 // *********************************************************************//
@@ -3487,10 +3542,10 @@ type
 // *********************************************************************//
   ksSheetPar = dispinterface
     ['{FBCC5B93-996C-11D6-8732-00C0262CDD2C}']
-    function GetSheetParam: IDispatch; dispid 4;
-    function Init: WordBool; dispid 3;
-    property shtType: Smallint dispid 2;
     property layoutName: WideString dispid 1;
+    property shtType: Smallint dispid 2;
+    function Init: WordBool; dispid 3;
+    function GetSheetParam: IDispatch; dispid 4;
   end;
 
 // *********************************************************************//
@@ -3500,13 +3555,13 @@ type
 // *********************************************************************//
   ksDocumentParam = dispinterface
     ['{FBCC5B96-996C-11D6-8732-00C0262CDD2C}']
-    function GetLayoutParam: IDispatch; dispid 7;
-    function Init: WordBool; dispid 6;
+    property fileName: WideString dispid 1;
     property comment: WideString dispid 2;
     property author: WideString dispid 3;
-    property fileName: WideString dispid 1;
-    property regime: Smallint dispid 5;
     property type_: Smallint dispid 4;
+    property regime: Smallint dispid 5;
+    function Init: WordBool; dispid 6;
+    function GetLayoutParam: IDispatch; dispid 7;
   end;
 
 // *********************************************************************//
@@ -3516,16 +3571,16 @@ type
 // *********************************************************************//
   ksDimensionsOptions = dispinterface
     ['{FBCC5B99-996C-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 10;
-    property textDistanceFromProLine: Double dispid 3;
     property proLineExtension: Double dispid 1;
+    property textDistanceFromDimLine: Double dispid 2;
+    property textDistanceFromProLine: Double dispid 3;
     property dimLineExtension: Double dispid 4;
     property arrowLength: Double dispid 5;
-    property textDistanceFromDimLine: Double dispid 2;
     property style: Integer dispid 6;
     property decimalsCount: Smallint dispid 7;
     property anglePrecisionLevel: Integer dispid 8;
     property hiddenToleranceNumber: Integer dispid 9;
+    function Init: WordBool; dispid 10;
   end;
 
 // *********************************************************************//
@@ -3535,21 +3590,21 @@ type
 // *********************************************************************//
   ksSnapOptions = dispinterface
     ['{FBCC5B9C-996C-11D6-8732-00C0262CDD2C}']
-    function SetCommonOptValue(val: Integer; state: WordBool): WordBool; dispid 15;
-    function GetCommonOptValue(val: Integer): WordBool; dispid 14;
-    function Init: WordBool; dispid 13;
-    property tangentToCurve: WordBool dispid 4;
     property nearestPoint: WordBool dispid 1;
     property nearestMiddle: WordBool dispid 2;
+    property intersect: WordBool dispid 3;
+    property tangentToCurve: WordBool dispid 4;
     property normalToCurve: WordBool dispid 5;
     property grid: WordBool dispid 6;
     property xyAlign: WordBool dispid 7;
-    property localSnap: Smallint dispid 12;
+    property angSnap: WordBool dispid 8;
     property pointOnCurve: WordBool dispid 9;
     property commonOpt: Integer dispid 10;
-    property intersect: WordBool dispid 3;
-    property angSnap: WordBool dispid 8;
     property angleStep: Double dispid 11;
+    property localSnap: Smallint dispid 12;
+    function Init: WordBool; dispid 13;
+    function GetCommonOptValue(val: Integer): WordBool; dispid 14;
+    function SetCommonOptValue(val: Integer; state: WordBool): WordBool; dispid 15;
   end;
 
 // *********************************************************************//
@@ -3559,9 +3614,9 @@ type
 // *********************************************************************//
   ksLibraryStyleParam = dispinterface
     ['{FBCC5B9F-996C-11D6-8732-00C0262CDD2C}']
-    function Init: WordBool; dispid 3;
     property styleName: WideString dispid 1;
     property styleId: Integer dispid 2;
+    function Init: WordBool; dispid 3;
   end;
 
 // *********************************************************************//
@@ -3585,16 +3640,16 @@ type
 // *********************************************************************//
   ksStamp = dispinterface
     ['{FBCC5BA5-996C-11D6-8732-00C0262CDD2C}']
+    property reference: Integer dispid 1;
     function ksOpenStamp: Integer; dispid 2;
     function ksCloseStamp: Integer; dispid 3;
     function ksClearStamp(numb: Integer): Integer; dispid 4;
     function ksGetStampColumnText(var numb: Integer): IDispatch; dispid 5;
-    function ksSetTextLineAlign(align: Smallint): Integer; dispid 9;
     function ksSetStampColumnText(numb: Integer; const textArr: IDispatch): Integer; dispid 6;
     function ksColumnNumber(numb: Integer): Integer; dispid 7;
-    property SheetNumb: Integer readonly dispid 10;
     function ksTextLine(const textItem: IDispatch): Integer; dispid 8;
-    property reference: Integer dispid 1;
+    function ksSetTextLineAlign(align: Smallint): Integer; dispid 9;
+    property SheetNumb: Integer readonly dispid 10;
   end;
 
 // *********************************************************************//
@@ -3604,11 +3659,11 @@ type
 // *********************************************************************//
   ksSheetOptions = dispinterface
     ['{FBCC5BA8-996C-11D6-8732-00C0262CDD2C}']
-    function GetSheetParam(type_: WordBool): IDispatch; dispid 4;
-    function Init: WordBool; dispid 3;
-    property layoutName: WideString dispid 2;
     property shtType: Smallint dispid 1;
+    property layoutName: WideString dispid 2;
     property sheetType: WordBool dispid 5;
+    function Init: WordBool; dispid 3;
+    function GetSheetParam(type_: WordBool): IDispatch; dispid 4;
   end;
 
 // *********************************************************************//
@@ -3618,15 +3673,15 @@ type
 // *********************************************************************//
   ksCurvePatternEx = dispinterface
     ['{910EC549-958D-11D6-95CE-00C0262D30E3}']
-    function SetCurvePicture(const picture: IDispatch): WordBool; dispid 9;
-    function GetCurvePicture: IDispatch; dispid 8;
-    function Init: WordBool; dispid 7;
     property visibleSeg: Double dispid 1;
-    property dy: Double dispid 4;
-    property dx: Double dispid 3;
-    property frwName: WideString dispid 6;
-    property pictureType: Smallint dispid 5;
     property invisibleSeg: Double dispid 2;
+    property dx: Double dispid 3;
+    property dy: Double dispid 4;
+    property pictureType: Smallint dispid 5;
+    property frwName: WideString dispid 6;
+    function Init: WordBool; dispid 7;
+    function GetCurvePicture: IDispatch; dispid 8;
+    function SetCurvePicture(const picture: IDispatch): WordBool; dispid 9;
   end;
 
 // *********************************************************************//
@@ -3636,18 +3691,18 @@ type
 // *********************************************************************//
   ksCurveStyleParam = dispinterface
     ['{910EC54C-958D-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 11;
-    function GetPropertyCurve(val: Integer): WordBool; dispid 10;
-    function SetPropertyCurve(val: Integer; state: WordBool): WordBool; dispid 9;
-    function SetPPattern(const pattern: IDispatch): WordBool; dispid 8;
-    function GetPPattern(type_: Integer): IDispatch; dispid 7;
-    property even: Smallint dispid 6;
-    property curveType: Smallint dispid 5;
-    property screenWidth: Smallint dispid 4;
     property name: WideString dispid 1;
-    property widthPen: Smallint dispid 12;
-    property paperWidth: Double dispid 3;
     property color: Integer dispid 2;
+    property paperWidth: Double dispid 3;
+    property screenWidth: Smallint dispid 4;
+    property curveType: Smallint dispid 5;
+    property even: Smallint dispid 6;
+    property widthPen: Smallint dispid 12;
+    function GetPPattern(type_: Integer): IDispatch; dispid 7;
+    function SetPPattern(const pattern: IDispatch): WordBool; dispid 8;
+    function SetPropertyCurve(val: Integer; state: WordBool): WordBool; dispid 9;
+    function GetPropertyCurve(val: Integer): WordBool; dispid 10;
+    function Init: WordBool; dispid 11;
   end;
 
 // *********************************************************************//
@@ -3657,15 +3712,14 @@ type
 // *********************************************************************//
   ksTextStyleParam = dispinterface
     ['{3F715E24-97D9-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 16;
-    property height: Double dispid 2;
     property name: WideString dispid 1;
-    property step: Double dispid 4;
-    property align: Smallint dispid 7;
-    property color: Integer dispid 6;
-    property fontName: WideString dispid 5;
-    property bold: Smallint dispid 8;
+    property height: Double dispid 2;
     property ksu: Double dispid 3;
+    property step: Double dispid 4;
+    property fontName: WideString dispid 5;
+    property color: Integer dispid 6;
+    property align: Smallint dispid 7;
+    property bold: Smallint dispid 8;
     property italic: Smallint dispid 9;
     property underline: Smallint dispid 10;
     property posKS: Double dispid 11;
@@ -3673,6 +3727,7 @@ type
     property stepParPst: Double dispid 13;
     property leftEdge: Double dispid 14;
     property rightEdge: Double dispid 15;
+    function Init: WordBool; dispid 16;
   end;
 
 // *********************************************************************//
@@ -3682,16 +3737,16 @@ type
 // *********************************************************************//
   ksHatchLineParam = dispinterface
     ['{3F715E27-97D9-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 10;
-    function SetCurPar(const curPar: IDispatch): WordBool; dispid 9;
-    function GetCurPar: IDispatch; dispid 8;
-    property dx: Double dispid 3;
-    property ang: Double dispid 5;
-    property dy: Double dispid 4;
     property x: Double dispid 1;
+    property y: Double dispid 2;
+    property dx: Double dispid 3;
+    property dy: Double dispid 4;
+    property ang: Double dispid 5;
     property typeCurvStyle: Smallint dispid 6;
     property style: Smallint dispid 7;
-    property y: Double dispid 2;
+    function GetCurPar: IDispatch; dispid 8;
+    function SetCurPar(const curPar: IDispatch): WordBool; dispid 9;
+    function Init: WordBool; dispid 10;
   end;
 
 // *********************************************************************//
@@ -3701,20 +3756,20 @@ type
 // *********************************************************************//
   ksHatchStyleParam = dispinterface
     ['{3F715E2A-97D9-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 14;
-    function SetArrLineParam(const arrLineParam: IDispatch): WordBool; dispid 13;
-    function GetArrLineParam: IDispatch; dispid 12;
-    function SetRefPoint(const refPoint: IDispatch): WordBool; dispid 5;
-    function GetRefPoint: IDispatch; dispid 4;
-    property mayChangeWidth: Smallint dispid 9;
+    property name: WideString dispid 1;
+    property step: Double dispid 2;
+    property ang: Double dispid 3;
     property width: Double dispid 6;
     property color: Integer dispid 7;
     property mayChangeAngle: Smallint dispid 8;
-    property name: WideString dispid 1;
-    property isScalable: Smallint dispid 11;
+    property mayChangeWidth: Smallint dispid 9;
     property mayChangeSpace: Smallint dispid 10;
-    property step: Double dispid 2;
-    property ang: Double dispid 3;
+    property isScalable: Smallint dispid 11;
+    function GetRefPoint: IDispatch; dispid 4;
+    function SetRefPoint(const refPoint: IDispatch): WordBool; dispid 5;
+    function GetArrLineParam: IDispatch; dispid 12;
+    function SetArrLineParam(const arrLineParam: IDispatch): WordBool; dispid 13;
+    function Init: WordBool; dispid 14;
   end;
 
 // *********************************************************************//
@@ -3737,10 +3792,10 @@ type
 // *********************************************************************//
   ksShelfPar = dispinterface
     ['{3F715E30-97D9-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 4;
-    property ang: Double dispid 2;
     property psh: Integer dispid 1;
+    property ang: Double dispid 2;
     property length: Integer dispid 3;
+    function Init: WordBool; dispid 4;
   end;
 
 // *********************************************************************//
@@ -3750,20 +3805,20 @@ type
 // *********************************************************************//
   ksRoughPar = dispinterface
     ['{3F715E33-97D9-11D6-95CE-00C0262D30E3}']
-    function InitEx(style: Integer): WordBool; dispid 14;
-    function Init: WordBool; dispid 13;
-    function SetpText(const pText: IDispatch): WordBool; dispid 12;
-    function GetpText: IDispatch; dispid 11;
-    property x: Double dispid 4;
     property style: Integer dispid 1;
-    property cText0: Smallint dispid 7;
-    property y: Double dispid 5;
-    property ang: Double dispid 6;
-    property cText2: Smallint dispid 9;
-    property cText1: Smallint dispid 8;
-    property cText3: Smallint dispid 10;
     property type_: Smallint dispid 2;
     property around: Smallint dispid 3;
+    property x: Double dispid 4;
+    property y: Double dispid 5;
+    property ang: Double dispid 6;
+    property cText0: Smallint dispid 7;
+    property cText1: Smallint dispid 8;
+    property cText2: Smallint dispid 9;
+    property cText3: Smallint dispid 10;
+    function GetpText: IDispatch; dispid 11;
+    function SetpText(const pText: IDispatch): WordBool; dispid 12;
+    function Init: WordBool; dispid 13;
+    function InitEx(style: Integer): WordBool; dispid 14;
   end;
 
 // *********************************************************************//
@@ -3786,8 +3841,8 @@ type
 // *********************************************************************//
   ksChar255 = dispinterface
     ['{3F715E39-97D9-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 2;
     property str: WideString dispid 1;
+    function Init: WordBool; dispid 2;
   end;
 
 // *********************************************************************//
@@ -3797,21 +3852,21 @@ type
 // *********************************************************************//
   ksLeaderParam = dispinterface
     ['{3F715E40-97D9-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 15;
-    function SetpPolyline(const pPolyline: IDispatch): WordBool; dispid 14;
-    function GetpPolyline: IDispatch; dispid 13;
-    function SetpTextline(const pTextLine: IDispatch): WordBool; dispid 12;
-    function GetpTextline: IDispatch; dispid 11;
-    property dirX: Integer dispid 4;
     property x: Double dispid 1;
-    property cText0: Smallint dispid 7;
-    property signType: Smallint dispid 5;
-    property around: Smallint dispid 6;
-    property cText3: Smallint dispid 10;
-    property cText2: Smallint dispid 9;
-    property cText1: Smallint dispid 8;
     property y: Double dispid 2;
     property arrowType: Smallint dispid 3;
+    property dirX: Integer dispid 4;
+    property signType: Smallint dispid 5;
+    property around: Smallint dispid 6;
+    property cText0: Smallint dispid 7;
+    property cText1: Smallint dispid 8;
+    property cText2: Smallint dispid 9;
+    property cText3: Smallint dispid 10;
+    function GetpTextline: IDispatch; dispid 11;
+    function SetpTextline(const pTextLine: IDispatch): WordBool; dispid 12;
+    function GetpPolyline: IDispatch; dispid 13;
+    function SetpPolyline(const pPolyline: IDispatch): WordBool; dispid 14;
+    function Init: WordBool; dispid 15;
   end;
 
 // *********************************************************************//
@@ -3821,17 +3876,17 @@ type
 // *********************************************************************//
   ksPosLeaderParam = dispinterface
     ['{3F715E43-97D9-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 11;
-    function SetpPolyline(const polyline: IDispatch): WordBool; dispid 10;
-    function GetpPolyline: IDispatch; dispid 9;
-    function SetpTextline(const textline: IDispatch): WordBool; dispid 8;
-    function GetpTextline: IDispatch; dispid 7;
-    property y: Double dispid 3;
-    property dirX: Integer dispid 5;
-    property arrowType: Smallint dispid 4;
-    property dirY: Integer dispid 6;
-    property x: Double dispid 2;
     property style: Integer dispid 1;
+    property x: Double dispid 2;
+    property y: Double dispid 3;
+    property arrowType: Smallint dispid 4;
+    property dirX: Integer dispid 5;
+    property dirY: Integer dispid 6;
+    function GetpTextline: IDispatch; dispid 7;
+    function SetpTextline(const textline: IDispatch): WordBool; dispid 8;
+    function GetpPolyline: IDispatch; dispid 9;
+    function SetpPolyline(const polyline: IDispatch): WordBool; dispid 10;
+    function Init: WordBool; dispid 11;
   end;
 
 // *********************************************************************//
@@ -3841,20 +3896,20 @@ type
 // *********************************************************************//
   ksBrandLeaderParam = dispinterface
     ['{3F715E46-97D9-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 14;
-    function SetpPolyline(const pPolyline: IDispatch): WordBool; dispid 13;
-    function GetpPolyline: IDispatch; dispid 12;
-    function SetpTextline(const pTextLine: IDispatch): WordBool; dispid 11;
-    function GetpTextline: IDispatch; dispid 10;
-    property cText0: Smallint dispid 7;
+    property dirX: Integer dispid 1;
+    property x: Double dispid 2;
+    property y: Double dispid 3;
     property arrowType: Smallint dispid 4;
     property style1: Integer dispid 5;
     property style2: Integer dispid 6;
-    property dirX: Integer dispid 1;
-    property cText2: Integer dispid 9;
+    property cText0: Smallint dispid 7;
     property cText1: Smallint dispid 8;
-    property x: Double dispid 2;
-    property y: Double dispid 3;
+    property cText2: Integer dispid 9;
+    function GetpTextline: IDispatch; dispid 10;
+    function SetpTextline(const pTextLine: IDispatch): WordBool; dispid 11;
+    function GetpPolyline: IDispatch; dispid 12;
+    function SetpPolyline(const pPolyline: IDispatch): WordBool; dispid 13;
+    function Init: WordBool; dispid 14;
   end;
 
 // *********************************************************************//
@@ -3864,19 +3919,19 @@ type
 // *********************************************************************//
   ksMarkerLeaderParam = dispinterface
     ['{9AF8E341-98A0-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 13;
-    function SetpPolyline(const pPolyline: IDispatch): WordBool; dispid 12;
-    function GetpPolyline: IDispatch; dispid 11;
-    function SetpTextline(const pTextLine: IDispatch): WordBool; dispid 10;
-    function GetpTextline: IDispatch; dispid 9;
-    property cText0: Smallint dispid 6;
     property x: Double dispid 1;
-    property style1: Integer dispid 4;
-    property style2: Integer dispid 5;
-    property cText1: Smallint dispid 7;
-    property cText2: Smallint dispid 8;
     property y: Double dispid 2;
     property arrowType: Smallint dispid 3;
+    property style1: Integer dispid 4;
+    property style2: Integer dispid 5;
+    property cText0: Smallint dispid 6;
+    property cText1: Smallint dispid 7;
+    property cText2: Smallint dispid 8;
+    function GetpTextline: IDispatch; dispid 9;
+    function SetpTextline(const pTextLine: IDispatch): WordBool; dispid 10;
+    function GetpPolyline: IDispatch; dispid 11;
+    function SetpPolyline(const pPolyline: IDispatch): WordBool; dispid 12;
+    function Init: WordBool; dispid 13;
   end;
 
 // *********************************************************************//
@@ -3886,12 +3941,12 @@ type
 // *********************************************************************//
   ksType1 = dispinterface
     ['{9AF8E344-98A0-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 6;
+    property xBase: Double dispid 1;
     property yBase: Double dispid 2;
     property scale_: Double dispid 3;
-    property xBase: Double dispid 1;
     property angle: Double dispid 4;
     property gr: Integer dispid 5;
+    function Init: WordBool; dispid 6;
   end;
 
 // *********************************************************************//
@@ -3901,9 +3956,9 @@ type
 // *********************************************************************//
   ksType2 = dispinterface
     ['{9AF8E347-98A0-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 3;
     property xBase: Double dispid 1;
     property yBase: Double dispid 2;
+    function Init: WordBool; dispid 3;
   end;
 
 // *********************************************************************//
@@ -3913,10 +3968,10 @@ type
 // *********************************************************************//
   ksType3 = dispinterface
     ['{9AF8E34A-98A0-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 4;
-    property yBase: Double dispid 2;
     property xBase: Double dispid 1;
+    property yBase: Double dispid 2;
     property angle: Double dispid 3;
+    function Init: WordBool; dispid 4;
   end;
 
 // *********************************************************************//
@@ -3926,11 +3981,11 @@ type
 // *********************************************************************//
   ksType5 = dispinterface
     ['{9AF8E34D-98A0-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 5;
     property xBase: Double dispid 1;
     property yBase: Double dispid 2;
-    property horizon: WordBool dispid 4;
     property angle: Double dispid 3;
+    property horizon: WordBool dispid 4;
+    function Init: WordBool; dispid 5;
   end;
 
 // *********************************************************************//
@@ -3940,8 +3995,8 @@ type
 // *********************************************************************//
   ksType6 = dispinterface
     ['{9AF8E350-98A0-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 2;
     property gr: Integer dispid 1;
+    function Init: WordBool; dispid 2;
   end;
 
 // *********************************************************************//
@@ -3951,9 +4006,9 @@ type
 // *********************************************************************//
   ksPhantom = dispinterface
     ['{9AF8E353-98A0-11D6-95CE-00C0262D30E3}']
+    property phantom: Smallint dispid 1;
     function GetPhantomParam: IDispatch; dispid 2;
     function Init: WordBool; dispid 3;
-    property phantom: Smallint dispid 1;
   end;
 
 // *********************************************************************//
@@ -3963,25 +4018,32 @@ type
 // *********************************************************************//
   ksRequestInfo = dispinterface
     ['{9AF8E356-98A0-11D6-95CE-00C0262D30E3}']
-    function SetCursorText(const text: WideString): WordBool; dispid 18;
-    function Init: WordBool; dispid 17;
+    property prompt: WideString dispid 1;
+    property title: WideString dispid 2;
+    property commandsString: WideString dispid 3;
+    property cursor: WideString dispid 4;
+    property dynamic: Integer dispid 5;
+    property commInstance: Integer dispid 6;
+    property menuId: Integer dispid 7;
+    property titleId: Integer dispid 8;
+    property promptId: Integer dispid 9;
+    property cursorId: Integer dispid 10;
+    property commInstanceEx: OleVariant dispid 19;
+    function GetCallBackC: WideString; dispid 11;
+    function SetCallBackC(const methodName: WideString; hInst: Integer; const dispatchOCX: IDispatch): WordBool; dispid 12;
+    function GetCallBackP: WideString; dispid 13;
+    function SetCallBackP(const methodName: WideString; hInst: Integer; const dispatchOCX: IDispatch): WordBool; dispid 14;
+    function GetCallBackCm: WideString; dispid 15;
     function SetCallBackCm(const methodName: WideString; hInst: Integer; 
                            const dispatchOCX: IDispatch): WordBool; dispid 16;
-    function GetCallBackCm: WideString; dispid 15;
-    function SetCallBackP(const methodName: WideString; hInst: Integer; const dispatchOCX: IDispatch): WordBool; dispid 14;
-    function GetCallBackP: WideString; dispid 13;
-    function SetCallBackC(const methodName: WideString; hInst: Integer; const dispatchOCX: IDispatch): WordBool; dispid 12;
-    function GetCallBackC: WideString; dispid 11;
-    property titleId: Integer dispid 8;
-    property dynamic: Integer dispid 5;
-    property promptId: Integer dispid 9;
-    property menuId: Integer dispid 7;
-    property commInstance: Integer dispid 6;
-    property commandsString: WideString dispid 3;
-    property cursorId: Integer dispid 10;
-    property cursor: WideString dispid 4;
-    property title: WideString dispid 2;
-    property prompt: WideString dispid 1;
+    function Init: WordBool; dispid 17;
+    function SetCursorText(const text: WideString): WordBool; dispid 18;
+    function SetCallBackCEx(const methodName: WideString; hInst: OleVariant; 
+                            const dispatchOCX: IDispatch): WordBool; dispid 20;
+    function SetCallBackPEx(const methodName: WideString; hInst: OleVariant; 
+                            const dispatchOCX: IDispatch): WordBool; dispid 21;
+    function SetCallBackCmEx(const methodName: WideString; hInst: OleVariant; 
+                             const dispatchOCX: IDispatch): WordBool; dispid 22;
   end;
 
 // *********************************************************************//
@@ -3991,18 +4053,18 @@ type
 // *********************************************************************//
   ksViewPointerParam = dispinterface
     ['{CD1C0144-98DC-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 12;
-    function SetpTextline(const pTextLine: IDispatch): WordBool; dispid 11;
-    function GetpTextline: IDispatch; dispid 10;
-    property xt: Double dispid 6;
     property style: Integer dispid 1;
+    property x1: Double dispid 2;
+    property y1: Double dispid 3;
     property x2: Double dispid 4;
     property y2: Double dispid 5;
-    property x1: Double dispid 2;
-    property type_: Smallint dispid 8;
+    property xt: Double dispid 6;
     property yt: Double dispid 7;
-    property y1: Double dispid 3;
+    property type_: Smallint dispid 8;
     property str: WideString dispid 9;
+    function GetpTextline: IDispatch; dispid 10;
+    function SetpTextline(const pTextLine: IDispatch): WordBool; dispid 11;
+    function Init: WordBool; dispid 12;
   end;
 
 // *********************************************************************//
@@ -4012,19 +4074,19 @@ type
 // *********************************************************************//
   ksCutLineParam = dispinterface
     ['{4FD7CE81-9968-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 13;
-    function SetpMathPoint(const pMathPoint: IDispatch): WordBool; dispid 12;
-    function GetpMathPoint: IDispatch; dispid 11;
-    function SetpTextline(const pTextLine: IDispatch): WordBool; dispid 10;
-    function GetpTextline: IDispatch; dispid 9;
-    property y2: Double dispid 6;
     property style: Integer dispid 1;
-    property y1: Double dispid 4;
-    property x2: Double dispid 5;
-    property type_: Smallint dispid 7;
-    property str: WideString dispid 8;
     property right: Smallint dispid 2;
     property x1: Double dispid 3;
+    property y1: Double dispid 4;
+    property x2: Double dispid 5;
+    property y2: Double dispid 6;
+    property type_: Smallint dispid 7;
+    property str: WideString dispid 8;
+    function GetpTextline: IDispatch; dispid 9;
+    function SetpTextline(const pTextLine: IDispatch): WordBool; dispid 10;
+    function GetpMathPoint: IDispatch; dispid 11;
+    function SetpMathPoint(const pMathPoint: IDispatch): WordBool; dispid 12;
+    function Init: WordBool; dispid 13;
   end;
 
 // *********************************************************************//
@@ -4034,11 +4096,11 @@ type
 // *********************************************************************//
   ksToleranceBranch = dispinterface
     ['{4FD7CE84-9968-11D6-95CE-00C0262D30E3}']
-    function GetpMathPoint: IDispatch; dispid 3;
-    function Init: WordBool; dispid 5;
-    function SetpMathPoint(const pMathPoint: IDispatch): WordBool; dispid 4;
-    property tCorner: Smallint dispid 2;
     property arrowType: Smallint dispid 1;
+    property tCorner: Smallint dispid 2;
+    function GetpMathPoint: IDispatch; dispid 3;
+    function SetpMathPoint(const pMathPoint: IDispatch): WordBool; dispid 4;
+    function Init: WordBool; dispid 5;
   end;
 
 // *********************************************************************//
@@ -4048,14 +4110,14 @@ type
 // *********************************************************************//
   ksToleranceParam = dispinterface
     ['{4FD7CE87-9968-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 8;
-    function SetBranchArr(const branchArr: IDispatch): WordBool; dispid 7;
-    function GetBranchArr: IDispatch; dispid 6;
-    property y: Double dispid 4;
-    property x: Double dispid 3;
     property tBase: Smallint dispid 1;
-    property type_: Smallint dispid 5;
     property style: Integer dispid 2;
+    property x: Double dispid 3;
+    property y: Double dispid 4;
+    property type_: Smallint dispid 5;
+    function GetBranchArr: IDispatch; dispid 6;
+    function SetBranchArr(const branchArr: IDispatch): WordBool; dispid 7;
+    function Init: WordBool; dispid 8;
   end;
 
 // *********************************************************************//
@@ -4065,12 +4127,12 @@ type
 // *********************************************************************//
   ksSpcColumnParam = dispinterface
     ['{4FD7CE8A-9968-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 6;
+    property columnType: Integer dispid 1;
     property ispoln: Integer dispid 2;
     property block: Integer dispid 3;
-    property columnType: Integer dispid 1;
     property typeVal: Integer dispid 4;
     property name: WideString dispid 5;
+    function Init: WordBool; dispid 6;
   end;
 
 // *********************************************************************//
@@ -4176,36 +4238,36 @@ type
 // *********************************************************************//
   ksSpcTuningStyleParam = dispinterface
     ['{4FD7CE9F-9968-11D6-95CE-00C0262D30E3}']
-    function SetArrSection(const arr: IDispatch): WordBool; dispid 28;
-    function SetObjectTextStyle(const style: IDispatch): WordBool; dispid 27;
-    function SetSectionTextStyleNext(const style: IDispatch): WordBool; dispid 26;
-    function SetSectionTextStyleFirst(const style: IDispatch): WordBool; dispid 25;
-    function Init: WordBool; dispid 24;
-    function GetArrSection: IDispatch; dispid 23;
-    function GetObjectTextStyle: IDispatch; dispid 22;
-    function GetSectionTextStyleNext: IDispatch; dispid 21;
-    function GetSectionTextStyleFirst: IDispatch; dispid 20;
-    property ispolnOn: Smallint dispid 13;
-    property ispolnMarkFull: Smallint dispid 14;
-    property disableEmptyStr: Smallint dispid 8;
+    property grToSP: Smallint dispid 1;
     property zoneCalc: Smallint dispid 2;
     property showSectionName: Smallint dispid 3;
+    property positionCalc: Smallint dispid 4;
+    property geometryDel: Smallint dispid 5;
+    property positionDel: Smallint dispid 6;
+    property massCalc: Smallint dispid 7;
+    property disableEmptyStr: Smallint dispid 8;
+    property insertNull: Smallint dispid 9;
     property insertDash: Smallint dispid 10;
     property disableEmptyBlockStr: Smallint dispid 11;
-    property insertNull: Smallint dispid 9;
-    property blocOnNewPage: Smallint dispid 15;
     property showInfoByDetBlock: Smallint dispid 12;
-    property grToSP: Smallint dispid 1;
-    property copySpcObjOnCopyGeometry: Smallint dispid 30;
-    property delSpcObjOnDelGeometry: Smallint dispid 29;
+    property ispolnOn: Smallint dispid 13;
+    property ispolnMarkFull: Smallint dispid 14;
+    property blocOnNewPage: Smallint dispid 15;
     property userTextStyle: Smallint dispid 16;
-    property countBlock: Smallint dispid 18;
     property countIspoln: Smallint dispid 17;
-    property massCalc: Smallint dispid 7;
-    property positionCalc: Smallint dispid 4;
-    property positionDel: Smallint dispid 6;
+    property countBlock: Smallint dispid 18;
     property predefinedTextFileName: WideString dispid 19;
-    property geometryDel: Smallint dispid 5;
+    property delSpcObjOnDelGeometry: Smallint dispid 29;
+    property copySpcObjOnCopyGeometry: Smallint dispid 30;
+    function GetSectionTextStyleFirst: IDispatch; dispid 20;
+    function GetSectionTextStyleNext: IDispatch; dispid 21;
+    function GetObjectTextStyle: IDispatch; dispid 22;
+    function GetArrSection: IDispatch; dispid 23;
+    function Init: WordBool; dispid 24;
+    function SetSectionTextStyleFirst(const style: IDispatch): WordBool; dispid 25;
+    function SetSectionTextStyleNext(const style: IDispatch): WordBool; dispid 26;
+    function SetObjectTextStyle(const style: IDispatch): WordBool; dispid 27;
+    function SetArrSection(const arr: IDispatch): WordBool; dispid 28;
   end;
 
 // *********************************************************************//
@@ -4237,10 +4299,10 @@ type
 // *********************************************************************//
   ksSpcDescrParam = dispinterface
     ['{4FD7CEA5-9968-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 4;
-    property styleId: Integer dispid 2;
     property layoutName: WideString dispid 1;
+    property styleId: Integer dispid 2;
     property spcName: WideString dispid 3;
+    function Init: WordBool; dispid 4;
   end;
 
 // *********************************************************************//
@@ -4250,10 +4312,10 @@ type
 // *********************************************************************//
   ksDocAttachedSpcParam = dispinterface
     ['{4FD7CEA8-9968-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 4;
-    property comment: WideString dispid 2;
     property fileName: WideString dispid 1;
+    property comment: WideString dispid 2;
     property transmit: Smallint dispid 3;
+    function Init: WordBool; dispid 4;
   end;
 
 // *********************************************************************//
@@ -4263,21 +4325,21 @@ type
 // *********************************************************************//
   ksSpcObjParam = dispinterface
     ['{4FD7CEAB-9968-11D6-95CE-00C0262D30E3}']
-    property First: Smallint readonly dispid 11;
-    function Init: WordBool; dispid 15;
+    property blockNumber: Integer dispid 5;
+    property numbSubSection: Integer dispid 6;
+    property firstOnSheet: Smallint dispid 8;
+    property posInc: Smallint dispid 10;
+    property draw: Smallint dispid 12;
+    property posNotDraw: Smallint dispid 13;
+    property ispoln: Smallint dispid 14;
     function GetDocArr: IDispatch; dispid 1;
-    property insFrgType: Smallint readonly dispid 9;
+    function SetDocArr(const docArr: IDispatch): WordBool; dispid 2;
     property typeObj: Integer readonly dispid 3;
     property numbSection: Integer readonly dispid 4;
     property subSectionName: WideString readonly dispid 7;
-    function SetDocArr(const docArr: IDispatch): WordBool; dispid 2;
-    property ispoln: Smallint dispid 14;
-    property posNotDraw: Smallint dispid 13;
-    property draw: Smallint dispid 12;
-    property posInc: Smallint dispid 10;
-    property firstOnSheet: Smallint dispid 8;
-    property numbSubSection: Integer dispid 6;
-    property blockNumber: Integer dispid 5;
+    property insFrgType: Smallint readonly dispid 9;
+    property First: Smallint readonly dispid 11;
+    function Init: WordBool; dispid 15;
   end;
 
 // *********************************************************************//
@@ -4287,10 +4349,10 @@ type
 // *********************************************************************//
   ksLibStyle = dispinterface
     ['{4FD7CEAE-9968-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 4;
-    property styleNumber: Integer dispid 2;
     property fileName: WideString dispid 1;
+    property styleNumber: Integer dispid 2;
     property typeAllocation: Smallint dispid 3;
+    function Init: WordBool; dispid 4;
   end;
 
 // *********************************************************************//
@@ -4317,9 +4379,9 @@ type
     function ksRChar(const name: WideString; size: Integer; type_: Integer): Integer; dispid 15;
     function ksOpenTextFile(const fileName: WideString): Integer; dispid 16;
     function ksCloseTextFile(F: Integer): WordBool; dispid 17;
-    function ksReadStrFrFile(F: Integer; var res: Integer; numb: Integer): WideString; dispid 18;
-    function ksGetTableName(db: Integer; var res: Integer; const firstOrNext: WideString): WideString; dispid 19;
-    function ksGetColumnName(db: Integer; const tableName: WideString; var res: Integer; 
+    function ksReadStrFrFile(F: Integer; out res: Integer; numb: Integer): WideString; dispid 18;
+    function ksGetTableName(db: Integer; out res: Integer; const firstOrNext: WideString): WideString; dispid 19;
+    function ksGetColumnName(db: Integer; const tableName: WideString; out res: Integer; 
                              const firstOrNext: WideString): WideString; dispid 20;
     function ksIsODBCOkey: Integer; dispid 21;
     function ksRCharW(const name: WideString; size: Integer; type_: Integer): Integer; dispid 22;
@@ -4348,16 +4410,17 @@ type
 // *********************************************************************//
   ksSpcDocument = dispinterface
     ['{51E74521-9A3A-11D6-95CE-00C0262D30E3}']
+    property reference: Integer dispid 1;
     function GetStamp: IDispatch; dispid 2;
     function GetSpecification: IDispatch; dispid 3;
-    function ksGetSpcSheetSB: IDispatch; dispid 5;
-    function ksExistObj(ref: Integer): Integer; dispid 11;
     function ksCloseDocument: WordBool; dispid 4;
+    function ksGetSpcSheetSB: IDispatch; dispid 5;
+    function ksGetSpcDocumentPagesCount: Integer; dispid 6;
     function ksSaveDocument(const fileName: WideString): WordBool; dispid 7;
     function ksCreateDocument(const par: IDispatch): WordBool; dispid 8;
-    function ksSetSpcSheetSB(const arr: IDispatch): Integer; dispid 10;
-    function ksGetSpcDocumentPagesCount: Integer; dispid 6;
     function ksDeleteObj(ref: Integer): Integer; dispid 9;
+    function ksSetSpcSheetSB(const arr: IDispatch): Integer; dispid 10;
+    function ksExistObj(ref: Integer): Integer; dispid 11;
     function ksOpenDocument(const nameDoc: WideString; regim: Smallint): WordBool; dispid 12;
     function ksGetObjParam(ref: Integer; const param: IDispatch; parType: Integer): Integer; dispid 13;
     function ksSetObjParam(ref: Integer; const param: IDispatch; parType: Integer): Integer; dispid 14;
@@ -4368,7 +4431,6 @@ type
     function ksSaveDocumentEx(const fileName: WideString; SaveMode: Integer): WordBool; dispid 19;
     function GetStampEx(SheetNumb: Integer): IDispatch; dispid 20;
     function ksSaveToDXF(const DXFFileName: WideString): WordBool; dispid 21;
-    property reference: Integer dispid 1;
   end;
 
 // *********************************************************************//
@@ -4454,7 +4516,7 @@ type
                                 block: Integer): Integer; dispid 20;
     function ksGetSpcStyleParam(const nameLib: WideString; numb: Integer; const par: IDispatch; 
                                 tPar: Integer): Integer; dispid 21;
-    function ksGetSpcDescription(index: Integer; const param: IDispatch; var state: WordBool): Integer; dispid 22;
+    function ksGetSpcDescription(index: Integer; const param: IDispatch; out state: WordBool): Integer; dispid 22;
     function ksSetSpcDescription(index: Integer; const param: IDispatch; state: Smallint): Integer; dispid 23;
     function ksAddSpcDescription(const param: IDispatch): Integer; dispid 24;
     function ksDeleteSpcDescription(index: Integer): Integer; dispid 25;
@@ -4487,6 +4549,9 @@ type
     function ksSetSpcPerformanceName(index: Integer; ispoln: Integer; block: Integer; 
                                      const name: WideString): WordBool; dispid 46;
     function ksSpcDocLinksClear(doc: Integer): WordBool; dispid 47;
+    function ksSpcDocLinksClearEx(doc: Integer; mode: Integer): WordBool; dispid 48;
+    function ksGetSpcPropertyFill(spcObj: Integer): WordBool; dispid 49;
+    function ksSetSpcPropertyFill(spcObj: Integer; val: Integer): WordBool; dispid 50;
   end;
 
 // *********************************************************************//
@@ -4496,13 +4561,14 @@ type
 // *********************************************************************//
   ksDocumentTxt = dispinterface
     ['{74D745F1-9A3A-11D6-95CE-00C0262D30E3}']
+    property reference: Integer dispid 1;
+    function GetStamp: IDispatch; dispid 2;
     function ksCloseDocument: WordBool; dispid 3;
     function ksGetTxtDocumentPagesCount: Integer; dispid 4;
-    function SaveAsToRasterFormat(const fileName: WideString; const par: IDispatch): WordBool; dispid 8;
-    function GetStamp: IDispatch; dispid 2;
     function ksSaveDocument(const fileName: WideString): WordBool; dispid 5;
     function ksCreateDocument(const par: IDispatch): WordBool; dispid 6;
     function ksOpenDocument(const nameDoc: WideString; regim: Smallint): WordBool; dispid 7;
+    function SaveAsToRasterFormat(const fileName: WideString; const par: IDispatch): WordBool; dispid 8;
     function RasterFormatParam: IDispatch; dispid 9;
     function SaveAsToUncompressedRasterFormat(const fileName: WideString; const rasterPar: IDispatch): WordBool; dispid 10;
     function ksGetObjParam(ref: Integer; const param: IDispatch; parType: Integer): Integer; dispid 11;
@@ -4510,7 +4576,6 @@ type
     function ksSaveDocumentEx(const fileName: WideString; SaveMode: Integer): WordBool; dispid 13;
     function GetStampEx(SheetNumb: Integer): IDispatch; dispid 14;
     function ksGetDocumentPagesCount: Integer; dispid 15;
-    property reference: Integer dispid 1;
   end;
 
 // *********************************************************************//
@@ -4520,17 +4585,17 @@ type
 // *********************************************************************//
   ksAttributeTypeParam = dispinterface
     ['{CC26DA61-9B22-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 11;
-    function SetColumns(const val: IDispatch): WordBool; dispid 10;
-    function GetColumns: IDispatch; dispid 9;
-    property key3: Integer dispid 3;
     property key1: Integer dispid 1;
+    property key2: Integer dispid 2;
+    property key3: Integer dispid 3;
     property key4: Integer dispid 4;
     property rowsCount: Integer dispid 5;
-    property password: WideString dispid 8;
-    property flagVisible: WordBool dispid 7;
-    property key2: Integer dispid 2;
     property header: WideString dispid 6;
+    property flagVisible: WordBool dispid 7;
+    property password: WideString dispid 8;
+    function GetColumns: IDispatch; dispid 9;
+    function SetColumns(const val: IDispatch): WordBool; dispid 10;
+    function Init: WordBool; dispid 11;
   end;
 
 // *********************************************************************//
@@ -4540,16 +4605,16 @@ type
 // *********************************************************************//
   ksColumnInfoParam = dispinterface
     ['{CE0D05E1-9B2A-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 10;
-    function SetColumns(const fieldEnum: IDispatch): WordBool; dispid 9;
-    function GetColumns: IDispatch; dispid 8;
-    function SetFieldEnum(const fieldEnum: IDispatch): WordBool; dispid 7;
-    function GetFieldEnum: IDispatch; dispid 6;
-    property flagEnum: WordBool dispid 5;
-    property def: WideString dispid 4;
-    property key: Smallint dispid 3;
-    property header: WideString dispid 2;
     property type_: Smallint dispid 1;
+    property header: WideString dispid 2;
+    property key: Smallint dispid 3;
+    property def: WideString dispid 4;
+    property flagEnum: WordBool dispid 5;
+    function GetFieldEnum: IDispatch; dispid 6;
+    function SetFieldEnum(const fieldEnum: IDispatch): WordBool; dispid 7;
+    function GetColumns: IDispatch; dispid 8;
+    function SetColumns(const fieldEnum: IDispatch): WordBool; dispid 9;
+    function Init: WordBool; dispid 10;
   end;
 
 // *********************************************************************//
@@ -4559,18 +4624,18 @@ type
 // *********************************************************************//
   ksAttributeParam = dispinterface
     ['{CE0D05E4-9B2A-11D6-95CE-00C0262D30E3}']
-    function SetColumnKeys(const columnKeys: IDispatch): WordBool; dispid 11;
-    function GetColumnKeys: IDispatch; dispid 10;
-    function GetValues: IDispatch; dispid 6;
-    function Init: WordBool; dispid 12;
-    function SetFlagVisible(const flagVisible: IDispatch): WordBool; dispid 9;
-    function GetFlagVisible: IDispatch; dispid 8;
-    function SetValues(const values: IDispatch): WordBool; dispid 7;
-    property password: WideString dispid 5;
-    property key4: Integer dispid 4;
-    property key3: Integer dispid 3;
-    property key2: Integer dispid 2;
     property key1: Integer dispid 1;
+    property key2: Integer dispid 2;
+    property key3: Integer dispid 3;
+    property key4: Integer dispid 4;
+    property password: WideString dispid 5;
+    function GetValues: IDispatch; dispid 6;
+    function SetValues(const values: IDispatch): WordBool; dispid 7;
+    function GetFlagVisible: IDispatch; dispid 8;
+    function SetFlagVisible(const flagVisible: IDispatch): WordBool; dispid 9;
+    function GetColumnKeys: IDispatch; dispid 10;
+    function SetColumnKeys(const columnKeys: IDispatch): WordBool; dispid 11;
+    function Init: WordBool; dispid 12;
   end;
 
 // *********************************************************************//
@@ -4580,18 +4645,18 @@ type
 // *********************************************************************//
   ksVariable = dispinterface
     ['{508A0CC1-9D74-11D6-95CE-00C0262D30E3}']
-    property displayName: WideString readonly dispid 11;
-    function SetLink(const doc: WideString; const name: WideString): WordBool; dispid 10;
-    property linkDocName: WideString readonly dispid 9;
-    property linkVarName: WideString readonly dispid 8;
-    property parameterNote: WideString readonly dispid 7;
-    property name: WideString readonly dispid 2;
-    property Information: WordBool dispid 12;
-    property external: WordBool dispid 6;
-    property Expression: WideString dispid 5;
-    property Pseudonym: WideString dispid 4;
-    property note: WideString dispid 3;
     property value: Double dispid 1;
+    property note: WideString dispid 3;
+    property Pseudonym: WideString dispid 4;
+    property Expression: WideString dispid 5;
+    property external: WordBool dispid 6;
+    property Information: WordBool dispid 12;
+    property name: WideString readonly dispid 2;
+    property parameterNote: WideString readonly dispid 7;
+    property linkVarName: WideString readonly dispid 8;
+    property linkDocName: WideString readonly dispid 9;
+    function SetLink(const doc: WideString; const name: WideString): WordBool; dispid 10;
+    property displayName: WideString readonly dispid 11;
   end;
 
 // *********************************************************************//
@@ -4601,9 +4666,9 @@ type
 // *********************************************************************//
   ksLibraryAttrTypeParam = dispinterface
     ['{FA93AA21-9B3D-11D6-95CE-00C0262D30E3}']
-    function Init: WordBool; dispid 3;
     property name: WideString dispid 1;
     property typeId: Double dispid 2;
+    function Init: WordBool; dispid 3;
   end;
 
 // *********************************************************************//
@@ -4636,12 +4701,12 @@ type
     function ksAddAttrRow(pAttr: Integer; rowNumb: Integer; const flagVisible: IDispatch; 
                           const value: IDispatch; const password: WideString): Integer; dispid 12;
     function ksDeleteAttrRow(pAttr: Integer; rowNumb: Integer; const password: WideString): Integer; dispid 13;
-    function ksGetSizeAttrValue(pAttr: Integer; columnNumb: Integer; var count: Integer): Integer; dispid 14;
-    function ksGetSizeAttrRow(pAttr: Integer; var count: Integer): Integer; dispid 15;
-    function ksGetAttrKeysInfo(pAttr: Integer; var key1: Integer; var key2: Integer; 
-                               var key3: Integer; var key4: Integer; var numb: Double): Integer; dispid 16;
+    function ksGetSizeAttrValue(pAttr: Integer; columnNumb: Integer; out count: Integer): Integer; dispid 14;
+    function ksGetSizeAttrRow(pAttr: Integer; out count: Integer): Integer; dispid 15;
+    function ksGetAttrKeysInfo(pAttr: Integer; out key1: Integer; out key2: Integer; 
+                               out key3: Integer; out key4: Integer; out numb: Double): Integer; dispid 16;
     function ksGetAttrColumnInfo(pAttr: Integer; columnNumb: Integer; const columnInfo: IDispatch): Integer; dispid 17;
-    function ksGetAttrTabInfo(pAttr: Integer; var rowsCount: Integer; var columnsCount: Integer): Integer; dispid 18;
+    function ksGetAttrTabInfo(pAttr: Integer; out rowsCount: Integer; out columnsCount: Integer): Integer; dispid 18;
     function ksViewEditAttr(pAttr: Integer; type_: Integer; const password: WideString): Integer; dispid 19;
     function ksViewEditAttrType(const libName: WideString; type_: Integer; attrID: Double; 
                                 const password: WideString): Integer; dispid 20;
@@ -4654,8 +4719,8 @@ type
     function ksChoiceAttr3D(const pObj: IDispatch): ksAttribute3D; dispid 25;
     function ksCreateAttr3DEx(const pObj: IDispatch; const pSourcePart: IDispatch; 
                               const attr: IDispatch; attrID: Double; const libName: WideString): ksAttribute3D; dispid 26;
-    function ksGetSizeAttrValueW(pAttr: Integer; columnNumb: Integer; var count: Integer): Integer; dispid 27;
-    function ksGetSizeAttrRowW(pAttr: Integer; var count: Integer): Integer; dispid 28;
+    function ksGetSizeAttrValueW(pAttr: Integer; columnNumb: Integer; out count: Integer): Integer; dispid 27;
+    function ksGetSizeAttrRowW(pAttr: Integer; out count: Integer): Integer; dispid 28;
   end;
 
 // *********************************************************************//
@@ -4665,28 +4730,38 @@ type
 // *********************************************************************//
   ksRequestInfo3D = dispinterface
     ['{E9807824-9D55-11D6-95CE-00C0262D30E3}']
-    function GetProcessParam: IUnknown; dispid 17;
-    function CreatePhantom: WordBool; dispid 16;
-    function SetProcessParam(const param: IUnknown): WordBool; dispid 18;
-    function SetCallBack(const methodName: WideString; hInst: Integer; const dispatchOCX: IDispatch): WordBool; dispid 10;
+    property prompt: WideString dispid 1;
+    property title: WideString dispid 2;
+    property cursorName: WideString dispid 3;
+    property commandsString: WideString dispid 4;
+    property cursorId: Integer dispid 5;
+    property menuId: Integer dispid 6;
+    property DynamicFiltering: WordBool dispid 20;
+    property ShowCommandWindow: WordBool dispid 22;
+    function GetFilterCallBack: WideString; dispid 7;
+    function GetCallBack: WideString; dispid 8;
     function SetFilterCallBack(const methodName: WideString; hInst: Integer; 
                                const dispatchOCX: IDispatch): WordBool; dispid 9;
-    function GetCallBack: WideString; dispid 8;
-    function GetFilterCallBack: WideString; dispid 7;
-    function GetCurrentCommand: Integer; dispid 13;
-    function GetIPhantom: IDispatch; dispid 15;
-    function GetMateConstraintCollection: IDispatch; dispid 14;
+    function SetCallBack(const methodName: WideString; hInst: Integer; const dispatchOCX: IDispatch): WordBool; dispid 10;
     function GetPlacement: IDispatch; dispid 11;
-    function SetCursorText(const text: WideString): WordBool; dispid 21;
-    function GetCallBackFeature: IDispatch; dispid 19;
     function GetEntityCollection: IDispatch; dispid 12;
-    property DynamicFiltering: WordBool dispid 20;
-    property menuId: Integer dispid 6;
-    property cursorId: Integer dispid 5;
-    property commandsString: WideString dispid 4;
-    property cursorName: WideString dispid 3;
-    property title: WideString dispid 2;
-    property prompt: WideString dispid 1;
+    function GetCurrentCommand: Integer; dispid 13;
+    function GetMateConstraintCollection: IDispatch; dispid 14;
+    function GetIPhantom: IDispatch; dispid 15;
+    function CreatePhantom: WordBool; dispid 16;
+    function GetProcessParam: IUnknown; dispid 17;
+    function SetProcessParam(const param: IUnknown): WordBool; dispid 18;
+    function GetCallBackFeature: IDispatch; dispid 19;
+    function SetCursorText(const text: WideString): WordBool; dispid 21;
+    function SetFilterCallBackEx(const methodName: WideString; hInst: OleVariant; 
+                                 const dispatchOCX: IDispatch): WordBool; dispid 23;
+    function SetCallBackEx(const methodName: WideString; hInst: OleVariant; 
+                           const dispatchOCX: IDispatch): WordBool; dispid 24;
+    function GetTakeObjectCallBack: WideString; dispid 25;
+    function SetTakeObjectCallBack(const methodName: WideString; hInst: OleVariant; 
+                                   const dispatchOCX: IDispatch): WordBool; dispid 26;
+    function GetTakeProcessObject: IDispatch; dispid 27;
+    function SetTakeProcessObject(const param: IDispatch): WordBool; dispid 28;
   end;
 
 // *********************************************************************//
@@ -4696,15 +4771,15 @@ type
 // *********************************************************************//
   ksMateConstraint = dispinterface
     ['{508A0CC4-9D74-11D6-95CE-00C0262D30E3}']
-    function GetFeature: IDispatch; dispid 8;
-    function Create: WordBool; dispid 5;
-    function GetEntityParams(number: Smallint; var params: OleVariant): Integer; dispid 9;
-    function SetBaseObj(number: Smallint; const obj: IDispatch): WordBool; dispid 7;
-    function GetBaseObj(number: Smallint): IDispatch; dispid 6;
-    property distance: Double dispid 4;
-    property fixed: Smallint dispid 3;
-    property direction: Smallint dispid 2;
     property constraintType: Smallint dispid 1;
+    property direction: Smallint dispid 2;
+    property fixed: Smallint dispid 3;
+    property distance: Double dispid 4;
+    function Create: WordBool; dispid 5;
+    function GetBaseObj(number: Smallint): IDispatch; dispid 6;
+    function SetBaseObj(number: Smallint; const obj: IDispatch): WordBool; dispid 7;
+    function GetFeature: IDispatch; dispid 8;
+    function GetEntityParams(number: Smallint; out params: OleVariant): Integer; dispid 9;
   end;
 
 // *********************************************************************//
@@ -4726,7 +4801,7 @@ type
   ksModelLibrary = dispinterface
     ['{111CEFE4-A0A7-11D6-95CE-00C0262D30E3}']
     function ModelLibraryOperation(const libName: WideString; type_: Integer): Integer; dispid 1;
-    function ChoiceModelFromLib(const libFile: WideString; var type_: Integer): WideString; dispid 2;
+    function ChoiceModelFromLib(const libFile: WideString; out type_: Integer): WideString; dispid 2;
     function ExistModelInLibrary(const name: WideString): Integer; dispid 3;
     function AddD3DocumentToLibrary(const libName: WideString; const fileName: WideString): Integer; dispid 4;
     function CheckModelLibrary(const libName: WideString; possibleMessage: WordBool): Integer; dispid 5;
@@ -4769,7 +4844,7 @@ type
     function Clear: WordBool; dispid 9;
     function refresh: WordBool; dispid 10;
     function FindIt(const entity: IDispatch): Integer; dispid 11;
-    function GetSafeArrayByObj(const obj: IDispatch; var pArray: OleVariant): WordBool; dispid 12;
+    function GetSafeArrayByObj(const obj: IDispatch; out pArray: OleVariant): WordBool; dispid 12;
   end;
 
 // *********************************************************************//
@@ -4804,25 +4879,25 @@ type
 // *********************************************************************//
   ksMeshPartArrayDefinition = dispinterface
     ['{E6E78D61-C0FA-11D6-8734-00C0262CDD2C}']
-    function DeletedCollection: IDispatch; dispid 17;
-    function SetCopyParamAlongAxis(firstAxis: WordBool; angle: Double; count: Integer; 
-                                   step: Double; factor: WordBool): WordBool; dispid 16;
-    function GetCopyParamAlongAxis(firstAxis: WordBool; var angle: Double; var count: Integer; 
-                                   var step: Double; var factor: WordBool): WordBool; dispid 15;
-    function PartArray: IDispatch; dispid 14;
-    function SetAxis2(const axis: IDispatch): WordBool; dispid 13;
-    function GetAxis2: IDispatch; dispid 12;
-    function SetAxis1(const axis: IDispatch): WordBool; dispid 11;
-    function GetAxis1: IDispatch; dispid 10;
-    property factor2: WordBool dispid 8;
-    property step2: Double dispid 7;
-    property count2: Integer dispid 6;
-    property angle2: Double dispid 5;
+    property angle1: Double dispid 1;
     property count1: Integer dispid 2;
     property step1: Double dispid 3;
-    property insideFlag: WordBool dispid 9;
-    property angle1: Double dispid 1;
     property factor1: WordBool dispid 4;
+    property angle2: Double dispid 5;
+    property count2: Integer dispid 6;
+    property step2: Double dispid 7;
+    property factor2: WordBool dispid 8;
+    property insideFlag: WordBool dispid 9;
+    function GetAxis1: IDispatch; dispid 10;
+    function SetAxis1(const axis: IDispatch): WordBool; dispid 11;
+    function GetAxis2: IDispatch; dispid 12;
+    function SetAxis2(const axis: IDispatch): WordBool; dispid 13;
+    function PartArray: IDispatch; dispid 14;
+    function GetCopyParamAlongAxis(firstAxis: WordBool; out angle: Double; out count: Integer; 
+                                   out step: Double; out factor: WordBool): WordBool; dispid 15;
+    function SetCopyParamAlongAxis(firstAxis: WordBool; angle: Double; count: Integer; 
+                                   step: Double; factor: WordBool): WordBool; dispid 16;
+    function DeletedCollection: IDispatch; dispid 17;
   end;
 
 // *********************************************************************//
@@ -4832,21 +4907,21 @@ type
 // *********************************************************************//
   ksCircularPartArrayDefinition = dispinterface
     ['{DDD05143-C180-11D6-8734-00C0262CDD2C}']
-    function DeletedCollection: IDispatch; dispid 13;
-    function SetCopyParamAlongDir(count: Integer; step: Double; factor: WordBool; dir: WordBool): WordBool; dispid 12;
-    function GetCopyParamAlongDir(var count: Integer; var step: Double; var factor: WordBool; 
-                                  dir: WordBool): WordBool; dispid 11;
-    function SetAxis(const axis: IDispatch): WordBool; dispid 10;
-    function GetAxis: IDispatch; dispid 9;
-    function PartArray: IDispatch; dispid 8;
-    property inverce: WordBool dispid 7;
+    property count1: Integer dispid 1;
+    property step1: Double dispid 2;
+    property factor1: WordBool dispid 3;
     property count2: Integer dispid 4;
     property step2: Double dispid 5;
     property factor2: WordBool dispid 6;
-    property factor1: WordBool dispid 3;
+    property inverce: WordBool dispid 7;
     property keepAngle: WordBool dispid 14;
-    property count1: Integer dispid 1;
-    property step1: Double dispid 2;
+    function PartArray: IDispatch; dispid 8;
+    function GetAxis: IDispatch; dispid 9;
+    function SetAxis(const axis: IDispatch): WordBool; dispid 10;
+    function GetCopyParamAlongDir(out count: Integer; out step: Double; out factor: WordBool; 
+                                  dir: WordBool): WordBool; dispid 11;
+    function SetCopyParamAlongDir(count: Integer; step: Double; factor: WordBool; dir: WordBool): WordBool; dispid 12;
+    function DeletedCollection: IDispatch; dispid 13;
   end;
 
 // *********************************************************************//
@@ -4856,15 +4931,15 @@ type
 // *********************************************************************//
   ksCurvePartArrayDefinition = dispinterface
     ['{DDD05146-C180-11D6-8734-00C0262CDD2C}']
-    function DeletedCollection: IDispatch; dispid 9;
-    function CurveArray: IDispatch; dispid 8;
-    function PartArray: IDispatch; dispid 7;
     property count: Integer dispid 1;
-    property keepAngle: WordBool dispid 4;
-    property factor: WordBool dispid 3;
-    property sence: WordBool dispid 6;
-    property fullCurve: WordBool dispid 5;
     property step: Double dispid 2;
+    property factor: WordBool dispid 3;
+    property keepAngle: WordBool dispid 4;
+    property fullCurve: WordBool dispid 5;
+    property sence: WordBool dispid 6;
+    function PartArray: IDispatch; dispid 7;
+    function CurveArray: IDispatch; dispid 8;
+    function DeletedCollection: IDispatch; dispid 9;
   end;
 
 // *********************************************************************//
@@ -4935,26 +5010,26 @@ type
 // *********************************************************************//
   ksMeshCopyDefinition = dispinterface
     ['{0307BB8D-C193-11D6-8734-00C0262CDD2C}']
-    function SetAxis2(const axis: IDispatch): WordBool; dispid 18;
-    function GetAxis2: IDispatch; dispid 17;
-    function SetAxis1(const axis: IDispatch): WordBool; dispid 16;
-    function GetAxis1: IDispatch; dispid 15;
-    function DeletedCollection: IDispatch; dispid 13;
+    property angle1: Double dispid 1;
+    property count1: Integer dispid 2;
+    property step1: Double dispid 3;
+    property factor1: WordBool dispid 4;
+    property angle2: Double dispid 5;
+    property count2: Integer dispid 6;
+    property step2: Double dispid 7;
+    property factor2: WordBool dispid 8;
+    property insideFlag: WordBool dispid 9;
+    property geomArray: WordBool dispid 14;
+    function OperationArray: IDispatch; dispid 10;
+    function GetCopyParamAlongAxis(firstAxis: WordBool; out angle: Double; out count: Integer; 
+                                   out step: Double; out factor: WordBool): WordBool; dispid 11;
     function SetCopyParamAlongAxis(firstAxis: WordBool; angle: Double; count: Integer; 
                                    step: Double; factor: WordBool): WordBool; dispid 12;
-    function GetCopyParamAlongAxis(firstAxis: WordBool; var angle: Double; var count: Integer; 
-                                   var step: Double; var factor: WordBool): WordBool; dispid 11;
-    function OperationArray: IDispatch; dispid 10;
-    property factor2: WordBool dispid 8;
-    property angle2: Double dispid 5;
-    property insideFlag: WordBool dispid 9;
-    property step2: Double dispid 7;
-    property count2: Integer dispid 6;
-    property step1: Double dispid 3;
-    property geomArray: WordBool dispid 14;
-    property factor1: WordBool dispid 4;
-    property count1: Integer dispid 2;
-    property angle1: Double dispid 1;
+    function DeletedCollection: IDispatch; dispid 13;
+    function GetAxis1: IDispatch; dispid 15;
+    function SetAxis1(const axis: IDispatch): WordBool; dispid 16;
+    function GetAxis2: IDispatch; dispid 17;
+    function SetAxis2(const axis: IDispatch): WordBool; dispid 18;
   end;
 
 // *********************************************************************//
@@ -4964,21 +5039,21 @@ type
 // *********************************************************************//
   ksCircularCopyDefinition = dispinterface
     ['{0307BB90-C193-11D6-8734-00C0262CDD2C}']
-    function DeletedCollection: IDispatch; dispid 13;
-    function SetCopyParamAlongDir(count: Integer; step: Double; factor: WordBool; dir: WordBool): WordBool; dispid 12;
-    function GetCopyParamAlongDir(var count: Integer; var step: Double; var factor: WordBool; 
-                                  dir: WordBool): WordBool; dispid 11;
-    function SetAxis(const axis: IDispatch): WordBool; dispid 10;
-    function GetAxis: IDispatch; dispid 9;
-    function GetOperationArray: IDispatch; dispid 8;
-    property inverce: WordBool dispid 7;
+    property count1: Integer dispid 1;
+    property step1: Double dispid 2;
+    property factor1: WordBool dispid 3;
     property count2: Integer dispid 4;
     property step2: Double dispid 5;
     property factor2: WordBool dispid 6;
-    property factor1: WordBool dispid 3;
+    property inverce: WordBool dispid 7;
     property geomArray: WordBool dispid 14;
-    property count1: Integer dispid 1;
-    property step1: Double dispid 2;
+    function GetOperationArray: IDispatch; dispid 8;
+    function GetAxis: IDispatch; dispid 9;
+    function SetAxis(const axis: IDispatch): WordBool; dispid 10;
+    function GetCopyParamAlongDir(out count: Integer; out step: Double; out factor: WordBool; 
+                                  dir: WordBool): WordBool; dispid 11;
+    function SetCopyParamAlongDir(count: Integer; step: Double; factor: WordBool; dir: WordBool): WordBool; dispid 12;
+    function DeletedCollection: IDispatch; dispid 13;
   end;
 
 // *********************************************************************//
@@ -4988,16 +5063,16 @@ type
 // *********************************************************************//
   ksCurveCopyDefinition = dispinterface
     ['{0307BB93-C193-11D6-8734-00C0262CDD2C}']
-    function DeletedCollection: IDispatch; dispid 9;
-    function CurveArray: IDispatch; dispid 8;
-    function OperationArray: IDispatch; dispid 7;
-    property factor: WordBool dispid 3;
-    property fullCurve: WordBool dispid 5;
-    property keepAngle: WordBool dispid 4;
     property count: Integer dispid 1;
+    property step: Double dispid 2;
+    property factor: WordBool dispid 3;
+    property keepAngle: WordBool dispid 4;
+    property fullCurve: WordBool dispid 5;
     property sence: WordBool dispid 6;
     property geomArray: WordBool dispid 10;
-    property step: Double dispid 2;
+    function OperationArray: IDispatch; dispid 7;
+    function CurveArray: IDispatch; dispid 8;
+    function DeletedCollection: IDispatch; dispid 9;
   end;
 
 // *********************************************************************//
@@ -5031,33 +5106,34 @@ type
 // *********************************************************************//
   ksConicSpiralDefinition = dispinterface
     ['{0307BB9C-C193-11D6-8734-00C0262CDD2C}']
-    function GetSketch: IDispatch; dispid 27;
-    function SetTerminalDiamObject(const terminalDiamObject: IDispatch): WordBool; dispid 26;
-    function GetTerminalDiamObject: IDispatch; dispid 25;
-    function SetInitialDiamObject(const initialDiamObject: IDispatch): WordBool; dispid 24;
-    function GetInitialDiamObject: IDispatch; dispid 23;
-    function SetHeightObject(const heightObject: IDispatch): WordBool; dispid 22;
-    function GetHeightObject: IDispatch; dispid 21;
-    function SetLocation(x: Double; y: Double): WordBool; dispid 20;
-    function GetLocation(var x: Double; var y: Double): WordBool; dispid 19;
-    function SetPlane(const plane: IDispatch): WordBool; dispid 18;
-    function GetPlane: IDispatch; dispid 17;
-    property initialDiamType: Smallint dispid 11;
-    property terminalDiam: Double dispid 12;
-    property turnDir: WordBool dispid 3;
-    property heightType: Smallint dispid 7;
-    property heightAddHow: WordBool dispid 9;
-    property initialDiam: Double dispid 10;
-    property terminalDiamType: Smallint dispid 13;
-    property heightAdd: Double dispid 8;
-    property tiltAngleHow: WordBool dispid 14;
-    property buildMode: Smallint dispid 4;
-    property firstAngle: Double dispid 15;
-    property tiltAngle: Double dispid 16;
     property turn: Double dispid 1;
     property step: Double dispid 2;
+    property turnDir: WordBool dispid 3;
+    property buildMode: Smallint dispid 4;
     property buildDir: WordBool dispid 5;
     property height: Double dispid 6;
+    property heightType: Smallint dispid 7;
+    property heightAdd: Double dispid 8;
+    property heightAddHow: WordBool dispid 9;
+    property initialDiam: Double dispid 10;
+    property initialDiamType: Smallint dispid 11;
+    property terminalDiam: Double dispid 12;
+    property terminalDiamType: Smallint dispid 13;
+    property tiltAngleHow: WordBool dispid 14;
+    property firstAngle: Double dispid 15;
+    property tiltAngle: Double dispid 16;
+    function GetPlane: IDispatch; dispid 17;
+    function SetPlane(const plane: IDispatch): WordBool; dispid 18;
+    function GetLocation(out x: Double; out y: Double): WordBool; dispid 19;
+    function SetLocation(x: Double; y: Double): WordBool; dispid 20;
+    function GetHeightObject: IDispatch; dispid 21;
+    function SetHeightObject(const heightObject: IDispatch): WordBool; dispid 22;
+    function GetInitialDiamObject: IDispatch; dispid 23;
+    function SetInitialDiamObject(const initialDiamObject: IDispatch): WordBool; dispid 24;
+    function GetTerminalDiamObject: IDispatch; dispid 25;
+    function SetTerminalDiamObject(const terminalDiamObject: IDispatch): WordBool; dispid 26;
+    function GetSketch: IDispatch; dispid 27;
+    function GetCurve3D: IDispatch; dispid 28;
   end;
 
 // *********************************************************************//
@@ -5067,27 +5143,28 @@ type
 // *********************************************************************//
   ksCylindricSpiralDefinition = dispinterface
     ['{0307BB9F-C193-11D6-8734-00C0262CDD2C}']
-    function GetSketch: IDispatch; dispid 21;
-    function SetDiamObject(const diamObject: IDispatch): WordBool; dispid 20;
-    function GetDiamObject: IDispatch; dispid 19;
-    function SetHeightObject(const heightObject: IDispatch): WordBool; dispid 18;
-    function GetHeightObject: IDispatch; dispid 17;
-    function SetLocation(x: Double; y: Double): WordBool; dispid 16;
-    function GetLocation(var x: Double; var y: Double): WordBool; dispid 15;
-    function SetPlane(const plane: IDispatch): WordBool; dispid 14;
-    function GetPlane: IDispatch; dispid 13;
-    property diam: Double dispid 10;
-    property heightAddHow: WordBool dispid 9;
+    property turn: Double dispid 1;
     property step: Double dispid 2;
-    property heightType: Smallint dispid 7;
-    property height: Double dispid 6;
-    property heightAdd: Double dispid 8;
+    property turnDir: WordBool dispid 3;
     property buildMode: Smallint dispid 4;
+    property buildDir: WordBool dispid 5;
+    property height: Double dispid 6;
+    property heightType: Smallint dispid 7;
+    property heightAdd: Double dispid 8;
+    property heightAddHow: WordBool dispid 9;
+    property diam: Double dispid 10;
     property diamType: Smallint dispid 11;
     property firstAngle: Double dispid 12;
-    property turn: Double dispid 1;
-    property turnDir: WordBool dispid 3;
-    property buildDir: WordBool dispid 5;
+    function GetPlane: IDispatch; dispid 13;
+    function SetPlane(const plane: IDispatch): WordBool; dispid 14;
+    function GetLocation(out x: Double; out y: Double): WordBool; dispid 15;
+    function SetLocation(x: Double; y: Double): WordBool; dispid 16;
+    function GetHeightObject: IDispatch; dispid 17;
+    function SetHeightObject(const heightObject: IDispatch): WordBool; dispid 18;
+    function GetDiamObject: IDispatch; dispid 19;
+    function SetDiamObject(const diamObject: IDispatch): WordBool; dispid 20;
+    function GetSketch: IDispatch; dispid 21;
+    function GetCurve3D: IDispatch; dispid 22;
   end;
 
 // *********************************************************************//
@@ -5097,20 +5174,21 @@ type
 // *********************************************************************//
   ksPolyLineDefinition = dispinterface
     ['{0307BBA2-C193-11D6-8734-00C0262CDD2C}']
-    function AddVertex(x: Double; y: Double; z: Double; radius: Double): WordBool; dispid 3;
-    function GetParamVertex(index: Integer; var x: Double; var y: Double; var z: Double; 
-                            var radius: Double): WordBool; dispid 6;
+    property closed: WordBool dispid 1;
+    property vertexVisible: WordBool dispid 13;
     function GetCountVertex: Integer; dispid 2;
+    function AddVertex(x: Double; y: Double; z: Double; radius: Double): WordBool; dispid 3;
     function InsertVertex(index: Integer; x: Double; y: Double; z: Double; radius: Double): WordBool; dispid 4;
     function DeleteVertex(index: Integer): WordBool; dispid 5;
-    function EdgeCollection: IDispatch; dispid 10;
+    function GetParamVertex(index: Integer; out x: Double; out y: Double; out z: Double; 
+                            out radius: Double): WordBool; dispid 6;
+    function Flush: WordBool; dispid 7;
     function ReadFromFile(const fileName: WideString): WordBool; dispid 8;
     function WriteToFile(const fileName: WideString): WordBool; dispid 9;
-    function Flush: WordBool; dispid 7;
+    function EdgeCollection: IDispatch; dispid 10;
     function AddPointWithParams(index: Integer): ksPolyLineVertexParam; dispid 11;
     function GetPointParams(index: Integer): ksPolyLineVertexParam; dispid 12;
-    property vertexVisible: WordBool dispid 13;
-    property closed: WordBool dispid 1;
+    function GetCurve3D: IDispatch; dispid 14;
   end;
 
 // *********************************************************************//
@@ -5120,18 +5198,18 @@ type
 // *********************************************************************//
   ksPolyLineVertexParam = dispinterface
     ['{1BCC4F0F-1091-41A3-895B-0608D20715B7}']
-    function GetParamVertex(var x: Double; var y: Double; var z: Double; var radius: Double): WordBool; dispid 2;
+    property buildingType: Integer dispid 1;
+    function GetParamVertex(out x: Double; out y: Double; out z: Double; out radius: Double): WordBool; dispid 2;
     function SetParamVertex(x: Double; y: Double; z: Double; radius: Double): WordBool; dispid 3;
     function SetParamByVertex(const vertex: ksEntity; radius: Double): WordBool; dispid 4;
-    function GetParamByDistance(var distance: Double; var radius: Double): WordBool; dispid 5;
+    function GetParamByDistance(out distance: Double; out radius: Double): WordBool; dispid 5;
     function SetParamByDistance(distance: Double; radius: Double): WordBool; dispid 6;
-    function SetAssociation(const vertex: ksEntity): WordBool; dispid 10;
+    function GetBuildingObject: ksEntity; dispid 7;
     function SetBuildingObject(const object_: ksEntity): WordBool; dispid 8;
     function GetAssociation: ksEntity; dispid 9;
-    function GetBuildingObject: ksEntity; dispid 7;
+    function SetAssociation(const vertex: ksEntity): WordBool; dispid 10;
     function GetVertex: ksEntity; dispid 11;
     function GetIndex: SYSINT; dispid 12;
-    property buildingType: Integer dispid 1;
   end;
 
 // *********************************************************************//
@@ -5141,21 +5219,21 @@ type
 // *********************************************************************//
   ksSplineDefinition = dispinterface
     ['{0307BBA5-C193-11D6-8734-00C0262CDD2C}']
-    function AddVertex(x: Double; y: Double; z: Double; radius: Double): WordBool; dispid 5;
-    function AddVertexAndAssociation(index: Integer; const obj: IDispatch; weight: Double): WordBool; dispid 12;
+    property closed: WordBool dispid 1;
+    property splineOnPoles: WordBool dispid 2;
+    property degree: Integer dispid 3;
     function GetCountVertex: Integer; dispid 4;
+    function AddVertex(x: Double; y: Double; z: Double; radius: Double): WordBool; dispid 5;
     function InsertVertex(index: Integer; x: Double; y: Double; z: Double; weight: Double): WordBool; dispid 6;
     function DeleteVertex(index: Integer): WordBool; dispid 7;
-    function SetAssociation(index: Integer; const obj: IDispatch): WordBool; dispid 13;
+    function GetParamVertex(index: Integer; out x: Double; out y: Double; out z: Double; 
+                            out weight: Double): WordBool; dispid 8;
     function Flush: WordBool; dispid 9;
     function ReadFromFile(const fileName: WideString): WordBool; dispid 10;
-    function GetParamVertex(index: Integer; var x: Double; var y: Double; var z: Double; 
-                            var weight: Double): WordBool; dispid 8;
-    function GetAssociation(index: Integer): IDispatch; dispid 14;
     function WriteToFile(const fileName: WideString): WordBool; dispid 11;
-    property degree: Integer dispid 3;
-    property splineOnPoles: WordBool dispid 2;
-    property closed: WordBool dispid 1;
+    function AddVertexAndAssociation(index: Integer; const obj: IDispatch; weight: Double): WordBool; dispid 12;
+    function SetAssociation(index: Integer; const obj: IDispatch): WordBool; dispid 13;
+    function GetAssociation(index: Integer): IDispatch; dispid 14;
   end;
 
 // *********************************************************************//
@@ -5165,22 +5243,22 @@ type
 // *********************************************************************//
   ksBaseExtrusionDefinition = dispinterface
     ['{DEEFEFE1-C3E2-11D6-8734-00C0262CDD2C}']
+    property directionType: Smallint dispid 1;
     function SetSketch(const sketch: IDispatch): WordBool; dispid 2;
     function GetSketch: IDispatch; dispid 3;
-    function GetSideParam(side1: WordBool; var type_: Smallint; var depth: Double; 
-                          var draftValue: Double; var draftOutward: WordBool): WordBool; dispid 4;
+    function GetSideParam(side1: WordBool; out type_: Smallint; out depth: Double; 
+                          out draftValue: Double; out draftOutward: WordBool): WordBool; dispid 4;
     function SetSideParam(side1: WordBool; type_: Smallint; depth: Double; draftValue: Double; 
                           draftOutward: WordBool): WordBool; dispid 5;
-    function GetThinParam(var thin: WordBool; var thinType: Smallint; var normalThickness: Double; 
-                          var reverseTthickness: Double): WordBool; dispid 6;
-    function GetDepthObject(normal: WordBool): IDispatch; dispid 10;
-    function ThinParam: IDispatch; dispid 8;
-    function ExtrusionParam: IDispatch; dispid 9;
+    function GetThinParam(out thin: WordBool; out thinType: Smallint; out normalThickness: Double; 
+                          out reverseTthickness: Double): WordBool; dispid 6;
     function SetThinParam(thin: WordBool; thinType: Smallint; normalThickness: Double; 
                           reverseThickness: Double): WordBool; dispid 7;
+    function ThinParam: IDispatch; dispid 8;
+    function ExtrusionParam: IDispatch; dispid 9;
+    function GetDepthObject(normal: WordBool): IDispatch; dispid 10;
     function SetDepthObject(normal: WordBool; const obj: IDispatch): WordBool; dispid 11;
     function ResetDepthObject(normal: WordBool): WordBool; dispid 12;
-    property directionType: Smallint dispid 1;
   end;
 
 // *********************************************************************//
@@ -5190,23 +5268,25 @@ type
 // *********************************************************************//
   ksBossExtrusionDefinition = dispinterface
     ['{DEEFEFE4-C3E2-11D6-8734-00C0262CDD2C}']
+    property directionType: Smallint dispid 1;
+    property chooseType: Integer dispid 14;
     function SetSketch(const sketch: IDispatch): WordBool; dispid 2;
     function GetSketch: IDispatch; dispid 3;
-    function SetThinParam(thin: WordBool; thinType: Smallint; normalThickness: Double; 
-                          reverseThickness: Double): WordBool; dispid 7;
+    function GetSideParam(side1: WordBool; out type_: Smallint; out depth: Double; 
+                          out draftValue: Double; out draftOutward: WordBool): WordBool; dispid 4;
     function SetSideParam(side1: WordBool; type_: Smallint; depth: Double; draftValue: Double; 
                           draftOutward: WordBool): WordBool; dispid 5;
     function GetThinParam(var thin: WordBool; var thinType: Smallint; var normalThickness: Double; 
                           var reverseTthickness: Double): WordBool; dispid 6;
-    function GetSideParam(side1: WordBool; var type_: Smallint; var depth: Double; 
-                          var draftValue: Double; var draftOutward: WordBool): WordBool; dispid 4;
+    function SetThinParam(thin: WordBool; thinType: Smallint; normalThickness: Double; 
+                          reverseThickness: Double): WordBool; dispid 7;
     function ThinParam: IDispatch; dispid 8;
     function ExtrusionParam: IDispatch; dispid 9;
     function GetDepthObject(normal: WordBool): IDispatch; dispid 10;
     function SetDepthObject(normal: WordBool; const obj: IDispatch): WordBool; dispid 11;
     function ResetDepthObject(normal: WordBool): WordBool; dispid 12;
     function ChooseBodies: IDispatch; dispid 13;
-    property directionType: Smallint dispid 1;
+    function ChooseParts: IDispatch; dispid 15;
   end;
 
 // *********************************************************************//
@@ -5216,26 +5296,26 @@ type
 // *********************************************************************//
   ksCutExtrusionDefinition = dispinterface
     ['{DEEFEFE7-C3E2-11D6-8734-00C0262CDD2C}']
+    property directionType: Smallint dispid 1;
+    property cut: WordBool dispid 2;
+    property chooseType: Integer dispid 15;
     function SetSketch(const sketch: IDispatch): WordBool; dispid 3;
     function GetSketch: IDispatch; dispid 4;
-    function ResetDepthObject(normal: WordBool): WordBool; dispid 13;
+    function GetSideParam(side1: WordBool; out type_: Smallint; out depth: Double; 
+                          out draftValue: Double; out draftOutward: WordBool): WordBool; dispid 5;
     function SetSideParam(side1: WordBool; type_: Smallint; depth: Double; draftValue: Double; 
                           draftOutward: WordBool): WordBool; dispid 6;
-    function GetThinParam(var thin: WordBool; var thinType: Smallint; var normalThickness: Double; 
-                          var reverseTthickness: Double): WordBool; dispid 7;
-    function GetSideParam(side1: WordBool; var type_: Smallint; var depth: Double; 
-                          var draftValue: Double; var draftOutward: WordBool): WordBool; dispid 5;
-    function SetDepthObject(normal: WordBool; const obj: IDispatch): WordBool; dispid 12;
+    function GetThinParam(out thin: WordBool; out thinType: Smallint; out normalThickness: Double; 
+                          out reverseTthickness: Double): WordBool; dispid 7;
     function SetThinParam(thin: WordBool; thinType: Smallint; normalThickness: Double; 
                           reverseThickness: Double): WordBool; dispid 8;
-    function GetDepthObject(normal: WordBool): IDispatch; dispid 11;
-    function ExtrusionParam: IDispatch; dispid 10;
-    function ChooseParts: IDispatch; dispid 16;
-    function ChooseBodies: IDispatch; dispid 14;
     function ThinParam: IDispatch; dispid 9;
-    property chooseType: Integer dispid 15;
-    property cut: WordBool dispid 2;
-    property directionType: Smallint dispid 1;
+    function ExtrusionParam: IDispatch; dispid 10;
+    function GetDepthObject(normal: WordBool): IDispatch; dispid 11;
+    function SetDepthObject(normal: WordBool; const obj: IDispatch): WordBool; dispid 12;
+    function ResetDepthObject(normal: WordBool): WordBool; dispid 13;
+    function ChooseBodies: IDispatch; dispid 14;
+    function ChooseParts: IDispatch; dispid 16;
   end;
 
 // *********************************************************************//
@@ -5245,18 +5325,18 @@ type
 // *********************************************************************//
   ksExtrusionSurfaceDefinition = dispinterface
     ['{B20E24C3-5E4A-4CDA-A1ED-6BB8EBC81A29}']
+    property directionType: Smallint dispid 1;
+    property closedShell: Smallint dispid 2;
     function SetSketch(const sketch: IDispatch): WordBool; dispid 3;
-    function SetDepthObject(normal: WordBool; const obj: IDispatch): WordBool; dispid 9;
-    function GetSideParam(side1: WordBool; var type_: Smallint; var depth: Double; 
-                          var draftValue: Double; var draftOutward: WordBool): WordBool; dispid 5;
     function GetSketch: IDispatch; dispid 4;
+    function GetSideParam(side1: WordBool; out type_: Smallint; out depth: Double; 
+                          out draftValue: Double; out draftOutward: WordBool): WordBool; dispid 5;
     function SetSideParam(side1: WordBool; type_: Smallint; depth: Double; draftValue: Double; 
                           draftOutward: WordBool): WordBool; dispid 6;
     function ExtrusionParam: IDispatch; dispid 7;
-    function ResetDepthObject(normal: WordBool): WordBool; dispid 10;
     function GetDepthObject(normal: WordBool): IDispatch; dispid 8;
-    property closedShell: Smallint dispid 2;
-    property directionType: Smallint dispid 1;
+    function SetDepthObject(normal: WordBool; const obj: IDispatch): WordBool; dispid 9;
+    function ResetDepthObject(normal: WordBool): WordBool; dispid 10;
   end;
 
 // *********************************************************************//
@@ -5269,7 +5349,7 @@ type
     function IsPlanar: WordBool; dispid 1;
     function IsCone: WordBool; dispid 2;
     function IsCylinder: WordBool; dispid 3;
-    function GetCylinderParam(var h: Double; var r: Double): WordBool; dispid 4;
+    function GetCylinderParam(out h: Double; out r: Double): WordBool; dispid 4;
     function GetOwnerEntity: IDispatch; dispid 5;
     function GetSurface: IDispatch; dispid 6;
     function LoopCollection: IDispatch; dispid 7;
@@ -5320,10 +5400,10 @@ type
 // *********************************************************************//
   ksChamferDefinition = dispinterface
     ['{0307BBAE-C193-11D6-8734-00C0262CDD2C}']
-    function GetChamferParam(var transfer: WordBool; var distance1: Double; var distance2: Double): WordBool; dispid 2;
-    function array_: IDispatch; dispid 4;
-    function SetChamferParam(transfer: WordBool; distance1: Double; distance2: Double): WordBool; dispid 3;
     property tangent: WordBool dispid 1;
+    function GetChamferParam(out transfer: WordBool; out distance1: Double; out distance2: Double): WordBool; dispid 2;
+    function SetChamferParam(transfer: WordBool; distance1: Double; distance2: Double): WordBool; dispid 3;
+    function array_: IDispatch; dispid 4;
   end;
 
 // *********************************************************************//
@@ -5333,9 +5413,9 @@ type
 // *********************************************************************//
   ksFilletDefinition = dispinterface
     ['{0307BBB1-C193-11D6-8734-00C0262CDD2C}']
-    function array_: IDispatch; dispid 3;
     property radius: Double dispid 1;
     property tangent: WordBool dispid 2;
+    function array_: IDispatch; dispid 3;
   end;
 
 // *********************************************************************//
@@ -5345,10 +5425,10 @@ type
 // *********************************************************************//
   ksBaseLoftDefinition = dispinterface
     ['{DEEFEFEA-C3E2-11D6-8734-00C0262CDD2C}']
-    function GetLoftParam(var closed: WordBool; var flipVertex: WordBool; var autoPath: WordBool): WordBool; dispid 1;
+    function GetLoftParam(out closed: WordBool; out flipVertex: WordBool; out autoPath: WordBool): WordBool; dispid 1;
     function SetLoftParam(closed: WordBool; flipVertex: WordBool; autoPath: WordBool): WordBool; dispid 2;
-    function GetThinParam(var thin: WordBool; var thinType: Smallint; var normalThickness: Double; 
-                          var reverseTthickness: Double): WordBool; dispid 3;
+    function GetThinParam(out thin: WordBool; out thinType: Smallint; out normalThickness: Double; 
+                          out reverseTthickness: Double): WordBool; dispid 3;
     function SetThinParam(thin: WordBool; thinType: Smallint; normalThickness: Double; 
                           reverseThickness: Double): WordBool; dispid 4;
     function ThinParam: IDispatch; dispid 5;
@@ -5362,10 +5442,11 @@ type
 // *********************************************************************//
   ksBossLoftDefinition = dispinterface
     ['{DEEFEFED-C3E2-11D6-8734-00C0262CDD2C}']
-    function GetLoftParam(var closed: WordBool; var flipVertex: WordBool; var autoPath: WordBool): WordBool; dispid 1;
+    property chooseType: Integer dispid 10;
+    function GetLoftParam(out closed: WordBool; out flipVertex: WordBool; out autoPath: WordBool): WordBool; dispid 1;
     function SetLoftParam(closed: WordBool; flipVertex: WordBool; autoPath: WordBool): WordBool; dispid 2;
-    function GetThinParam(var thin: WordBool; var thinType: Smallint; var normalThickness: Double; 
-                          var reverseTthickness: Double): WordBool; dispid 3;
+    function GetThinParam(out thin: WordBool; out thinType: Smallint; out normalThickness: Double; 
+                          out reverseTthickness: Double): WordBool; dispid 3;
     function SetThinParam(thin: WordBool; thinType: Smallint; normalThickness: Double; 
                           reverseThickness: Double): WordBool; dispid 4;
     function ThinParam: IDispatch; dispid 5;
@@ -5373,6 +5454,7 @@ type
     function ChooseBodies: IDispatch; dispid 7;
     function GetDirectionalLine: IDispatch; dispid 8;
     function SetDirectionalLine(const sketch: IDispatch): WordBool; dispid 9;
+    function ChooseParts: IDispatch; dispid 11;
   end;
 
 // *********************************************************************//
@@ -5382,20 +5464,20 @@ type
 // *********************************************************************//
   ksCutLoftDefinition = dispinterface
     ['{DEEFEFF0-C3E2-11D6-8734-00C0262CDD2C}']
+    property cut: WordBool dispid 1;
+    property chooseType: Integer dispid 11;
+    function GetLoftParam(out closed: WordBool; out flipVertex: WordBool; out autoPath: WordBool): WordBool; dispid 2;
     function SetLoftParam(closed: WordBool; flipVertex: WordBool; autoPath: WordBool): WordBool; dispid 3;
-    function GetDirectionalLine: IDispatch; dispid 9;
-    function GetLoftParam(var closed: WordBool; var flipVertex: WordBool; var autoPath: WordBool): WordBool; dispid 2;
-    function GetThinParam(var thin: WordBool; var thinType: Smallint; var normalThickness: Double; 
-                          var reverseTthickness: Double): WordBool; dispid 4;
+    function GetThinParam(out thin: WordBool; out thinType: Smallint; out normalThickness: Double; 
+                          out reverseTthickness: Double): WordBool; dispid 4;
     function SetThinParam(thin: WordBool; thinType: Smallint; normalThickness: Double; 
                           reverseThickness: Double): WordBool; dispid 5;
+    function ThinParam: IDispatch; dispid 6;
     function Sketchs: IDispatch; dispid 7;
     function ChooseBodies: IDispatch; dispid 8;
-    function ThinParam: IDispatch; dispid 6;
+    function GetDirectionalLine: IDispatch; dispid 9;
     function SetDirectionalLine(const sketch: IDispatch): WordBool; dispid 10;
     function ChooseParts: IDispatch; dispid 12;
-    property chooseType: Integer dispid 11;
-    property cut: WordBool dispid 1;
   end;
 
 // *********************************************************************//
@@ -5405,10 +5487,12 @@ type
 // *********************************************************************//
   ksLoftSurfaceDefinition = dispinterface
     ['{E04339B5-AA08-4717-8E50-90ED0E375624}']
-    function GetLoftParam(var closed: WordBool; var flipVertex: WordBool; var autoPath: WordBool): WordBool; dispid 2;
-    function Sketchs: IDispatch; dispid 4;
-    function SetLoftParam(closed: WordBool; flipVertex: WordBool; autoPath: WordBool): WordBool; dispid 3;
     property closedShell: Smallint dispid 1;
+    function GetLoftParam(out closed: WordBool; out flipVertex: WordBool; out autoPath: WordBool): WordBool; dispid 2;
+    function SetLoftParam(closed: WordBool; flipVertex: WordBool; autoPath: WordBool): WordBool; dispid 3;
+    function Sketchs: IDispatch; dispid 4;
+    function GetDirectionalLine: IDispatch; dispid 5;
+    function SetDirectionalLine(const sketch: IDispatch): WordBool; dispid 6;
   end;
 
 // *********************************************************************//
@@ -5418,11 +5502,11 @@ type
 // *********************************************************************//
   ksInclineDefinition = dispinterface
     ['{DEEFEFF3-C3E2-11D6-8734-00C0262CDD2C}']
-    function FaceArray: IDispatch; dispid 3;
-    function SetPlane(const plane: IDispatch): WordBool; dispid 5;
-    function GetPlane: IDispatch; dispid 4;
-    property direction: WordBool dispid 2;
     property angle: Double dispid 1;
+    property direction: WordBool dispid 2;
+    function FaceArray: IDispatch; dispid 3;
+    function GetPlane: IDispatch; dispid 4;
+    function SetPlane(const plane: IDispatch): WordBool; dispid 5;
   end;
 
 // *********************************************************************//
@@ -5432,9 +5516,9 @@ type
 // *********************************************************************//
   ksShellDefinition = dispinterface
     ['{DEEFEFF6-C3E2-11D6-8734-00C0262CDD2C}']
-    function FaceArray: IDispatch; dispid 3;
     property thickness: Double dispid 1;
     property thinType: WordBool dispid 2;
+    function FaceArray: IDispatch; dispid 3;
   end;
 
 // *********************************************************************//
@@ -5444,16 +5528,16 @@ type
 // *********************************************************************//
   ksBaseEvolutionDefinition = dispinterface
     ['{DEEFEFF9-C3E2-11D6-8734-00C0262CDD2C}']
+    property sketchShiftType: Smallint dispid 1;
     function SetSketch(const sketch: IDispatch): WordBool; dispid 2;
     function GetSketch: IDispatch; dispid 3;
     function PathPartArray: IDispatch; dispid 4;
-    function ThinParam: IDispatch; dispid 7;
+    function GetThinParam(out thin: WordBool; out thinType: Smallint; out normalThickness: Double; 
+                          out reverseTthickness: Double): WordBool; dispid 5;
     function SetThinParam(thin: WordBool; thinType: Smallint; normalThickness: Double; 
                           reverseThickness: Double): WordBool; dispid 6;
-    function GetThinParam(var thin: WordBool; var thinType: Smallint; var normalThickness: Double; 
-                          var reverseTthickness: Double): WordBool; dispid 5;
+    function ThinParam: IDispatch; dispid 7;
     function GetPathLength(bitVector: LongWord): Double; dispid 8;
-    property sketchShiftType: Smallint dispid 1;
   end;
 
 // *********************************************************************//
@@ -5463,17 +5547,19 @@ type
 // *********************************************************************//
   ksBossEvolutionDefinition = dispinterface
     ['{DEEFEFFC-C3E2-11D6-8734-00C0262CDD2C}']
+    property sketchShiftType: Smallint dispid 1;
+    property chooseType: Integer dispid 10;
     function SetSketch(const sketch: IDispatch): WordBool; dispid 2;
-    function GetThinParam(var thin: WordBool; var thinType: Smallint; var normalThickness: Double; 
-                          var reverseTthickness: Double): WordBool; dispid 5;
-    function PathPartArray: IDispatch; dispid 4;
     function GetSketch: IDispatch; dispid 3;
+    function PathPartArray: IDispatch; dispid 4;
+    function GetThinParam(out thin: WordBool; out thinType: Smallint; out normalThickness: Double; 
+                          out reverseTthickness: Double): WordBool; dispid 5;
     function SetThinParam(thin: WordBool; thinType: Smallint; normalThickness: Double; 
                           reverseThickness: Double): WordBool; dispid 6;
     function ThinParam: IDispatch; dispid 7;
     function ChooseBodies: IDispatch; dispid 8;
     function GetPathLength(bitVector: LongWord): Double; dispid 9;
-    property sketchShiftType: Smallint dispid 1;
+    function ChooseParts: IDispatch; dispid 11;
   end;
 
 // *********************************************************************//
@@ -5483,20 +5569,20 @@ type
 // *********************************************************************//
   ksCutEvolutionDefinition = dispinterface
     ['{DEEFEFFF-C3E2-11D6-8734-00C0262CDD2C}']
+    property sketchShiftType: Smallint dispid 1;
+    property cut: WordBool dispid 2;
+    property chooseType: Integer dispid 10;
     function SetSketch(const sketch: IDispatch): WordBool; dispid 3;
-    function ChooseBodies: IDispatch; dispid 9;
-    function PathPartArray: IDispatch; dispid 5;
     function GetSketch: IDispatch; dispid 4;
-    function ChooseParts: IDispatch; dispid 11;
+    function PathPartArray: IDispatch; dispid 5;
+    function GetThinParam(out thin: WordBool; out thinType: Smallint; out normalThickness: Double; 
+                          out reverseTthickness: Double): WordBool; dispid 6;
     function SetThinParam(thin: WordBool; thinType: Smallint; normalThickness: Double; 
                           reverseThickness: Double): WordBool; dispid 7;
     function ThinParam: IDispatch; dispid 8;
+    function ChooseBodies: IDispatch; dispid 9;
+    function ChooseParts: IDispatch; dispid 11;
     function GetPathLength(bitVector: LongWord): Double; dispid 12;
-    function GetThinParam(var thin: WordBool; var thinType: Smallint; var normalThickness: Double; 
-                          var reverseTthickness: Double): WordBool; dispid 6;
-    property chooseType: Integer dispid 10;
-    property cut: WordBool dispid 2;
-    property sketchShiftType: Smallint dispid 1;
   end;
 
 // *********************************************************************//
@@ -5506,12 +5592,12 @@ type
 // *********************************************************************//
   ksEvolutionSurfaceDefinition = dispinterface
     ['{2BD4C79E-E2C3-42E8-8FCC-B51FFBDE9F69}']
-    function GetPathLength(bitVector: LongWord): Double; dispid 6;
+    property sketchShiftType: Smallint dispid 1;
+    property closedShell: WordBool dispid 2;
     function SetSketch(const sketch: IDispatch): WordBool; dispid 3;
     function GetSketch: IDispatch; dispid 4;
     function PathPartArray: IDispatch; dispid 5;
-    property closedShell: WordBool dispid 2;
-    property sketchShiftType: Smallint dispid 1;
+    function GetPathLength(bitVector: LongWord): Double; dispid 6;
   end;
 
 // *********************************************************************//
@@ -5521,15 +5607,15 @@ type
 // *********************************************************************//
   ksRibDefinition = dispinterface
     ['{DEEFF002-C3E2-11D6-8734-00C0262CDD2C}']
-    function SetThinParam(thinType: Smallint; normalThickness: Double; reverseThickness: Double): WordBool; dispid 7;
-    function GetSketch: IDispatch; dispid 4;
-    function ThinParam: IDispatch; dispid 8;
-    function GetThinParam(var thinType: Smallint; var normalThickness: Double; 
-                          var reverseTthickness: Double): WordBool; dispid 6;
-    function SetSketch(const sketch: IDispatch): WordBool; dispid 5;
-    property side: Integer dispid 3;
-    property angle: Double dispid 2;
     property index: Integer dispid 1;
+    property angle: Double dispid 2;
+    property side: Integer dispid 3;
+    function GetSketch: IDispatch; dispid 4;
+    function SetSketch(const sketch: IDispatch): WordBool; dispid 5;
+    function GetThinParam(out thinType: Smallint; out normalThickness: Double; 
+                          out reverseTthickness: Double): WordBool; dispid 6;
+    function SetThinParam(thinType: Smallint; normalThickness: Double; reverseThickness: Double): WordBool; dispid 7;
+    function ThinParam: IDispatch; dispid 8;
   end;
 
 // *********************************************************************//
@@ -5539,12 +5625,12 @@ type
 // *********************************************************************//
   ksCutByPlaneDefinition = dispinterface
     ['{DEEFF005-C3E2-11D6-8734-00C0262CDD2C}']
-    function ChooseParts: IDispatch; dispid 6;
+    property direction: WordBool dispid 1;
+    property chooseType: Integer dispid 5;
     function GetPlane: IDispatch; dispid 2;
     function SetPlane(const plane: IDispatch): WordBool; dispid 3;
     function ChooseBodies: IDispatch; dispid 4;
-    property chooseType: Integer dispid 5;
-    property direction: WordBool dispid 1;
+    function ChooseParts: IDispatch; dispid 6;
   end;
 
 // *********************************************************************//
@@ -5554,12 +5640,12 @@ type
 // *********************************************************************//
   ksCutBySketchDefinition = dispinterface
     ['{DEEFF008-C3E2-11D6-8734-00C0262CDD2C}']
-    function ChooseParts: IDispatch; dispid 6;
+    property direction: WordBool dispid 1;
+    property chooseType: Integer dispid 5;
     function GetSketch: IDispatch; dispid 2;
     function SetSketch(const sketch: IDispatch): WordBool; dispid 3;
     function ChooseBodies: IDispatch; dispid 4;
-    property chooseType: Integer dispid 5;
-    property direction: WordBool dispid 1;
+    function ChooseParts: IDispatch; dispid 6;
   end;
 
 // *********************************************************************//
@@ -5569,11 +5655,11 @@ type
 // *********************************************************************//
   ksPlaneOffsetDefinition = dispinterface
     ['{DEEFF00B-C3E2-11D6-8734-00C0262CDD2C}']
-    function SetPlane(const plane: IDispatch): WordBool; dispid 3;
-    function GetSurface: IDispatch; dispid 5;
-    function GetPlane: IDispatch; dispid 4;
-    property direction: WordBool dispid 2;
     property offset: Double dispid 1;
+    property direction: WordBool dispid 2;
+    function SetPlane(const plane: IDispatch): WordBool; dispid 3;
+    function GetPlane: IDispatch; dispid 4;
+    function GetSurface: IDispatch; dispid 5;
   end;
 
 // *********************************************************************//
@@ -5583,12 +5669,12 @@ type
 // *********************************************************************//
   ksPlaneAngleDefinition = dispinterface
     ['{DEEFF00E-C3E2-11D6-8734-00C0262CDD2C}']
+    property angle: Double dispid 1;
     function SetPlane(const plane: IDispatch): WordBool; dispid 2;
     function GetPlane: IDispatch; dispid 3;
-    function GetSurface: IDispatch; dispid 6;
     function SetAxis(const axis: IDispatch): WordBool; dispid 4;
     function GetAxis: IDispatch; dispid 5;
-    property angle: Double dispid 1;
+    function GetSurface: IDispatch; dispid 6;
   end;
 
 // *********************************************************************//
@@ -5610,13 +5696,13 @@ type
 // *********************************************************************//
   ksPlaneNormalToSurfaceDefinition = dispinterface
     ['{DEEFF014-C3E2-11D6-8734-00C0262CDD2C}']
-    function GetFace: IDispatch; dispid 3;
+    property angle: Double dispid 1;
+    property autoBuilding: Double dispid 7;
     function SetFace(const face: IDispatch): WordBool; dispid 2;
-    function GetSurface: IDispatch; dispid 6;
+    function GetFace: IDispatch; dispid 3;
     function SetPlane(const plane: IDispatch): WordBool; dispid 4;
     function GetPlane: IDispatch; dispid 5;
-    property autoBuilding: Double dispid 7;
-    property angle: Double dispid 1;
+    function GetSurface: IDispatch; dispid 6;
   end;
 
 // *********************************************************************//
@@ -5626,13 +5712,13 @@ type
 // *********************************************************************//
   ksPlaneTangentToSurfaceDefinition = dispinterface
     ['{DEEFF017-C3E2-11D6-8734-00C0262CDD2C}']
-    function GetFace: IDispatch; dispid 3;
+    property choosePlane: Smallint dispid 1;
+    property angle: Double dispid 7;
     function SetFace(const face: IDispatch): WordBool; dispid 2;
-    function GetSurface: IDispatch; dispid 6;
+    function GetFace: IDispatch; dispid 3;
     function SetPlane(const plane: IDispatch): WordBool; dispid 4;
     function GetPlane: IDispatch; dispid 5;
-    property angle: Double dispid 7;
-    property choosePlane: Smallint dispid 1;
+    function GetSurface: IDispatch; dispid 6;
   end;
 
 // *********************************************************************//
@@ -5684,12 +5770,12 @@ type
 // *********************************************************************//
   ksPlaneLineToEdgeDefinition = dispinterface
     ['{DEEFF023-C3E2-11D6-8734-00C0262CDD2C}']
+    property parallel: WordBool dispid 1;
     function SetEdgeFirst(const edge1: IDispatch): WordBool; dispid 2;
     function GetEdgeFirst: IDispatch; dispid 3;
-    function GetSurface: IDispatch; dispid 6;
     function SetEdgeSecond(const edge2: IDispatch): WordBool; dispid 4;
     function GetEdgeSecond: IDispatch; dispid 5;
-    property parallel: WordBool dispid 1;
+    function GetSurface: IDispatch; dispid 6;
   end;
 
 // *********************************************************************//
@@ -5699,12 +5785,12 @@ type
 // *********************************************************************//
   ksPlaneLineToPlaneDefinition = dispinterface
     ['{DEEFF026-C3E2-11D6-8734-00C0262CDD2C}']
+    property parallel: WordBool dispid 1;
     function SetEdge(const edge: IDispatch): WordBool; dispid 2;
     function GetEdge: IDispatch; dispid 3;
-    function GetSurface: IDispatch; dispid 6;
     function SetPlane(const plane: IDispatch): WordBool; dispid 4;
     function GetPlane: IDispatch; dispid 5;
-    property parallel: WordBool dispid 1;
+    function GetSurface: IDispatch; dispid 6;
   end;
 
 // *********************************************************************//
@@ -5758,14 +5844,15 @@ type
 // *********************************************************************//
   ksColorParam = dispinterface
     ['{2DFACC61-C4A4-11D6-8734-00C0262CDD2C}']
-    function Clear: WordBool; dispid 8;
     property color: Integer dispid 1;
-    property specularity: Double dispid 4;
-    property diffuse: Double dispid 3;
     property ambient: Double dispid 2;
+    property diffuse: Double dispid 3;
+    property specularity: Double dispid 4;
     property shininess: Double dispid 5;
     property transparency: Double dispid 6;
     property emission: Double dispid 7;
+    property useColor: Integer dispid 9;
+    function Clear: WordBool; dispid 8;
   end;
 
 // *********************************************************************//
@@ -5775,18 +5862,18 @@ type
 // *********************************************************************//
   ksBaseRotatedDefinition = dispinterface
     ['{2DFACC67-C4A4-11D6-8734-00C0262CDD2C}']
+    property directionType: Smallint dispid 1;
+    property toroidShapeType: WordBool dispid 2;
     function SetSketch(const sketch: IDispatch): WordBool; dispid 3;
-    function ThinParam: IDispatch; dispid 9;
-    function GetSideParam(side1: WordBool; var angle: Double): WordBool; dispid 5;
     function GetSketch: IDispatch; dispid 4;
+    function GetSideParam(side1: WordBool; out angle: Double): WordBool; dispid 5;
     function SetSideParam(side1: WordBool; angle: Double): WordBool; dispid 6;
-    function GetThinParam(var thin: WordBool; var thinType: Smallint; var normalThickness: Double; 
-                          var reverseTthickness: Double): WordBool; dispid 7;
-    function RotatedParam: IDispatch; dispid 10;
+    function GetThinParam(out thin: WordBool; out thinType: Smallint; out normalThickness: Double; 
+                          out reverseTthickness: Double): WordBool; dispid 7;
     function SetThinParam(thin: WordBool; thinType: Smallint; normalThickness: Double; 
                           reverseThickness: Double): WordBool; dispid 8;
-    property toroidShapeType: WordBool dispid 2;
-    property directionType: Smallint dispid 1;
+    function ThinParam: IDispatch; dispid 9;
+    function RotatedParam: IDispatch; dispid 10;
   end;
 
 // *********************************************************************//
@@ -5796,19 +5883,21 @@ type
 // *********************************************************************//
   ksBossRotatedDefinition = dispinterface
     ['{2DFACC6A-C4A4-11D6-8734-00C0262CDD2C}']
+    property directionType: Smallint dispid 1;
+    property toroidShapeType: WordBool dispid 2;
+    property chooseType: Integer dispid 12;
     function SetSketch(const sketch: IDispatch): WordBool; dispid 3;
-    function SetSideParam(side1: WordBool; angle: Double): WordBool; dispid 6;
-    function GetSideParam(side1: WordBool; var angle: Double): WordBool; dispid 5;
     function GetSketch: IDispatch; dispid 4;
-    function RotatedParam: IDispatch; dispid 10;
-    function GetThinParam(var thin: WordBool; var thinType: Smallint; var normalThickness: Double; 
-                          var reverseTthickness: Double): WordBool; dispid 7;
+    function GetSideParam(side1: WordBool; var angle: Double): WordBool; dispid 5;
+    function SetSideParam(side1: WordBool; angle: Double): WordBool; dispid 6;
+    function GetThinParam(out thin: WordBool; out thinType: Smallint; out normalThickness: Double; 
+                          out reverseTthickness: Double): WordBool; dispid 7;
     function SetThinParam(thin: WordBool; thinType: Smallint; normalThickness: Double; 
                           reverseThickness: Double): WordBool; dispid 8;
-    function ChooseBodies: IDispatch; dispid 11;
     function ThinParam: IDispatch; dispid 9;
-    property toroidShapeType: WordBool dispid 2;
-    property directionType: Smallint dispid 1;
+    function RotatedParam: IDispatch; dispid 10;
+    function ChooseBodies: IDispatch; dispid 11;
+    function ChooseParts: IDispatch; dispid 13;
   end;
 
 // *********************************************************************//
@@ -5818,22 +5907,22 @@ type
 // *********************************************************************//
   ksCutRotatedDefinition = dispinterface
     ['{2DFACC6D-C4A4-11D6-8734-00C0262CDD2C}']
-    function RotatedParam: IDispatch; dispid 11;
-    function ChooseBodies: IDispatch; dispid 12;
+    property directionType: Smallint dispid 1;
+    property toroidShapeType: WordBool dispid 2;
+    property cut: WordBool dispid 3;
+    property chooseType: Integer dispid 13;
     function SetSketch(const sketch: IDispatch): WordBool; dispid 4;
-    function GetSideParam(side1: WordBool; var angle: Double): WordBool; dispid 6;
     function GetSketch: IDispatch; dispid 5;
-    function GetThinParam(var thin: WordBool; var thinType: Smallint; var normalThickness: Double; 
-                          var reverseTthickness: Double): WordBool; dispid 8;
+    function GetSideParam(side1: WordBool; var angle: Double): WordBool; dispid 6;
+    function SetSideParam(side1: WordBool; angle: Double): WordBool; dispid 7;
+    function GetThinParam(out thin: WordBool; out thinType: Smallint; out normalThickness: Double; 
+                          out reverseTthickness: Double): WordBool; dispid 8;
     function SetThinParam(thin: WordBool; thinType: Smallint; normalThickness: Double; 
                           reverseThickness: Double): WordBool; dispid 9;
-    function SetSideParam(side1: WordBool; angle: Double): WordBool; dispid 7;
-    function ChooseParts: IDispatch; dispid 14;
     function ThinParam: IDispatch; dispid 10;
-    property chooseType: Integer dispid 13;
-    property cut: WordBool dispid 3;
-    property toroidShapeType: WordBool dispid 2;
-    property directionType: Smallint dispid 1;
+    function RotatedParam: IDispatch; dispid 11;
+    function ChooseBodies: IDispatch; dispid 12;
+    function ChooseParts: IDispatch; dispid 14;
   end;
 
 // *********************************************************************//
@@ -5843,14 +5932,14 @@ type
 // *********************************************************************//
   ksRotatedSurfaceDefinition = dispinterface
     ['{FD27841D-1374-4F7F-AE8A-C2A44F89120D}']
-    function SetSideParam(side1: WordBool; angle: Double): WordBool; dispid 7;
-    function SetSketch(const sketch: IDispatch): WordBool; dispid 4;
-    function RotatedParam: IDispatch; dispid 8;
-    function GetSideParam(side1: WordBool; var angle: Double): WordBool; dispid 6;
-    function GetSketch: IDispatch; dispid 5;
-    property closedShell: Smallint dispid 3;
-    property toroidShapeType: WordBool dispid 2;
     property directionType: Smallint dispid 1;
+    property toroidShapeType: WordBool dispid 2;
+    property closedShell: Smallint dispid 3;
+    function SetSketch(const sketch: IDispatch): WordBool; dispid 4;
+    function GetSketch: IDispatch; dispid 5;
+    function GetSideParam(side1: WordBool; out angle: Double): WordBool; dispid 6;
+    function SetSideParam(side1: WordBool; angle: Double): WordBool; dispid 7;
+    function RotatedParam: IDispatch; dispid 8;
   end;
 
 // *********************************************************************//
@@ -5860,19 +5949,19 @@ type
 // *********************************************************************//
   ksSketchDefinition = dispinterface
     ['{2DFACC70-C4A4-11D6-8734-00C0262CDD2C}']
+    property angle: Double dispid 1;
     function EndEdit: WordBool; dispid 2;
     function SetPlane(const plane: IDispatch): WordBool; dispid 3;
-    function GetLoftPoint(var x: Double; var y: Double): WordBool; dispid 7;
-    function GetLocation(var x: Double; var y: Double): WordBool; dispid 5;
-    function SetLocation(x: Double; y: Double): WordBool; dispid 6;
     function GetPlane: IDispatch; dispid 4;
+    function GetLocation(out x: Double; out y: Double): WordBool; dispid 5;
+    function SetLocation(x: Double; y: Double): WordBool; dispid 6;
+    function GetLoftPoint(out x: Double; out y: Double): WordBool; dispid 7;
     function UserSetPlacement(const prompt: WideString): WordBool; dispid 8;
     function BeginEdit: IDispatch; dispid 9;
     function AddProjectionOf(const entity: IDispatch): Integer; dispid 10;
     function SetLoftPoint(x: Double; y: Double): WordBool; dispid 11;
     function GetSurface: IDispatch; dispid 12;
     function BeginEditEx(readOnly: Integer): IDispatch; dispid 13;
-    property angle: Double dispid 1;
   end;
 
 // *********************************************************************//
@@ -5882,17 +5971,17 @@ type
 // *********************************************************************//
   ksRasterFormatParam = dispinterface
     ['{1A91A8AB-AF8C-4EE3-86D4-0A9C00123195}']
-    function Init: WordBool; dispid 11;
     property format: Smallint dispid 1;
     property colorBPP: Smallint dispid 2;
     property greyScale: WordBool dispid 3;
     property extResolution: Integer dispid 4;
     property extScale: Double dispid 5;
+    property colorType: Smallint dispid 6;
     property onlyThinLine: WordBool dispid 7;
     property pages: WideString dispid 8;
-    property multiPageOutput: WordBool dispid 10;
-    property colorType: Smallint dispid 6;
     property rangeIndex: Smallint dispid 9;
+    property multiPageOutput: WordBool dispid 10;
+    function Init: WordBool; dispid 11;
   end;
 
 // *********************************************************************//
@@ -5902,10 +5991,28 @@ type
 // *********************************************************************//
   ksAdditionFormatParam = dispinterface
     ['{0FD25FF9-AB0A-48F3-BAD4-F193116C0887}']
-    function Init: WordBool; dispid 4;
-    property formatBinary: WordBool dispid 2;
     property format: Smallint dispid 1;
+    property formatBinary: WordBool dispid 2;
     property topolgyIncluded: WordBool dispid 3;
+    property textExportForm: Integer dispid 5;
+    property createLocalComponents: WordBool dispid 6;
+    property stepType: Integer dispid 7;
+    property step: Double dispid 8;
+    property angle: Double dispid 9;
+    property length: Double dispid 10;
+    property maxTeselationCellCount: Integer dispid 11;
+    property lengthUnits: Integer dispid 12;
+    property stitchSurfaces: WordBool dispid 13;
+    property stitchPrecision: Double dispid 14;
+    property author: WideString dispid 15;
+    property organization: WideString dispid 16;
+    property comment: WideString dispid 17;
+    property password: WideString dispid 22;
+    function Init: WordBool; dispid 4;
+    function GetObjectsOptions(option: Integer): Integer; dispid 18;
+    function SetObjectsOptions(option: Integer; set_: Integer): Integer; dispid 19;
+    function GetPlacement: IDispatch; dispid 20;
+    function SetPlacement(const p: IDispatch): Integer; dispid 21;
   end;
 
 // *********************************************************************//
@@ -5915,11 +6022,11 @@ type
 // *********************************************************************//
   ksConstraintParam = dispinterface
     ['{862E250D-9DB1-47E8-8EE2-9BE2D2453D5A}']
-    function Init: WordBool; dispid 5;
     property constrType: Smallint dispid 1;
     property index: SYSINT dispid 2;
-    property partnerIndex: SYSINT dispid 4;
     property partner: Integer dispid 3;
+    property partnerIndex: SYSINT dispid 4;
+    function Init: WordBool; dispid 5;
   end;
 
 // *********************************************************************//
@@ -5961,7 +6068,7 @@ type
 // *********************************************************************//
   ksVertexDefinition = dispinterface
     ['{A7257E73-EB61-4602-BC8B-2D00EA4AA062}']
-    function GetPoint(var x: Double; var y: Double; var z: Double): WordBool; dispid 1;
+    function GetPoint(out x: Double; out y: Double; out z: Double): WordBool; dispid 1;
     function GetOwnerEntity: IDispatch; dispid 2;
     property topologyVertex: WordBool readonly dispid 3;
     property freeVertex: WordBool readonly dispid 4;
@@ -5977,14 +6084,21 @@ type
     function GetFacetsCount: Integer; dispid 1;
     function GetFacetData(index: SYSINT; const facet: IDispatch): WordBool; dispid 2;
     function GetPointsCount: Integer; dispid 3;
-    function GetPoint(index: SYSINT; var x: Single; var y: Single; var z: Single): WordBool; dispid 4;
-    function GetNormal(index: SYSINT; var x: Single; var y: Single; var z: Single): WordBool; dispid 5;
+    function GetPoint(index: SYSINT; out x: Single; out y: Single; out z: Single): WordBool; dispid 4;
+    function GetNormal(index: SYSINT; out x: Single; out y: Single; out z: Single): WordBool; dispid 5;
     function SetFacetSize(sag: Double): WordBool; dispid 6;
     function GetFacetSize: Double; dispid 7;
     function GetFacet: IDispatch; dispid 8;
     function refresh: WordBool; dispid 9;
-    function GetFacetPoints(var points: OleVariant; var indexes: OleVariant): WordBool; dispid 10;
-    function GetFacetNormals(var normals: OleVariant): WordBool; dispid 11;
+    function GetFacetPoints(out points: OleVariant; out indexes: OleVariant): WordBool; dispid 10;
+    function GetFacetNormals(out normals: OleVariant): WordBool; dispid 11;
+    function GetFacetParams(out params: OleVariant): WordBool; dispid 12;
+    function SetFacetSag(sag: Double): WordBool; dispid 13;
+    function GetFacetSag: Double; dispid 14;
+    function SetFacetAngle(angle: Double): WordBool; dispid 15;
+    function GetFacetAngle: Double; dispid 16;
+    function SetNeedParams(need: WordBool): WordBool; dispid 17;
+    function GetNeedParams: WordBool; dispid 18;
   end;
 
 // *********************************************************************//
@@ -5995,8 +6109,8 @@ type
   ksFacet = dispinterface
     ['{EB6AFBC0-C387-4E07-B24E-DDF2B7926A26}']
     function GetPointsCount: SYSINT; dispid 1;
-    function GetPoint(index: SYSINT; var x: Single; var y: Single; var z: Single): WordBool; dispid 2;
-    function GetNormal(index: SYSINT; var x: Single; var y: Single; var z: Single): WordBool; dispid 3;
+    function GetPoint(index: SYSINT; out x: Single; out y: Single; out z: Single): WordBool; dispid 2;
+    function GetNormal(index: SYSINT; out x: Single; out y: Single; out z: Single): WordBool; dispid 3;
     function GetTessellationIndex(index: SYSINT): SYSINT; dispid 4;
   end;
 
@@ -6007,26 +6121,29 @@ type
 // *********************************************************************//
   ksMeasurer = dispinterface
     ['{ABC84FE5-3945-4A0B-820A-719BF4B79224}']
-    function SetObject2(const obj: IDispatch): WordBool; dispid 2;
+    property unit_: LongWord dispid 5;
+    property extendObject1: WordBool dispid 6;
+    property extendObject2: WordBool dispid 7;
     function SetObject1(const obj: IDispatch): WordBool; dispid 1;
-    function GetMaxPoint2(var x: Double; var y: Double; var z: Double): WordBool; dispid 17;
+    function SetObject2(const obj: IDispatch): WordBool; dispid 2;
     function GetObject1: IDispatch; dispid 3;
-    function IsAngleValid: WordBool; dispid 9;
-    function Calc: WordBool; dispid 8;
     function GetObject2: IDispatch; dispid 4;
+    function Calc: WordBool; dispid 8;
+    function IsAngleValid: WordBool; dispid 9;
     property angle: Double readonly dispid 10;
-    function GetMaxPoint1(var x: Double; var y: Double; var z: Double): WordBool; dispid 16;
-    function GetPoint2(var x: Double; var y: Double; var z: Double): WordBool; dispid 13;
     property distance: Double readonly dispid 11;
+    function GetPoint1(out x: Double; out y: Double; out z: Double): WordBool; dispid 12;
+    function GetPoint2(out x: Double; out y: Double; out z: Double): WordBool; dispid 13;
     property MaxDistance: Double readonly dispid 14;
     property NormalDistance: Double readonly dispid 15;
+    function GetMaxPoint1(out x: Double; out y: Double; out z: Double): WordBool; dispid 16;
+    function GetMaxPoint2(out x: Double; out y: Double; out z: Double): WordBool; dispid 17;
+    function GetNormalPoint1(out x: Double; out y: Double; out z: Double): WordBool; dispid 18;
+    function GetNormalPoint2(out x: Double; out y: Double; out z: Double): WordBool; dispid 19;
     property MeasureResult: Integer readonly dispid 20;
-    function GetNormalPoint1(var x: Double; var y: Double; var z: Double): WordBool; dispid 18;
-    function GetPoint1(var x: Double; var y: Double; var z: Double): WordBool; dispid 12;
-    function GetNormalPoint2(var x: Double; var y: Double; var z: Double): WordBool; dispid 19;
-    property extendObject2: WordBool dispid 7;
-    property extendObject1: WordBool dispid 6;
-    property unit_: LongWord dispid 5;
+    property MinDistance: Double readonly dispid 21;
+    function GetMinPoint1(out x: Double; out y: Double; out z: Double): WordBool; dispid 22;
+    function GetMinPoint2(out x: Double; out y: Double; out z: Double): WordBool; dispid 23;
   end;
 
 // *********************************************************************//
@@ -6060,8 +6177,8 @@ type
 // *********************************************************************//
   ksBody = dispinterface
     ['{03EFC9DD-E05A-4277-BC7C-4FD499A252DE}']
-    function GetGabarit(var x1: Double; var y1: Double; var z1: Double; var x2: Double; 
-                        var y2: Double; var z2: Double): WordBool; dispid 1;
+    function GetGabarit(out x1: Double; out y1: Double; out z1: Double; out x2: Double; 
+                        out y2: Double; out z2: Double): WordBool; dispid 1;
     function FaceCollection: IDispatch; dispid 2;
     function IsSolid: WordBool; dispid 3;
     function CalcMassInertiaProperties(bitVector: LongWord): IDispatch; dispid 4;
@@ -6071,10 +6188,10 @@ type
     property MultiBodyParts: WordBool readonly dispid 7;
     function GetFeature: IDispatch; dispid 8;
     function GetIntersectionFacesWithBody(const otherBody: IDispatch; 
-                                          var intersectionFaces1: OleVariant; 
-                                          var intersectionFaces2: OleVariant; 
-                                          var connectedFaces1: OleVariant; 
-                                          var connectedFaces2: OleVariant): Integer; dispid 9;
+                                          out intersectionFaces1: OleVariant; 
+                                          out intersectionFaces2: OleVariant; 
+                                          out connectedFaces1: OleVariant; 
+                                          out connectedFaces2: OleVariant): Integer; dispid 9;
   end;
 
 // *********************************************************************//
@@ -6084,32 +6201,32 @@ type
 // *********************************************************************//
   ksSurface = dispinterface
     ['{963CB6E1-B9BF-4234-964A-13BFE6C0282A}']
-    function GetGabarit(var x1: Double; var y1: Double; var z1: Double; var x2: Double; 
-                        var y2: Double; var z2: Double): WordBool; dispid 1;
-    function GetPoint(paramU: Double; paramV: Double; var x: Double; var y: Double; var z: Double): WordBool; dispid 2;
-    function GetNormal(paramU: Double; paramV: Double; var x: Double; var y: Double; var z: Double): WordBool; dispid 3;
-    function GetTangentVectorU(paramU: Double; paramV: Double; var x: Double; var y: Double; 
-                               var z: Double): WordBool; dispid 4;
-    function GetTangentVectorV(paramU: Double; paramV: Double; var x: Double; var y: Double; 
-                               var z: Double): WordBool; dispid 5;
-    function GetDerivativeU(paramU: Double; paramV: Double; var x: Double; var y: Double; 
-                            var z: Double): WordBool; dispid 6;
-    function GetDerivativeV(paramU: Double; paramV: Double; var x: Double; var y: Double; 
-                            var z: Double): WordBool; dispid 7;
-    function GetDerivativeUU(paramU: Double; paramV: Double; var x: Double; var y: Double; 
-                             var z: Double): WordBool; dispid 8;
-    function GetDerivativeVV(paramU: Double; paramV: Double; var x: Double; var y: Double; 
-                             var z: Double): WordBool; dispid 9;
-    function GetDerivativeUV(paramU: Double; paramV: Double; var x: Double; var y: Double; 
-                             var z: Double): WordBool; dispid 10;
-    function GetDerivativeUUU(paramU: Double; paramV: Double; var x: Double; var y: Double; 
-                              var z: Double): WordBool; dispid 11;
-    function GetDerivativeVVV(paramU: Double; paramV: Double; var x: Double; var y: Double; 
-                              var z: Double): WordBool; dispid 12;
-    function GetDerivativeUVV(paramU: Double; paramV: Double; var x: Double; var y: Double; 
-                              var z: Double): WordBool; dispid 13;
-    function GetDerivativeUUV(paramU: Double; paramV: Double; var x: Double; var y: Double; 
-                              var z: Double): WordBool; dispid 14;
+    function GetGabarit(out x1: Double; out y1: Double; out z1: Double; out x2: Double; 
+                        out y2: Double; out z2: Double): WordBool; dispid 1;
+    function GetPoint(paramU: Double; paramV: Double; out x: Double; out y: Double; out z: Double): WordBool; dispid 2;
+    function GetNormal(paramU: Double; paramV: Double; out x: Double; out y: Double; out z: Double): WordBool; dispid 3;
+    function GetTangentVectorU(paramU: Double; paramV: Double; out x: Double; out y: Double; 
+                               out z: Double): WordBool; dispid 4;
+    function GetTangentVectorV(paramU: Double; paramV: Double; out x: Double; out y: Double; 
+                               out z: Double): WordBool; dispid 5;
+    function GetDerivativeU(paramU: Double; paramV: Double; out x: Double; out y: Double; 
+                            out z: Double): WordBool; dispid 6;
+    function GetDerivativeV(paramU: Double; paramV: Double; out x: Double; out y: Double; 
+                            out z: Double): WordBool; dispid 7;
+    function GetDerivativeUU(paramU: Double; paramV: Double; out x: Double; out y: Double; 
+                             out z: Double): WordBool; dispid 8;
+    function GetDerivativeVV(paramU: Double; paramV: Double; out x: Double; out y: Double; 
+                             out z: Double): WordBool; dispid 9;
+    function GetDerivativeUV(paramU: Double; paramV: Double; out x: Double; out y: Double; 
+                             out z: Double): WordBool; dispid 10;
+    function GetDerivativeUUU(paramU: Double; paramV: Double; out x: Double; out y: Double; 
+                              out z: Double): WordBool; dispid 11;
+    function GetDerivativeVVV(paramU: Double; paramV: Double; out x: Double; out y: Double; 
+                              out z: Double): WordBool; dispid 12;
+    function GetDerivativeUVV(paramU: Double; paramV: Double; out x: Double; out y: Double; 
+                              out z: Double): WordBool; dispid 13;
+    function GetDerivativeUUV(paramU: Double; paramV: Double; out x: Double; out y: Double; 
+                              out z: Double): WordBool; dispid 14;
     function GetParamUMin: Double; dispid 15;
     function GetParamUMax: Double; dispid 16;
     function GetParamVMin: Double; dispid 17;
@@ -6126,15 +6243,15 @@ type
     function IsSwept: WordBool; dispid 28;
     function GetSurfaceParam: IDispatch; dispid 29;
     function GetArea(bitVector: LongWord): Double; dispid 30;
-    function NearPointProjection(x: Double; y: Double; z: Double; var u: Double; var v: Double; 
+    function NearPointProjection(x: Double; y: Double; z: Double; out u: Double; out v: Double; 
                                  ext: WordBool): WordBool; dispid 31;
     function CurveIntersection(const curve: IDispatch; const points: IDispatch; extSurf: WordBool; 
                                extCurve: WordBool): WordBool; dispid 32;
     function GetNurbsSurfaceParam: IDispatch; dispid 33;
     function GetBoundaryUVNurbs(uv: WordBool; closed: WordBool; loopIndex: Integer; 
-                                edgeIndex: Integer; var degree: Integer; var points: OleVariant; 
-                                var weights: OleVariant; var knots: OleVariant; var tMin: Double; 
-                                var tMax: Double): WordBool; dispid 34;
+                                edgeIndex: Integer; out degree: Integer; out points: OleVariant; 
+                                out weights: OleVariant; out knots: OleVariant; out tMin: Double; 
+                                out tMax: Double): WordBool; dispid 34;
     property BoundaryCount: Integer readonly dispid 35;
     function GetEdgesCount(loopIndex: Integer): Integer; dispid 36;
   end;
@@ -6224,19 +6341,19 @@ type
 // *********************************************************************//
   ksCurve3D = dispinterface
     ['{7572648A-D4EE-41FE-8D74-EC7D1F91BDE2}']
-    function GetPoint(paramT: Double; var x: Double; var y: Double; var z: Double): WordBool; dispid 1;
-    function GetTangentVector(paramT: Double; var x: Double; var y: Double; var z: Double): WordBool; dispid 2;
-    function GetNormal(paramT: Double; var x: Double; var y: Double; var z: Double): WordBool; dispid 3;
-    function GetDerivativeT(paramT: Double; var x: Double; var y: Double; var z: Double): WordBool; dispid 4;
-    function GetDerivativeTT(paramT: Double; var x: Double; var y: Double; var z: Double): WordBool; dispid 5;
-    function GetDerivativeTTT(paramT: Double; var x: Double; var y: Double; var z: Double): WordBool; dispid 6;
+    function GetPoint(paramT: Double; out x: Double; out y: Double; out z: Double): WordBool; dispid 1;
+    function GetTangentVector(paramT: Double; out x: Double; out y: Double; out z: Double): WordBool; dispid 2;
+    function GetNormal(paramT: Double; out x: Double; out y: Double; out z: Double): WordBool; dispid 3;
+    function GetDerivativeT(paramT: Double; out x: Double; out y: Double; out z: Double): WordBool; dispid 4;
+    function GetDerivativeTT(paramT: Double; out x: Double; out y: Double; out z: Double): WordBool; dispid 5;
+    function GetDerivativeTTT(paramT: Double; out x: Double; out y: Double; out z: Double): WordBool; dispid 6;
     function GetParamMin: Double; dispid 7;
     function GetParamMax: Double; dispid 8;
     function IsClosed: WordBool; dispid 9;
     function IsPeriodic: WordBool; dispid 10;
     function GetMetricLength(startParam: Double; endParam: Double): Double; dispid 11;
-    function GetGabarit(var x1: Double; var y1: Double; var z1: Double; var x2: Double; 
-                        var y2: Double; var z2: Double): WordBool; dispid 12;
+    function GetGabarit(out x1: Double; out y1: Double; out z1: Double; out x2: Double; 
+                        out y2: Double; out z2: Double): WordBool; dispid 12;
     function IsDegenerate: WordBool; dispid 13;
     function IsPlanar: WordBool; dispid 14;
     function IsLineSeg: WordBool; dispid 15;
@@ -6246,7 +6363,7 @@ type
     function IsNurbs: WordBool; dispid 19;
     function GetCurveParam: IDispatch; dispid 20;
     function GetLength(bitVector: LongWord): Double; dispid 21;
-    function NearPointProjection(x: Double; y: Double; z: Double; var t: Double; ext: WordBool): WordBool; dispid 22;
+    function NearPointProjection(x: Double; y: Double; z: Double; out t: Double; ext: WordBool): WordBool; dispid 22;
     function GetNurbs3dParam: IDispatch; dispid 23;
     function CalculatePolygon(step: Double): OleVariant; dispid 24;
   end;
@@ -6258,8 +6375,8 @@ type
 // *********************************************************************//
   ksLineSeg3dParam = dispinterface
     ['{DC8F6A7B-FF16-46FF-986D-2F7E1F6B25C4}']
-    function GetPointFirst(var x: Double; var y: Double; var z: Double): WordBool; dispid 1;
-    function GetPointLast(var x: Double; var y: Double; var z: Double): WordBool; dispid 2;
+    function GetPointFirst(out x: Double; out y: Double; out z: Double): WordBool; dispid 1;
+    function GetPointLast(out x: Double; out y: Double; out z: Double): WordBool; dispid 2;
   end;
 
 // *********************************************************************//
@@ -6350,7 +6467,7 @@ type
 // *********************************************************************//
   ksNurbsPoint3dParam = dispinterface
     ['{F1CD604D-1D26-4F6B-8F94-F112133E6162}']
-    function GetPoint(var x: Double; var y: Double; var z: Double): WordBool; dispid 1;
+    function GetPoint(out x: Double; out y: Double; out z: Double): WordBool; dispid 1;
     property weight: Double readonly dispid 2;
   end;
 
@@ -6366,18 +6483,18 @@ type
     function GetPointCollection: IDispatch; dispid 3;
     function GetKnotCollection(paramU: WordBool): IDispatch; dispid 4;
     function GetPeriodic(paramU: WordBool): WordBool; dispid 5;
-    function GetNurbsParams(closedV: WordBool; closedU: WordBool; var degreeV: Integer; 
-                            var degreeU: Integer; var nPV: Integer; var nPU: Integer; 
-                            var points: OleVariant; var weights: OleVariant; 
-                            var knotsV: OleVariant; var knotsU: OleVariant): WordBool; dispid 6;
+    function GetNurbsParams(closedV: WordBool; closedU: WordBool; out degreeV: Integer; 
+                            out degreeU: Integer; out nPV: Integer; out nPU: Integer; 
+                            out points: OleVariant; out weights: OleVariant; 
+                            out knotsV: OleVariant; out knotsU: OleVariant): WordBool; dispid 6;
     function GetBoundaryUVNurbs(uv: WordBool; closed: WordBool; loopIndex: Integer; 
-                                edgeIndex: Integer; var degree: Integer; var points: OleVariant; 
-                                var weights: OleVariant; var knots: OleVariant; var tMin: Double; 
-                                var tMax: Double): WordBool; dispid 7;
+                                edgeIndex: Integer; out degree: Integer; out points: OleVariant; 
+                                out weights: OleVariant; out knots: OleVariant; out tMin: Double; 
+                                out tMax: Double): WordBool; dispid 7;
     function GetBoundaryCount: Integer; dispid 8;
     function GetEdgesCount(loopIndex: Integer): Integer; dispid 9;
-    function GetMinMaxParameters(closedV: WordBool; closedU: WordBool; var uMin: Double; 
-                                 var uMax: Double; var vMin: Double; var vMax: Double): WordBool; dispid 10;
+    function GetMinMaxParameters(closedV: WordBool; closedU: WordBool; out uMin: Double; 
+                                 out uMax: Double; out vMin: Double; out vMax: Double): WordBool; dispid 10;
   end;
 
 // *********************************************************************//
@@ -6392,9 +6509,9 @@ type
     function GetPointCollection: IDispatch; dispid 3;
     function GetKnotCollection: IDispatch; dispid 4;
     property periodic: WordBool readonly dispid 5;
-    function GetNurbsPoints3DParams(closed: WordBool; var points: OleVariant; 
-                                    var weights: OleVariant; var knots: OleVariant): WordBool; dispid 6;
-    function GetMinMaxParameters(closed: WordBool; var tMin: Double; var tMax: Double): WordBool; dispid 7;
+    function GetNurbsPoints3DParams(closed: WordBool; out points: OleVariant; 
+                                    out weights: OleVariant; out knots: OleVariant): WordBool; dispid 6;
+    function GetMinMaxParameters(closed: WordBool; out tMin: Double; out tMax: Double): WordBool; dispid 7;
   end;
 
 // *********************************************************************//
@@ -6475,14 +6592,15 @@ type
 // *********************************************************************//
   ksViewProjection = dispinterface
     ['{BF65B990-C2DC-4A12-9EB7-3E868608AF47}']
-    property index: Integer readonly dispid 7;
+    property name: WideString dispid 1;
+    property scale: Double dispid 2;
     function IsCurrent: WordBool; dispid 3;
     function SetCurrent: WordBool; dispid 4;
-    function SetPlacement(const place: IDispatch): WordBool; dispid 6;
     function GetPlacement: IDispatch; dispid 5;
+    function SetPlacement(const place: IDispatch): WordBool; dispid 6;
+    property userProjectionIndex: Integer readonly dispid 7;
     function SetMatrix3D(Matrix3D: OleVariant): WordBool; dispid 8;
-    property scale: Double dispid 2;
-    property name: WideString dispid 1;
+    function GetViewProjectonType: Integer; dispid 9;
   end;
 
 // *********************************************************************//
@@ -6492,6 +6610,7 @@ type
 // *********************************************************************//
   ksViewProjectionCollection = dispinterface
     ['{A174F872-C800-409E-9FB2-FF5B89D8B4B8}']
+    property viewProjectionScheme: Integer dispid 15;
     function refresh: WordBool; dispid 1;
     function GetCount: Integer; dispid 2;
     function First: IDispatch; dispid 3;
@@ -6506,6 +6625,9 @@ type
     function DetachByBody(const entity: IDispatch): WordBool; dispid 12;
     function DetachByName(const name: WideString): WordBool; dispid 13;
     function NewViewProjection: IDispatch; dispid 14;
+    function SetBaseUserOrientation(place: OleVariant): WordBool; dispid 16;
+    function GetBaseUserOrientation: OleVariant; dispid 17;
+    function AddUnfoldProjection(place: OleVariant): IDispatch; dispid 18;
   end;
 
 // *********************************************************************//
@@ -6535,19 +6657,19 @@ type
 // *********************************************************************//
   ksChooseMng = dispinterface
     ['{8F2AA755-D9D1-42A0-97BF-C92548CE7232}']
+    property currentManagerType: Integer dispid 12;
     function Choose(const obj: IDispatch): WordBool; dispid 1;
     function UnChoose(const obj: IDispatch): WordBool; dispid 2;
-    function First: IDispatch; dispid 6;
+    function UnChooseAll: WordBool; dispid 3;
     function IsChoosen(const obj: IDispatch): WordBool; dispid 4;
     function GetCount: Integer; dispid 5;
-    function UnChooseAll: WordBool; dispid 3;
+    function First: IDispatch; dispid 6;
     function Last: IDispatch; dispid 7;
     function Next: IDispatch; dispid 8;
     function Prev: IDispatch; dispid 9;
     function GetObjectByIndex(index: Integer): IDispatch; dispid 10;
     function GetObjectType(index: Integer): Integer; dispid 11;
     function GetManagerIndex(const obj: IDispatch): Integer; dispid 13;
-    property currentManagerType: Integer dispid 12;
   end;
 
 // *********************************************************************//
@@ -6583,25 +6705,25 @@ type
 // *********************************************************************//
   ksAssociationViewParam = dispinterface
     ['{C81EB1DA-BCB0-491A-8D22-923BF817D572}']
-    function SetDimensionLayoutScaling(scaling: WordBool): WordBool; dispid 18;
-    function GetHatchParam: IDispatch; dispid 16;
-    property viewType: Smallint readonly dispid 5;
-    function GetViewParam: IDispatch; dispid 2;
-    function Init: WordBool; dispid 1;
-    property visibleLinesStyle: Integer dispid 8;
-    property projectionName: WideString dispid 4;
     property fileName: WideString dispid 3;
-    property hiddenLinesShow: WordBool dispid 11;
-    property tangentEdgesStyle: Integer dispid 10;
+    property projectionName: WideString dispid 4;
+    property projectionLink: WordBool dispid 6;
+    property disassembly: WordBool dispid 7;
+    property visibleLinesStyle: Integer dispid 8;
     property hiddenLinesStyle: Integer dispid 9;
+    property tangentEdgesStyle: Integer dispid 10;
+    property hiddenLinesShow: WordBool dispid 11;
     property tangentEdgesShow: WordBool dispid 12;
-    property sameHatch: WordBool dispid 19;
+    property projBodies: WordBool dispid 13;
     property projSurfaces: WordBool dispid 14;
     property projThreads: WordBool dispid 15;
     property section: WordBool dispid 17;
-    property disassembly: WordBool dispid 7;
-    property projectionLink: WordBool dispid 6;
-    property projBodies: WordBool dispid 13;
+    property sameHatch: WordBool dispid 19;
+    function Init: WordBool; dispid 1;
+    function GetViewParam: IDispatch; dispid 2;
+    property viewType: Smallint readonly dispid 5;
+    function GetHatchParam: IDispatch; dispid 16;
+    function SetDimensionLayoutScaling(scaling: WordBool): WordBool; dispid 18;
   end;
 
 // *********************************************************************//
@@ -6611,11 +6733,11 @@ type
 // *********************************************************************//
   ksViewColorParam = dispinterface
     ['{5A42B962-8F78-4557-B17A-1B871F8DBDB5}']
-    function Init: WordBool; dispid 5;
     property color: Integer dispid 1;
     property useGradient: WordBool dispid 2;
-    property bottomColor: Integer dispid 4;
     property topColor: Integer dispid 3;
+    property bottomColor: Integer dispid 4;
+    function Init: WordBool; dispid 5;
   end;
 
 // *********************************************************************//
@@ -6637,18 +6759,18 @@ type
 // *********************************************************************//
   ksTextDocumentParam = dispinterface
     ['{33706D56-D085-4840-833B-435AEB00BE2A}']
-    function GetArrTailSheet: IDispatch; dispid 11;
-    function GetArrTitleSheet: IDispatch; dispid 10;
-    function Init: WordBool; dispid 6;
-    function GetSheetParam: IDispatch; dispid 12;
-    function GetOddSheet: IDispatch; dispid 9;
-    function GetEvenSheet: IDispatch; dispid 8;
-    function GetFirstSheet: IDispatch; dispid 7;
-    property regime: Smallint dispid 5;
-    property type_: Smallint dispid 4;
-    property author: WideString dispid 3;
-    property comment: WideString dispid 2;
     property fileName: WideString dispid 1;
+    property comment: WideString dispid 2;
+    property author: WideString dispid 3;
+    property type_: Smallint dispid 4;
+    property regime: Smallint dispid 5;
+    function Init: WordBool; dispid 6;
+    function GetFirstSheet: IDispatch; dispid 7;
+    function GetEvenSheet: IDispatch; dispid 8;
+    function GetOddSheet: IDispatch; dispid 9;
+    function GetArrTitleSheet: IDispatch; dispid 10;
+    function GetArrTailSheet: IDispatch; dispid 11;
+    function GetSheetParam: IDispatch; dispid 12;
   end;
 
 // *********************************************************************//
@@ -6658,20 +6780,20 @@ type
 // *********************************************************************//
   ksRemoteElementParam = dispinterface
     ['{25076616-4949-455E-A45C-1B801884D825}']
-    function SetpText(const pText: IDispatch): WordBool; dispid 14;
-    function GetpText: IDispatch; dispid 13;
-    function Init(style: Integer): WordBool; dispid 1;
-    property y: Double dispid 5;
     property style: Integer dispid 2;
-    property radius: Double dispid 8;
+    property signType: Integer dispid 3;
+    property x: Double dispid 4;
+    property y: Double dispid 5;
     property width: Double dispid 6;
     property height: Double dispid 7;
-    property signType: Integer dispid 3;
+    property radius: Double dispid 8;
     property smooth: Double dispid 9;
     property shelfX: Double dispid 10;
-    property shelfDir: Smallint dispid 12;
-    property x: Double dispid 4;
     property shelfY: Double dispid 11;
+    property shelfDir: Smallint dispid 12;
+    function Init(style: Integer): WordBool; dispid 1;
+    function GetpText: IDispatch; dispid 13;
+    function SetpText(const pText: IDispatch): WordBool; dispid 14;
   end;
 
 // *********************************************************************//
@@ -6683,11 +6805,11 @@ type
     ['{82F60797-D69C-4EB4-9F1A-24D625D5EAFA}']
     function refresh: WordBool; dispid 1;
     function GetCount: Integer; dispid 2;
-    function First(var index1: Integer; var index2: Integer): WordBool; dispid 3;
-    function Last(var index1: Integer; var index2: Integer): WordBool; dispid 4;
-    function Next(var index1: Integer; var index2: Integer): WordBool; dispid 5;
-    function Prev(var index1: Integer; var index2: Integer): WordBool; dispid 6;
-    function GetByIndex(index: Integer; var index1: Integer; var index2: Integer): WordBool; dispid 7;
+    function First(out index1: Integer; out index2: Integer): WordBool; dispid 3;
+    function Last(out index1: Integer; out index2: Integer): WordBool; dispid 4;
+    function Next(out index1: Integer; out index2: Integer): WordBool; dispid 5;
+    function Prev(out index1: Integer; out index2: Integer): WordBool; dispid 6;
+    function GetByIndex(index: Integer; out index1: Integer; out index2: Integer): WordBool; dispid 7;
     function Clear: WordBool; dispid 8;
     function Add(index1: Integer; index2: Integer): WordBool; dispid 9;
     function AddAt(index1: Integer; index2: Integer; index: Integer): WordBool; dispid 10;
@@ -6704,19 +6826,19 @@ type
 // *********************************************************************//
   ksCopyObjectParam = dispinterface
     ['{AACAD820-7790-46EB-B17F-06AE42215ED7}']
-    function Init: WordBool; dispid 1;
     property objRef: Integer dispid 2;
     property xOld: Double dispid 3;
     property yOld: Double dispid 4;
     property xNew: Double dispid 5;
     property yNew: Double dispid 6;
     property scale: Double dispid 7;
-    property spcObjCopy: WordBool dispid 11;
+    property angle: Double dispid 8;
     property attrCopy: WordBool dispid 9;
     property dimLineScale: WordBool dispid 10;
-    property angle: Double dispid 8;
+    property spcObjCopy: WordBool dispid 11;
     property storagesCopy: WordBool dispid 12;
     property hyperLinksCopy: WordBool dispid 13;
+    function Init: WordBool; dispid 1;
   end;
 
 // *********************************************************************//
@@ -6726,19 +6848,19 @@ type
 // *********************************************************************//
   ksThreadDefinition = dispinterface
     ['{5DDB6B14-6F3D-431F-B62F-C5FCCAFC3632}']
-    function GetFaceEnd: IDispatch; dispid 12;
-    function SetFaceBegin(const face: IDispatch): WordBool; dispid 11;
-    property outside: WordBool readonly dispid 4;
-    function SetFaceEnd(const face: IDispatch): WordBool; dispid 13;
-    function GetFaceBegin: IDispatch; dispid 10;
-    function SetBaseObject(const obj: IDispatch): WordBool; dispid 9;
-    function GetBaseObject: IDispatch; dispid 8;
-    property faceValue: WordBool dispid 7;
-    property allLength: WordBool dispid 6;
-    property autoDefinDr: WordBool dispid 5;
-    property p: Double dispid 3;
-    property length: Double dispid 2;
     property dr: Double dispid 1;
+    property length: Double dispid 2;
+    property p: Double dispid 3;
+    property autoDefinDr: WordBool dispid 5;
+    property allLength: WordBool dispid 6;
+    property faceValue: WordBool dispid 7;
+    property outside: WordBool readonly dispid 4;
+    function GetBaseObject: IDispatch; dispid 8;
+    function SetBaseObject(const obj: IDispatch): WordBool; dispid 9;
+    function GetFaceBegin: IDispatch; dispid 10;
+    function SetFaceBegin(const face: IDispatch): WordBool; dispid 11;
+    function GetFaceEnd: IDispatch; dispid 12;
+    function SetFaceEnd(const face: IDispatch): WordBool; dispid 13;
   end;
 
 // *********************************************************************//
@@ -6748,9 +6870,9 @@ type
 // *********************************************************************//
   ksOverlapObjectOptions = dispinterface
     ['{F78E6B71-BEF3-4A4D-AE50-FE96426F6FD1}']
-    function Init: WordBool; dispid 3;
     property overlap: WordBool dispid 1;
     property gap: Double dispid 2;
+    function Init: WordBool; dispid 3;
   end;
 
 // *********************************************************************//
@@ -6775,14 +6897,14 @@ type
 // *********************************************************************//
   ksParametrizationParam = dispinterface
     ['{ABBA6CE0-CB4C-4A32-98B4-B639352C75BB}']
-    function Init: WordBool; dispid 8;
     property nearestPoints: WordBool dispid 1;
-    property vertical: WordBool dispid 4;
-    property horizontal: WordBool dispid 3;
     property pointsLimit: Double dispid 2;
+    property horizontal: WordBool dispid 3;
+    property vertical: WordBool dispid 4;
     property parallel: WordBool dispid 5;
     property perpendicular: WordBool dispid 6;
     property angleLimit: Double dispid 7;
+    function Init: WordBool; dispid 8;
   end;
 
 // *********************************************************************//
@@ -6792,18 +6914,19 @@ type
 // *********************************************************************//
   ksMacro3DDefinition = dispinterface
     ['{02556461-D088-4F00-AE61-D366082DB9BC}']
-    function Destroy: WordBool; dispid 3;
-    function GetObject(index: Integer): IDispatch; dispid 9;
+    property StaffVisible: WordBool dispid 1;
+    property DoubleClickEditOff: WordBool dispid 12;
+    property PropertyObjectEditable: WordBool dispid 13;
     function FeatureCollection: ksFeatureCollection; dispid 2;
+    function Destroy: WordBool; dispid 3;
     function Add(const obj: IDispatch): WordBool; dispid 4;
     function SetUserParam(const userPars: IDispatch): WordBool; dispid 5;
+    function GetUserParamSize: Integer; dispid 6;
     function GetUserParam(const userPars: IDispatch): WordBool; dispid 7;
     function SetObject(index: Integer; const obj: IDispatch): WordBool; dispid 8;
-    function GetUserParamSize: Integer; dispid 6;
+    function GetObject(index: Integer): IDispatch; dispid 9;
     function GetCountObj: Integer; dispid 10;
     function ClearAllObj: WordBool; dispid 11;
-    property DoubleClickEditOff: WordBool dispid 12;
-    property StaffVisible: WordBool dispid 1;
   end;
 
 // *********************************************************************//
@@ -6835,10 +6958,10 @@ type
 // *********************************************************************//
   ksMoldCavityDefinition = dispinterface
     ['{BE5F10F5-B198-49D9-9140-B2B91E060533}']
-    function PartArray: IDispatch; dispid 2;
-    function SetScaleCentre(const vert: IDispatch): WordBool; dispid 4;
-    function GetScaleCentre: IDispatch; dispid 3;
     property scale: Double dispid 1;
+    function PartArray: IDispatch; dispid 2;
+    function GetScaleCentre: IDispatch; dispid 3;
+    function SetScaleCentre(const vert: IDispatch): WordBool; dispid 4;
   end;
 
 // *********************************************************************//
@@ -6849,8 +6972,8 @@ type
   ksCoordinate3dCollection = dispinterface
     ['{E4091969-1C4E-4959-8D93-C2421564418B}']
     function GetCount: Integer; dispid 1;
-    function GetByIndex(index: Integer; var x: Double; var y: Double; var z: Double): WordBool; dispid 2;
-    function GetSafeArray(var array_: OleVariant): WordBool; dispid 3;
+    function GetByIndex(index: Integer; out x: Double; out y: Double; out z: Double): WordBool; dispid 2;
+    function GetSafeArray(out array_: OleVariant): WordBool; dispid 3;
   end;
 
 // *********************************************************************//
@@ -6871,10 +6994,10 @@ type
 // *********************************************************************//
   ksPlaneMiddleDefinition = dispinterface
     ['{CC5E3539-5B35-46FC-AFE1-19BB0168D52F}']
-    function SetObject(number: Integer; const val: IDispatch): WordBool; dispid 2;
-    function GetSurface: IDispatch; dispid 4;
-    function GetObject(number: Integer): IDispatch; dispid 3;
     property position: WordBool dispid 1;
+    function SetObject(number: Integer; const val: IDispatch): WordBool; dispid 2;
+    function GetObject(number: Integer): IDispatch; dispid 3;
+    function GetSurface: IDispatch; dispid 4;
   end;
 
 // *********************************************************************//
@@ -6886,7 +7009,7 @@ type
     ['{BC4C15A4-16E9-4CFA-A33E-CC86BA2FB546}']
     function SetVertex(const val: IDispatch): WordBool; dispid 1;
     function GetVertex: IDispatch; dispid 2;
-    function GetPoint(var x: Double; var y: Double; var z: Double): WordBool; dispid 3;
+    function GetPoint(out x: Double; out y: Double; out z: Double): WordBool; dispid 3;
   end;
 
 // *********************************************************************//
@@ -6896,12 +7019,12 @@ type
 // *********************************************************************//
   ksConjunctivePointDefinition = dispinterface
     ['{177CBAF3-87E6-4376-B6A9-669C0E661BFF}']
+    property direction: WordBool dispid 1;
     function SetVertex(const val: IDispatch): WordBool; dispid 2;
     function GetVertex: IDispatch; dispid 3;
-    function GetPoint(var x: Double; var y: Double; var z: Double): WordBool; dispid 6;
     function SetEdge(const val: IDispatch): WordBool; dispid 4;
     function GetEdge: IDispatch; dispid 5;
-    property direction: WordBool dispid 1;
+    function GetPoint(out x: Double; out y: Double; out z: Double): WordBool; dispid 6;
   end;
 
 // *********************************************************************//
@@ -6911,8 +7034,8 @@ type
 // *********************************************************************//
   ksChooseBodies = dispinterface
     ['{E06B18BF-D2AF-4201-99BE-B7FA9EECF7A8}']
-    function BodyCollection: IDispatch; dispid 2;
     property ChooseBodiesType: Integer dispid 1;
+    function BodyCollection: IDispatch; dispid 2;
   end;
 
 // *********************************************************************//
@@ -6922,8 +7045,8 @@ type
 // *********************************************************************//
   ksAggregateDefinition = dispinterface
     ['{44277B89-EEB4-456C-8EF9-2DC48D61EC91}']
-    function BodyCollection: IDispatch; dispid 2;
     property BooleanType: Integer dispid 1;
+    function BodyCollection: IDispatch; dispid 2;
   end;
 
 // *********************************************************************//
@@ -6933,17 +7056,17 @@ type
 // *********************************************************************//
   ksChangeLeaderParam = dispinterface
     ['{391938AE-79B6-4E3B-9815-AC1A31D9EA9D}']
-    function Init: WordBool; dispid 11;
-    function SetpPolyline(const pPolyline: IDispatch): WordBool; dispid 10;
-    function GetpPolyline: IDispatch; dispid 9;
-    function SetpTextline(const pTextLine: IDispatch): WordBool; dispid 8;
-    function GetpTextline: IDispatch; dispid 7;
-    property signType: Smallint dispid 3;
-    property leaderLength: Double dispid 5;
-    property signHeight: Double dispid 4;
-    property style: Integer dispid 6;
-    property y: Double dispid 2;
     property x: Double dispid 1;
+    property y: Double dispid 2;
+    property signType: Smallint dispid 3;
+    property signHeight: Double dispid 4;
+    property leaderLength: Double dispid 5;
+    property style: Integer dispid 6;
+    function GetpTextline: IDispatch; dispid 7;
+    function SetpTextline(const pTextLine: IDispatch): WordBool; dispid 8;
+    function GetpPolyline: IDispatch; dispid 9;
+    function SetpPolyline(const pPolyline: IDispatch): WordBool; dispid 10;
+    function Init: WordBool; dispid 11;
   end;
 
 // *********************************************************************//
@@ -6953,8 +7076,8 @@ type
 // *********************************************************************//
   ksChooseParts = dispinterface
     ['{08B7A093-D829-44A9-A238-2BFF31770112}']
-    function PartCollection: IDispatch; dispid 2;
     property ChoosePartsType: Integer dispid 1;
+    function PartCollection: IDispatch; dispid 2;
   end;
 
 // *********************************************************************//
@@ -6964,12 +7087,35 @@ type
 // *********************************************************************//
   ksBodyParts = dispinterface
     ['{1E3E9348-DB9B-4967-A62A-B412DF95146A}']
+    property AllSelected: WordBool dispid 3;
     function UserBodyPartsChoice: WordBool; dispid 1;
     property count: Integer readonly dispid 2;
-    function SetGreatPartsSelected: WordBool; dispid 6;
     function SetPartSelected(index: Integer; Select: WordBool): WordBool; dispid 4;
     function GetPartSelected(index: Integer): WordBool; dispid 5;
-    property AllSelected: WordBool dispid 3;
+    function SetGreatPartsSelected: WordBool; dispid 6;
+  end;
+
+// *********************************************************************//
+// DispIntf:  ksEmbodiment3D
+// Flags:     (4096) Dispatchable
+// GUID:      {4F6A3404-8F06-4363-AF66-4CDCC4E09462}
+// *********************************************************************//
+  ksEmbodiment3D = dispinterface
+    ['{4F6A3404-8F06-4363-AF66-4CDCC4E09462}']
+  end;
+
+// *********************************************************************//
+// DispIntf:  ksSnapInfo
+// Flags:     (4096) Dispatchable
+// GUID:      {FEC5FF26-3F47-49B2-ABAE-5563A4D7AD94}
+// *********************************************************************//
+  ksSnapInfo = dispinterface
+    ['{FEC5FF26-3F47-49B2-ABAE-5563A4D7AD94}']
+    function GetSnapType1: Integer; dispid 1;
+    function GetObject1: Integer; dispid 2;
+    function GetSnapType2: Integer; dispid 3;
+    function GetObject2: Integer; dispid 4;
+    function GetPoint(out x: Double; out y: Double): WordBool; dispid 5;
   end;
 
 // *********************************************************************//
